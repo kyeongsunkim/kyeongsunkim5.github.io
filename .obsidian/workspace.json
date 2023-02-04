@@ -23,8 +23,12 @@
             "id": "58bffee31fb9ffb0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1_1_background.qmd",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -79,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 346.5
   },
   "right": {
     "id": "514edc7acda2e52f",
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1_1_background.qmd",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1_1_background.qmd",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1_1_background.qmd"
+              }
             }
           }
         ]
