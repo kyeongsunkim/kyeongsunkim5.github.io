@@ -3,7 +3,7 @@
   "autoCommitMessage": "vault backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 1,
-  "autoPushInterval": 0,
+  "autoPushInterval": 2,
   "autoPullInterval": 0,
   "autoPullOnBoot": false,
   "disablePush": false,
@@ -13,15 +13,15 @@
   "showStatusBar": true,
   "updateSubmodules": false,
   "syncMethod": "merge",
-  "customMessageOnAutoBackup": false,
+  "customMessageOnAutoBackup": true,
   "autoBackupAfterFileChange": false,
   "treeStructure": false,
   "refreshSourceControl": true,
-  "basePath": "",
+  "basePath": "C:\\Users\\kyeongsunkim\\OneDrive - SNU\\Shared\\Scour\\0 KyeongSunKim",
   "differentIntervalCommitAndPush": true,
-  "changedFilesInStatusBar": false,
+  "changedFilesInStatusBar": true,
   "showedMobileNotice": true,
   "refreshSourceControlTimer": 7000,
   "showBranchStatusBar": true,
-  "setLastSaveToLastCommit": false
+  "setLastSaveToLastCommit": true
 }

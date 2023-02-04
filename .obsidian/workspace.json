@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_5_analysis.qmd",
+                "file": "1_1_background.qmd",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2_5_analysis.qmd",
+                "file": "1_1_background.qmd",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2_5_analysis.qmd",
+                "file": "1_1_background.qmd",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2_5_analysis.qmd"
+                "file": "1_1_background.qmd"
               }
             }
           }
@@ -160,8 +160,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0136eea9968b228",
+  "active": "58bffee31fb9ffb0",
   "lastOpenFiles": [
+    "2_5_analysis.qmd",
     "1_1_background.qmd",
     "2_4_verification.qmd",
     "intro.qmd",
@@ -170,7 +171,6 @@
     "Meeting Followup.md",
     "Img/Pasted image 20230204131820.png",
     "Img/Pasted image 20230204123339.png",
-    "Reference(Ambient Vibration Test)/Untitled.md",
-    "Reference(Ambient Vibration Test)/[text][Bhattarcharya 2019]Design of Foundations for Offshore Wind Turbines-Wiley (2019).pdf"
+    "Reference(Ambient Vibration Test)/Untitled.md"
   ]
 }
