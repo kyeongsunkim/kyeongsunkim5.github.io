@@ -1,0 +1,1059 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+
+\usepackage{amsmath,amssymb}
+\usepackage[]{libertinus}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={ResearchNote},
+  pdfauthor={Kyeong Sun Kim},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{ResearchNote}
+\author{Kyeong Sun Kim}
+\date{1/1/23}
+
+\begin{document}
+\maketitle
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, borderline west={3pt}{0pt}{shadecolor}, sharp corners, interior hidden, boxrule=0pt, enhanced, breakable]}{\end{tcolorbox}}\fi
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\bookmarksetup{startatroot}
+
+\hypertarget{contents}{%
+\chapter*{Contents}\label{contents}}
+\addcontentsline{toc}{chapter}{Contents}
+
+\markboth{Contents}{Contents}
+
+\hypertarget{centrifuge-test}{%
+\section*{1 Centrifuge Test}\label{centrifuge-test}}
+\addcontentsline{toc}{section}{1 Centrifuge Test}
+
+\markright{1 Centrifuge Test}
+
+\hypertarget{fe-analysis}{%
+\section*{2 FE Analysis}\label{fe-analysis}}
+\addcontentsline{toc}{section}{2 FE Analysis}
+
+\markright{2 FE Analysis}
+
+\hypertarget{ambient-vibrations}{%
+\section*{3 Ambient Vibrations}\label{ambient-vibrations}}
+\addcontentsline{toc}{section}{3 Ambient Vibrations}
+
+\markright{3 Ambient Vibrations}
+
+\part{Centrifuge Test}
+
+\hypertarget{background}{%
+\chapter{Background}\label{background}}
+
+\hypertarget{limitations-of-the-centrifuge-test}{%
+\section{Limitations of the Centrifuge
+Test}\label{limitations-of-the-centrifuge-test}}
+
+\hypertarget{failures-due-to-scour}{%
+\section{Failures due to scour}\label{failures-due-to-scour}}
+
+\hypertarget{test-setup}{%
+\chapter{Test Setup}\label{test-setup}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-1}{%
+\section{Background}\label{background-1}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{material-properties}{%
+\chapter{Material Properties}\label{material-properties}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-2}{%
+\section{Background}\label{background-2}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{scale-law}{%
+\chapter{Scale Law}\label{scale-law}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-3}{%
+\section{Background}\label{background-3}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{analysis}{%
+\chapter{Analysis}\label{analysis}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-4}{%
+\section{Background}\label{background-4}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{verification}{%
+\chapter{Verification}\label{verification}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-5}{%
+\section{Background}\label{background-5}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{references}{%
+\chapter{References}\label{references}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-6}{%
+\section{Background}\label{background-6}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\part{FE Analysis}
+
+\hypertarget{background-7}{%
+\chapter{Background}\label{background-7}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-8}{%
+\section{Background}\label{background-8}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{numerical-setup}{%
+\chapter{Numerical Setup}\label{numerical-setup}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-9}{%
+\section{Background}\label{background-9}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{material-calibration}{%
+\chapter{Material Calibration}\label{material-calibration}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-10}{%
+\section{Background}\label{background-10}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{verification-1}{%
+\chapter{Verification}\label{verification-1}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-11}{%
+\section{Background}\label{background-11}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{analysis-1}{%
+\chapter{Analysis}\label{analysis-1}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-12}{%
+\section{Background}\label{background-12}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{validation}{%
+\chapter{Validation}\label{validation}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-13}{%
+\section{Background}\label{background-13}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{references-1}{%
+\chapter{References}\label{references-1}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-14}{%
+\section{Background}\label{background-14}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\part{Ambient Vibrations}
+
+\hypertarget{background-15}{%
+\chapter{Background}\label{background-15}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-16}{%
+\section{Background}\label{background-16}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{test-setup-1}{%
+\chapter{Test Setup}\label{test-setup-1}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-17}{%
+\section{Background}\label{background-17}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{oma}{%
+\chapter{OMA}\label{oma}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-18}{%
+\section{Background}\label{background-18}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{statistical-analysis}{%
+\chapter{Statistical Analysis}\label{statistical-analysis}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-19}{%
+\section{Background}\label{background-19}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{damage-detection}{%
+\chapter{Damage Detection}\label{damage-detection}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{background-20}{%
+\section{Background}\label{background-20}}
+
+This is a book created from markdown and executable code. \#\#\# third
+toc \#\# Test Setup This is a book created from markdown and executable
+code. \#\#\# third toc \#\# OMA This is a book created from markdown and
+executable code. \#\# Statistical Analysis This is a book created from
+markdown and executable code. \#\# Damage Detection This is a book
+created from markdown and executable code. \#\# Validation This is a
+book created from markdown and executable code. \#\# References \#\#\#
+third toc
+
+\hypertarget{validation-1}{%
+\chapter{Validation}\label{validation-1}}
+
+This is a book created from markdown and executable code.
+
+\hypertarget{references-2}{%
+\chapter{References}\label{references-2}}
+
+This is a book created from markdown and executable code.
+
+\part{Proposal}
+
+\hypertarget{meeting-note}{%
+\chapter{Meeting Note}\label{meeting-note}}
+
+\hypertarget{soil-choice}{%
+\subsection{Soil Choice}\label{soil-choice}}
+
+\begin{itemize}
+\tightlist
+\item
+  Material model choice
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Mohr-Coulomb Model
+  \item
+    Hardening Mohr-Coulomb Model
+  \item
+    Cyclic SANISAND Model
+  \end{itemize}
+\item
+  Young's modulus and Poisson ratio
+\item
+  Critical State Properties
+\item
+  Nonlinear Parameters
+\item
+  cohesion and tensile properties
+\item
+  Cycllic strength parameters
+\end{itemize}
+
+\hypertarget{structure-choice}{%
+\subsection{Structure Choice}\label{structure-choice}}
+
+\begin{itemize}
+\tightlist
+\item
+  Rigid or Linear Elastic Material
+\item
+  Young's modulus and Poisson ratio
+\item
+  Fatigue properties (SN Curve)
+\item
+  Hardness properties (BHN)
+\end{itemize}
+
+\hypertarget{ssi-choice}{%
+\subsection{SSI Choice}\label{ssi-choice}}
+
+\begin{itemize}
+\tightlist
+\item
+  Interface friction coefficient
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Horizontal / Vertical
+  \end{itemize}
+\item
+  Modulus of subgrade reaction of soil
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Horizontal / Vertical / Rotational
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{loading-choice}{%
+\subsection{Loading Choice}\label{loading-choice}}
+
+\begin{itemize}
+\tightlist
+\item
+  Actuators
+\end{itemize}
+
+Static vs Cyclic
+
+\begin{itemize}
+\tightlist
+\item
+  Vibrations
+\end{itemize}
+
+Forced vs Ambient FFT vs FDD and EFDD
+
+For experimental investigation, means and location of excitation, the
+density of the measurement point grid, the sampling rate and the length
+of time window must be optimized for good quality results.
+
+Forced:
+
+good:
+
+\begin{itemize}
+\item
+  provides ``scaled'' results
+\item
+  excites all (broad) range of natural frequencies
+\item
+  known force and mass, which allows FE updating
+\end{itemize}
+
+bad:
+
+\begin{itemize}
+\item
+  artificial vibration required
+\item
+  first mode can be too low to be excited
+\end{itemize}
+
+Ambient:
+
+good: - no artificial excitation
+
+\begin{itemize}
+\item
+  better for low frequency (large and complex structures) (need sensors
+  of the force balance type instead of piezoelectric sensors) f
+  \textless1 Hz
+\item
+  cheap (no shaker)
+\item
+  can be performed without embarrassing normal user (stopping traffic or
+  humans)
+\end{itemize}
+
+bad:
+
+\begin{itemize}
+\item
+  lack of stationarity (not controllable). scatter may occur.
+\item
+  not all natural frequency may be excited
+\item
+  non-linearity of structure itself (assumption of cross section). small
+  movements in different locations (GPSS technique to syncronize time)
+\item
+  requires long cables
+\item
+  requires reference points \textgreater1 (3D or 1D sensors)
+\item
+  Time window must be selected \textgreater{} 1000\textasciitilde2000
+  times f\_n
+\item
+  requires manual techniques for FE updating
+\end{itemize}
+
+\hypertarget{software-choice}{%
+\subsection{Software Choice}\label{software-choice}}
+
+\begin{itemize}
+\item
+  ABAQUS
+
+  \begin{itemize}
+  \tightlist
+  \item
+    UMAT implementation
+  \end{itemize}
+\item
+  Plaxis 3D
+\item
+  ARTeMIS Modal Pro
+
+  \begin{itemize}
+  \item
+    Operational Modal Analayis
+  \item
+    Structural Health Monitoring
+  \end{itemize}
+\item
+  SAP 2000
+
+  \begin{itemize}
+  \tightlist
+  \item
+    natural frequency for 3D structure on Winkler foundation
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{verification-plan}{%
+\section{Verification Plan}\label{verification-plan}}
+
+\begin{itemize}
+\item
+  Winkler model limitations
+\item
+  Mass-spring model limitations
+\item
+  Accelerometer locations
+\item
+  Sensor Sensitivity and Capacity
+\item
+  Clear damage detection control chart
+\item
+\end{itemize}
+
+\hypertarget{proposal-details}{%
+\chapter{Proposal Details}\label{proposal-details}}
+
+\hypertarget{uxc138uxad74uxc601uxd5a5-uxace0uxc720uxc9c4uxb3d9uxc218-uxbd84uxc11duxc744-uxc704uxd55c-uxc815uxbc00-uxc218uxce58uxbaa8uxb378uxb9c1-uxae30uxc220-uxac1cuxbc1c}{%
+\subsection{세굴영향 고유진동수 분석을 위한 정밀 수치모델링 기술
+개발}\label{uxc138uxad74uxc601uxd5a5-uxace0uxc720uxc9c4uxb3d9uxc218-uxbd84uxc11duxc744-uxc704uxd55c-uxc815uxbc00-uxc218uxce58uxbaa8uxb378uxb9c1-uxae30uxc220-uxac1cuxbc1c}}
+
+\hypertarget{uxc9c0uxbc18uxbb3cuxc131uxac12uxc758-uxbe44uxc120uxd615uxc131-uxc9c0uxbc18-uxc9c0uxc9c0uxad6cuxc870-uxc778uxd130uxd398uxc774uxc2a4-uxd48duxb825uxd0c0uxc6cc-uxad6cuxc870uxccb4-uxb4f1-uxc2dcuxc2a4uxd15cuxc758-uxace0uxc720uxc9c4uxb3d9uxc218uxb97c-uxc815uxbc00uxd558uxac8c-uxbaa8uxc0acuxd558uxb294-uxc720uxd55cuxc694uxc18cuxae30uxbc18-uxc218uxce58uxbaa8uxb378uxb9c1-uxae30uxc220-uxac1cuxbc1c}{%
+\subsubsection{지반물성값의 비선형성, 지반-지지구조 인터페이스, 풍력타워
+구조체 등 시스템의 고유진동수를 정밀하게 모사하는 유한요소기반
+수치모델링 기술
+개발}\label{uxc9c0uxbc18uxbb3cuxc131uxac12uxc758-uxbe44uxc120uxd615uxc131-uxc9c0uxbc18-uxc9c0uxc9c0uxad6cuxc870-uxc778uxd130uxd398uxc774uxc2a4-uxd48duxb825uxd0c0uxc6cc-uxad6cuxc870uxccb4-uxb4f1-uxc2dcuxc2a4uxd15cuxc758-uxace0uxc720uxc9c4uxb3d9uxc218uxb97c-uxc815uxbc00uxd558uxac8c-uxbaa8uxc0acuxd558uxb294-uxc720uxd55cuxc694uxc18cuxae30uxbc18-uxc218uxce58uxbaa8uxb378uxb9c1-uxae30uxc220-uxac1cuxbc1c}}
+
+\includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597259/cloudinary_img_/ijwm22ml5zthjeffv1rm.png}
+
+To model natural frequency, solid element can be converted to beam
+elements, Boundary conditions can be applied as linear springs of soil
+stiffness. Interface properties are not needed.
+
+For 3D modelling, only foundation can be modelled for application of
+static load. From load-displacement response, stiffness can be obtained,
+which can be used for calculation of natural frequency.
+\includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597239/cloudinary_img_/utlxtzlmdfu7b10ehcn8.png}
+
+\includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597213/cloudinary_img_/tsqovmfppwoo9hdxmchm.png}
+
+\begin{itemize}
+\tightlist
+\item
+  Physical domain effect:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    2D axis-symmetric vs 3D
+  \end{itemize}
+\item
+  Boundary condition effect
+
+  \begin{itemize}
+  \tightlist
+  \item
+    size of soil box
+  \end{itemize}
+\item
+  Mesh quality analysis
+
+  \begin{itemize}
+  \tightlist
+  \item
+    aspect ratio, skewness, sensitivity, computational cost
+  \end{itemize}
+\item
+  Force method vs Displacement method
+\item
+  Initial soil stress
+
+  \begin{itemize}
+  \tightlist
+  \item
+    effect of compaction or dilation
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{uxc138uxad74-uxae4auxc774uxc5d0-uxb530uxb978-uxc9c0uxc9c0uxb825uxacfc-uxcd95uxbc29uxd5a5-uxbc0f-uxd68cuxc804uxbc29uxd5a5-uxc9c0uxbc18uxac15uxc131-uxbd84uxc11duxc744-uxd1b5uxd574-uxace0uxc720uxc9c4uxb3d9uxc218uxc758-uxbcc0uxd654-uxd655uxc778}{%
+\subsubsection{세굴 깊이에 따른 지지력과 축방향 및 회전방향 지반강성
+분석을 통해 고유진동수의 변화
+확인}\label{uxc138uxad74-uxae4auxc774uxc5d0-uxb530uxb978-uxc9c0uxc9c0uxb825uxacfc-uxcd95uxbc29uxd5a5-uxbc0f-uxd68cuxc804uxbc29uxd5a5-uxc9c0uxbc18uxac15uxc131-uxbd84uxc11duxc744-uxd1b5uxd574-uxace0uxc720uxc9c4uxb3d9uxc218uxc758-uxbcc0uxd654-uxd655uxc778}}
+
+We must select important influence factors for natural frequency:
+\(f_n = \sqrt{\frac{K}{M}}\).
+
+Vesic (1961) provided a relationship between the modulus of subgrade
+reaction \(K\), used in the Winkler spring problem and the material
+properties in the elastic continuum problem as \[
+K = \frac{0.65 E_s}{(1-\mu^2_s)} \big( \frac{E_s D^4}{E_p I_p} \big)^{1/12}
+\] where \(E_s=\) soil modulus of elasticity;\(\mu_s=\) Poisson's ratio
+of soil; \(D=\) diameter; and \(E_p I_p\) flexural rigidity of pile.
+
+For circular footing embedded in stratum over bedrock, static stiffness
+of soil (DNV-OS-J101-2014 Table G-2) is given by: \[
+K_V = \frac{4GR}{1-\nu} (1+ 1.28 \frac{R}{H}) (1+ \frac{D}{2R}) (1+ (0.85  -0.28 \frac{D}{R})\frac{\frac{D}{H}}{1-\frac{D}{G}})
+\]
+
+\(K_{soil}\) depends on the following parameters:
+
+\begin{itemize}
+\tightlist
+\item
+  embedment depth \(\frac{D}{B}\)
+\item
+  depth to bedrock \(H\)
+\item
+  Elastic properties \(G, \nu\)
+\item
+  density of soil \(\rho\)
+\item
+  tower's flexural rigidity \(EI\)
+\end{itemize}
+
+Check: - relationship between axial, horizontal, and rotational
+stiffness
+\includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597040/cloudinary_img_/w7cglu8mojvsplmhuehr.png}
+
+\begin{itemize}
+\tightlist
+\item
+  dominance and interdependence or correlation
+\end{itemize}
+
+\hypertarget{uxc6d0uxc2ecuxbaa8uxd615uxc744-uxd1b5uxd55c-uxc11duxc158uxae30uxcd08-uxace0uxc720uxc9c4uxb3d9uxc218uxc758-uxc138uxad74uxc601uxd5a5-uxbd84uxc11d}{%
+\subsection{원심모형을 통한 석션기초 고유진동수의 세굴영향
+분석}\label{uxc6d0uxc2ecuxbaa8uxd615uxc744-uxd1b5uxd55c-uxc11duxc158uxae30uxcd08-uxace0uxc720uxc9c4uxb3d9uxc218uxc758-uxc138uxad74uxc601uxd5a5-uxbd84uxc11d}}
+
+\hypertarget{uxac00uxc18duxb3c4-uxbcc0uxd615uxb960-uxbcc0uxc704-uxb4f1-uxb2e4uxc591uxd55c-uxacb0uxacfcuxb97c-uxc774uxc6a9uxd55c-uxace0uxc720uxc9c4uxb3d9uxc218-uxce21uxc815uxbc29uxbc95-uxbd84uxc11d}{%
+\subsubsection{가속도, 변형률, 변위 등 다양한 결과를 이용한 고유진동수
+측정방법
+분석}\label{uxac00uxc18duxb3c4-uxbcc0uxd615uxb960-uxbcc0uxc704-uxb4f1-uxb2e4uxc591uxd55c-uxacb0uxacfcuxb97c-uxc774uxc6a9uxd55c-uxace0uxc720uxc9c4uxb3d9uxc218-uxce21uxc815uxbc29uxbc95-uxbd84uxc11d}}
+
+\begin{itemize}
+\item
+  accelerometers: perform modal analysis to get dynamic properties
+  (modal shape, natural frequency, damping coeffieicent, etc)
+  \includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597845/cloudinary_img_/gxv7goy1pzrteadtmbvc.png}
+\item
+  strain gauge: wind frequency, fatigue analysis
+\item
+  displacement: mode shape verification, load-displacement curve
+  -\textgreater{} stiffness -\textgreater{} natural frequency
+\end{itemize}
+
+\hypertarget{uxc9c0uxbc18-uxc11duxc158uxae30uxcd08mono-tripod-uxc0c1uxbd80uxd0c0uxc6cc-uxbaa8uxd615uxccb4-uxbc0f-uxd558uxc911uxc7acuxd558-uxc7a5uxce58-uxc81cuxc791}{%
+\subsubsection{지반, 석션기초(Mono, Tripod), 상부타워 모형체 및 하중재하
+장치
+제작}\label{uxc9c0uxbc18-uxc11duxc158uxae30uxcd08mono-tripod-uxc0c1uxbd80uxd0c0uxc6cc-uxbaa8uxd615uxccb4-uxbc0f-uxd558uxc911uxc7acuxd558-uxc7a5uxce58-uxc81cuxc791}}
+
+\begin{itemize}
+\item
+  soil bed: soil raining technique (use KAIST automatic raining machine)
+\item
+  mono vs tripod
+\item
+  loading device: eccentric loading (wind only, wave only, wind+wave)
+  \includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597120/cloudinary_img_/xkgvzstx2uetcjvb3apl.png}
+\end{itemize}
+
+\hypertarget{uxc138uxad74uxae4auxc774uxc5d0-uxb530uxb978-uxc9c0uxc9c0uxb825-uxbcc0uxd654-uxace0uxc720uxc9c4uxb3d9uxc218-uxbbfcuxac10uxb3c4-uxbd84uxc11d-uxbc0f-uxc911uxc694uxc778uxc790-uxacb0uxc815}{%
+\subsubsection{세굴깊이에 따른 지지력 변화, 고유진동수 민감도 분석 및
+중요인자
+결정}\label{uxc138uxad74uxae4auxc774uxc5d0-uxb530uxb978-uxc9c0uxc9c0uxb825-uxbcc0uxd654-uxace0uxc720uxc9c4uxb3d9uxc218-uxbbfcuxac10uxb3c4-uxbd84uxc11d-uxbc0f-uxc911uxc694uxc778uxc790-uxacb0uxc815}}
+
+\includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597455/cloudinary_img_/sb42ugfxziavpa5o8mfv.png}
+
+\begin{itemize}
+\tightlist
+\item
+  \(\frac{m_{nacelle}}{m_{tower}}\)
+\item
+  \(\frac{m_{tower}}{m_{soil}}\)
+\item
+  \(\frac{K_{tower}}{K_{soil}}\)
+\item
+  \(\frac{L_{tower}}{L_{soil}}\)
+\item
+\end{itemize}
+
+\hypertarget{uxb2e4uxc591uxd55c-uxbcc0uxc218uxc870uxac74uxc744-uxace0uxb824uxd55c-uxc6d0uxc2ecuxbaa8uxd615uxc2dcuxd5d8-uxc218uxd589}{%
+\subsection{다양한 변수조건을 고려한 원심모형시험
+수행}\label{uxb2e4uxc591uxd55c-uxbcc0uxc218uxc870uxac74uxc744-uxace0uxb824uxd55c-uxc6d0uxc2ecuxbaa8uxd615uxc2dcuxd5d8-uxc218uxd589}}
+
+\hypertarget{uxc11duxc158uxae30uxcd08-uxc81cuxc6d0mono-tripod-uxc9c0uxbc18uxc870uxac74uxbaa8uxb798-uxc810uxd1a0-uxd48duxb825uxbc1cuxc804uxae30-uxaddcuxbaa8-uxb4f1uxc758-uxb2e4uxc591uxd55c-uxc601uxd5a5uxc778uxc790uxb97c-uxace0uxb824uxd55c-uxbcc0uxc218uxc5f0uxad6c-uxc218uxd589}{%
+\subsubsection{석션기초 제원(Mono, Tripod), 지반조건(모래, 점토),
+풍력발전기 규모 등의 다양한 영향인자를 고려한 변수연구
+수행}\label{uxc11duxc158uxae30uxcd08-uxc81cuxc6d0mono-tripod-uxc9c0uxbc18uxc870uxac74uxbaa8uxb798-uxc810uxd1a0-uxd48duxb825uxbc1cuxc804uxae30-uxaddcuxbaa8-uxb4f1uxc758-uxb2e4uxc591uxd55c-uxc601uxd5a5uxc778uxc790uxb97c-uxace0uxb824uxd55c-uxbcc0uxc218uxc5f0uxad6c-uxc218uxd589}}
+
+\begin{itemize}
+\tightlist
+\item
+  density of soil
+
+  \begin{itemize}
+  \tightlist
+  \item
+    silt: loose, medium, dense
+  \item
+    sand: loose, medium, dense
+  \end{itemize}
+\item
+  size of wind turbine: 3MW or 10MW (scale effect)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    scale effect may depend on non-homogeneity of material and rigidity
+    of soil profile.
+  \end{itemize}
+\item
+  Variable cross section of tower structure
+\item
+  Mono vs Tripod: spacing
+
+  \begin{itemize}
+  \tightlist
+  \item
+    spacing influences changes in properties of equivalent-beam model
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{uxc815uxbc00-uxc218uxce58uxbaa8uxb378uxb9c1-uxbc0f-uxc6d0uxc2ecuxbaa8uxd615uxc2e4uxd5d8-uxacb0uxacfcuxc640-uxbe44uxad50uxd558uxc5ec-uxc801uxc6a9uxc131-uxac80uxc99d-uxbc0f-uxace0uxb3c4uxd654}{%
+\subsubsection{정밀 수치모델링 및 원심모형실험 결과와 비교하여 적용성
+검증 및
+고도화}\label{uxc815uxbc00-uxc218uxce58uxbaa8uxb378uxb9c1-uxbc0f-uxc6d0uxc2ecuxbaa8uxd615uxc2e4uxd5d8-uxacb0uxacfcuxc640-uxbe44uxad50uxd558uxc5ec-uxc801uxc6a9uxc131-uxac80uxc99d-uxbc0f-uxace0uxb3c4uxd654}}
+
+\begin{itemize}
+\tightlist
+\item
+  comparison with international standards: DNV and API equations
+\item
+  comparison with FE and centrifuge results
+\item
+  comparison with other researcher's results
+\end{itemize}
+
+\hypertarget{uxcc28uxb144uxb3c4-uxace0uxc720uxc9c4uxb3d9uxc218uxb97c-uxc774uxc6a9uxd55c-uxc138uxad74uxc548uxc815uxc131-uxd3c9uxac00uxae30uxc220-uxac1cuxbc1c}{%
+\section{\texorpdfstring{\textbf{2차년도:} 고유진동수를 이용한
+세굴안정성 평가기술
+개발}{2차년도: 고유진동수를 이용한 세굴안정성 평가기술 개발}}\label{uxcc28uxb144uxb3c4-uxace0uxc720uxc9c4uxb3d9uxc218uxb97c-uxc774uxc6a9uxd55c-uxc138uxad74uxc548uxc815uxc131-uxd3c9uxac00uxae30uxc220-uxac1cuxbc1c}}
+
+\hypertarget{uxc138uxad74uxc548uxc815uxc131-uxd3c9uxac00uxae30uxc220-uxac80uxc99d-uxbc0f-uxace0uxb3c4uxd654}{%
+\subsection{세굴안정성 평가기술 검증 및
+고도화}\label{uxc138uxad74uxc548uxc815uxc131-uxd3c9uxac00uxae30uxc220-uxac80uxc99d-uxbc0f-uxace0uxb3c4uxd654}}
+
+\hypertarget{uxc138uxad74uxae4auxc774uxc5d0-uxb530uxb978-uxc9c0uxc9c0uxb825uxacfc-uxace0uxc720uxc9c4uxb3d9uxc218-uxbcc0uxd654-uxbd84uxc11d}{%
+\subsubsection{세굴깊이에 따른 지지력과 고유진동수 변화
+분석}\label{uxc138uxad74uxae4auxc774uxc5d0-uxb530uxb978-uxc9c0uxc9c0uxb825uxacfc-uxace0uxc720uxc9c4uxb3d9uxc218-uxbcc0uxd654-uxbd84uxc11d}}
+
+1 Comparison between static and dynamic soil parameters:
+
+\begin{itemize}
+\tightlist
+\item
+  Dynamic earth pressure coefficient
+\item
+  Dynamic stiffness
+\item
+  Dynamic dashpot coefficient
+\end{itemize}
+
+2 Soil strength degradation due to cyclic loading
+\includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597558/cloudinary_img_/rbgfxcuyofllzzzf9u67.png}
+
+3 accumulation of plastic strain
+
+4 correlation between ultimate resistance and natural frequency changes
+
+\hypertarget{uxd574uxc0c1uxd48duxb825uxbc1cuxc804uxae30uxc758-uxd604uxc7a5-uxc0c1uxc2dcuxc9c4uxb3d9-uxacc4uxce21uxc790uxb8ccuxb97c-uxc774uxc6a9uxd55c-uxac74uxc804uxb3c4-uxbc0f-uxc131uxb2a5uxd3c9uxac00uxb85c-uxd604uxc7a5-uxc801uxc6a9uxc131-uxbd84uxc11d}{%
+\subsubsection{해상풍력발전기의 현장 상시진동 계측자료를 이용한 건전도
+및 성능평가로 현장 적용성
+분석}\label{uxd574uxc0c1uxd48duxb825uxbc1cuxc804uxae30uxc758-uxd604uxc7a5-uxc0c1uxc2dcuxc9c4uxb3d9-uxacc4uxce21uxc790uxb8ccuxb97c-uxc774uxc6a9uxd55c-uxac74uxc804uxb3c4-uxbc0f-uxc131uxb2a5uxd3c9uxac00uxb85c-uxd604uxc7a5-uxc801uxc6a9uxc131-uxbd84uxc11d}}
+
+\begin{itemize}
+\item
+  white noise cancelling method
+  \includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597098/cloudinary_img_/hv0ws5qgbjbygmhdvsnn.png}
+\item
+  condition matrix
+  \includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597648/cloudinary_img_/icgs2pztkxidxz1wmkik.png}
+  \includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597690/cloudinary_img_/jvyzsxwupz8tpucyyiu5.png}
+\item
+  various statistical techniques for clear scour identification
+  \includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597633/cloudinary_img_/xv0d0fsmmjvsvu7y2io1.png}
+\end{itemize}
+
+\hypertarget{uxcc28uxb144uxb3c4-uxd574uxc0c1uxd48duxb825-uxc11duxc158uxae30uxcd08-uxc138uxad74uxc548uxc815uxc131-uxc2a4uxb9c8uxd2b8-uxbaa8uxb2c8uxd130uxb9c1-uxae30uxc220-uxac1cuxbc1c}{%
+\section{\texorpdfstring{\textbf{3차년도:} 해상풍력 석션기초 세굴안정성
+스마트 모니터링 기술
+개발}{3차년도: 해상풍력 석션기초 세굴안정성 스마트 모니터링 기술 개발}}\label{uxcc28uxb144uxb3c4-uxd574uxc0c1uxd48duxb825-uxc11duxc158uxae30uxcd08-uxc138uxad74uxc548uxc815uxc131-uxc2a4uxb9c8uxd2b8-uxbaa8uxb2c8uxd130uxb9c1-uxae30uxc220-uxac1cuxbc1c}}
+
+\hypertarget{uxc138uxad74-uxc548uxc815uxc131-uxcd5cuxc801-uxbaa8uxb2c8uxd130uxb9c1uxc744-uxc704uxd55c-uxd604uxc7a5-uxacc4uxce21uxae30uxc220-uxac1cuxbc1c}{%
+\subsection{세굴 안정성 최적 모니터링을 위한 현장 계측기술
+개발}\label{uxc138uxad74-uxc548uxc815uxc131-uxcd5cuxc801-uxbaa8uxb2c8uxd130uxb9c1uxc744-uxc704uxd55c-uxd604uxc7a5-uxacc4uxce21uxae30uxc220-uxac1cuxbc1c}}
+
+\hypertarget{uxacc4uxce21uxacb0uxacfc-uxd53cuxb4dcuxbc31uxc744-uxd1b5uxd55c-uxace0uxc720uxc9c4uxb3d9uxc218-uxc0c1uxc2dcuxc810uxac80-uxbc0f-uxd3c9uxac00uxccb4uxacc4-uxad6cuxcd95}{%
+\subsubsection{계측결과 피드백을 통한 고유진동수 상시점검 및 평가체계
+구축}\label{uxacc4uxce21uxacb0uxacfc-uxd53cuxb4dcuxbc31uxc744-uxd1b5uxd55c-uxace0uxc720uxc9c4uxb3d9uxc218-uxc0c1uxc2dcuxc810uxac80-uxbc0f-uxd3c9uxac00uxccb4uxacc4-uxad6cuxcd95}}
+
+\begin{itemize}
+\tightlist
+\item
+  structural health monitoring
+  \includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597669/cloudinary_img_/byswpaqkkqvpywtkkywn.png}
+\end{itemize}
+
+\hypertarget{uxace0uxc720uxc9c4uxb3d9uxc218-uxd3c9uxac00uxc2dcuxc2a4uxd15c-uxae30uxbc18uxc758-uxd48duxb825uxd130uxbe48-uxc704uxd574uxc601uxc5ed-uxd3c9uxac00uxae30uxc220-uxac1cuxbc1c}{%
+\subsubsection{고유진동수 평가시스템 기반의 풍력터빈 위해영역 평가기술
+개발}\label{uxace0uxc720uxc9c4uxb3d9uxc218-uxd3c9uxac00uxc2dcuxc2a4uxd15c-uxae30uxbc18uxc758-uxd48duxb825uxd130uxbe48-uxc704uxd574uxc601uxc5ed-uxd3c9uxac00uxae30uxc220-uxac1cuxbc1c}}
+
+\begin{itemize}
+\tightlist
+\item
+  damage detection algorithm with different scenarios
+  \includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597877/cloudinary_img_/s43eurlntfmcqdbpswev.png}
+\end{itemize}
+
+\includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597195/cloudinary_img_/rmpyyswydxqhpegn1hqp.png}
+
+\hypertarget{uxc138uxad74-uxc548uxc815uxc131-uxd3c9uxac00-uxb9e4uxb274uxc5bc-uxac1cuxbc1c}{%
+\subsection{세굴 안정성 평가 매뉴얼
+개발}\label{uxc138uxad74-uxc548uxc815uxc131-uxd3c9uxac00-uxb9e4uxb274uxc5bc-uxac1cuxbc1c}}
+
+\hypertarget{uxc6d0uxc2ecuxbaa8uxd615uxc2e4uxd5d8uxc218uxce58uxd574uxc11d-uxacb0uxacfcuxb97c-uxc774uxc6a9uxd55c-uxc138uxad74uxc548uxc815uxc131-uxd3c9uxac00uxc9c0uxd45c-uxac1cuxbc1c}{%
+\subsubsection{원심모형실험/수치해석 결과를 이용한 세굴안정성 평가지표
+개발}\label{uxc6d0uxc2ecuxbaa8uxd615uxc2e4uxd5d8uxc218uxce58uxd574uxc11d-uxacb0uxacfcuxb97c-uxc774uxc6a9uxd55c-uxc138uxad74uxc548uxc815uxc131-uxd3c9uxac00uxc9c0uxd45c-uxac1cuxbc1c}}
+
+\begin{itemize}
+\item
+  health index using Chi square Hypothesis Test
+  \includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597791/cloudinary_img_/s9g51kpa2m1dm6g24r8z.png}
+\item
+  Probabilistic analysis
+  \includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597724/cloudinary_img_/pfx2ayyjqk9qz0nnry8q.png}
+\end{itemize}
+
+\hypertarget{uxb2e4uxc591uxd55c-uxc6b4uxc601-uxc2dcuxb098uxb9acuxc624uxb97c-uxace0uxb824uxd55c-uxc138uxad74uxc548uxc815uxc131-uxd3c9uxac00-uxb9e4uxb274uxc5bc-uxac1cuxbc1c}{%
+\subsubsection{다양한 운영 시나리오를 고려한 세굴안정성 평가 매뉴얼
+개발}\label{uxb2e4uxc591uxd55c-uxc6b4uxc601-uxc2dcuxb098uxb9acuxc624uxb97c-uxace0uxb824uxd55c-uxc138uxad74uxc548uxc815uxc131-uxd3c9uxac00-uxb9e4uxb274uxc5bc-uxac1cuxbc1c}}
+
+\begin{itemize}
+\tightlist
+\item
+  check international standards
+  \includegraphics{https://res.cloudinary.com/darfmzyks/image/upload/v1675597175/cloudinary_img_/q7xvmquzjbemfeoqnqr1.png}
+\end{itemize}
+
+
+
+\end{document}
