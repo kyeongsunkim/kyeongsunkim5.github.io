@@ -2,12 +2,6 @@
 jupyter: python3
 ---
 
-# Introduction
+# Material Properties
 
 This is a book created from markdown and executable code.
-
-See @knuth84 for additional discussion of literate programming.
-
-```{python}
-1 + 1
-```

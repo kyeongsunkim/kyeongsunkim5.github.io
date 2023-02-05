@@ -2,7 +2,7 @@
 jupyter: python3
 ---
 
-# Preface {.unnumbered}
+# Kyeong Sun Kim {.unnumbered}
 
 This is a Quarto book.
 

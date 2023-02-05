@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ResearchNote",
+    "section": "",
+    "text": "Kyeong Sun Kim\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n2"
+  },
+  {
+    "objectID": "1_1_background.html",
+    "href": "1_1_background.html",
+    "title": "1  Background",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "1_2_test_setup.html",
+    "href": "1_2_test_setup.html",
+    "title": "2  Test Setup",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "1_3_matl_prop.html",
+    "href": "1_3_matl_prop.html",
+    "title": "3  Material Properties",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "1_4_scale_law.html",
+    "href": "1_4_scale_law.html",
+    "title": "4  Scale Law",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "1_5_analysis.html",
+    "href": "1_5_analysis.html",
+    "title": "5  Analysis",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "1_7_references.html",
+    "href": "1_7_references.html",
+    "title": "7  References",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "2_1_background.html",
+    "href": "2_1_background.html",
+    "title": "8  Background",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "2_2_numerical_setup.html",
+    "href": "2_2_numerical_setup.html",
+    "title": "9  Numerical Setup",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "2_4_verification.html",
+    "href": "2_4_verification.html",
+    "title": "11  Verification",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "2_5_analysis.html",
+    "href": "2_5_analysis.html",
+    "title": "12  Analysis",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "2_6_validation.html",
+    "href": "2_6_validation.html",
+    "title": "13  Validation",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "2_7_references.html",
+    "href": "2_7_references.html",
+    "title": "14  References",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "3_1_background.html",
+    "href": "3_1_background.html",
+    "title": "15  Background",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "3_2_test_setup.html",
+    "href": "3_2_test_setup.html",
+    "title": "16  Test Setup",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "3_3_operational_modal.html",
+    "href": "3_3_operational_modal.html",
+    "title": "17  Operational Modal Analysis",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "3_4_statistical.html",
+    "href": "3_4_statistical.html",
+    "title": "18  Statistical Analysis",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "3_5_damage_detection.html",
+    "href": "3_5_damage_detection.html",
+    "title": "19  Damage Detection Algorithm",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "3_6_validation.html",
+    "href": "3_6_validation.html",
+    "title": "20  Validation",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "3_7_references.html",
+    "href": "3_7_references.html",
+    "title": "21  References",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "1_6_verification.html",
+    "href": "1_6_verification.html",
+    "title": "6  Verification",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  }
+]

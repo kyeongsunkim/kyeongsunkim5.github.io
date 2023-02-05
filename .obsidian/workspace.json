@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meeting Followup.md",
+                "file": "1_6_verification.qmd",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -32,7 +32,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1_1_background.qmd",
+                "file": "1_6_verification.qmd",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1_1_background.qmd",
+                "file": "1_6_verification.qmd",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1_1_background.qmd"
+                "file": "1_6_verification.qmd"
               }
             }
           }
@@ -160,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58bffee31fb9ffb0",
+  "active": "cca76d8902697487",
   "lastOpenFiles": [
-    "2_5_analysis.qmd",
+    "4_0_proposal.qmd",
     "1_1_background.qmd",
-    "2_4_verification.qmd",
-    "intro.qmd",
+    "1_6_verification.qmd",
     "index.qmd",
-    "Reading Note.md",
-    "Meeting Followup.md",
-    "Img/Pasted image 20230204131820.png",
-    "Img/Pasted image 20230204123339.png",
-    "Reference(Ambient Vibration Test)/Untitled.md"
+    "3_7_references.qmd",
+    "3_6_validation.qmd",
+    "3_5_damage_detection.qmd",
+    "3_4_statistical.qmd",
+    "3_3_operational_modal.qmd",
+    "3_2_test_setup.qmd"
   ]
 }

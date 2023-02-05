@@ -1,0 +1,16 @@
+---
+title: "proposal"
+format:
+  docx:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    highlight-style: github
+    reference-doc: custom-reference-doc.docx
+---
+
+
+# References
+
+This is a book created from markdown and executable code.
+
