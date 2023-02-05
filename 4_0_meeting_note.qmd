@@ -1,12 +1,5 @@
 ---
 title: "Meeting Note"
-format:
-  docx:
-    toc: true
-    toc-depth: 2
-    number-sections: true
-    highlight-style: github
-    reference-doc: custom-reference-doc.docx
 ---
 
 
