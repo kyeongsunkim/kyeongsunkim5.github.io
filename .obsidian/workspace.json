@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_6_verification.qmd",
+                "file": "3_0_Ambient.qmd",
                 "mode": "source",
                 "source": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1_6_verification.qmd",
+                "file": "3_0_Ambient.qmd",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1_6_verification.qmd",
+                "file": "3_0_Ambient.qmd",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1_6_verification.qmd"
+                "file": "3_0_Ambient.qmd"
               }
             }
           }
@@ -161,15 +161,15 @@
   },
   "active": "cca76d8902697487",
   "lastOpenFiles": [
-    "4_0_proposal.qmd",
-    "1_1_background.qmd",
-    "1_6_verification.qmd",
+    "2_0_Finite.qmd",
+    "1_0_Centrifuge.qmd",
     "index.qmd",
     "3_7_references.qmd",
+    "1_1_background.qmd",
+    "1_6_verification.qmd",
+    "4_0_proposal.qmd",
     "3_6_validation.qmd",
     "3_5_damage_detection.qmd",
-    "3_4_statistical.qmd",
-    "3_3_operational_modal.qmd",
-    "3_2_test_setup.qmd"
+    "3_4_statistical.qmd"
   ]
 }

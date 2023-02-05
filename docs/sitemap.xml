@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kyeongsunkim.github.io/index.html</loc>
-    <lastmod>2023-02-05T04:44:45.573Z</lastmod>
+    <lastmod>2023-02-05T05:03:12.022Z</lastmod>
   </url>
   <url>
     <loc>https://kyeongsunkim.github.io/1_1_background.html</loc>
@@ -87,5 +87,17 @@
   <url>
     <loc>https://kyeongsunkim.github.io/1_6_verification.html</loc>
     <lastmod>2023-02-05T04:43:43.652Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeongsunkim.github.io/1_0_Centrifuge.html</loc>
+    <lastmod>2023-02-05T05:03:53.349Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeongsunkim.github.io/2_0_Finite.html</loc>
+    <lastmod>2023-02-05T05:03:53.350Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeongsunkim.github.io/3_0_Ambient.html</loc>
+    <lastmod>2023-02-05T05:03:53.351Z</lastmod>
   </url>
 </urlset>
