@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "ResearchNote",
     "section": "",
-    "text": "Kyeong Sun Kim\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n2"
+    "text": "Summary\nThis is a Quarto book.\nIt is divided by 3 main parts:\n1. Centrifuge Test\n2. Finite Element Analysis\n3. Ambient Vibration Test\nTo view this .html doc in .pdf format, visit link.\nTo view this .html doc in .docx format, visit link."
   },
   {
     "objectID": "1_1_background.html",
@@ -292,5 +292,285 @@
     "title": "Ambient Vibration Test",
     "section": "References",
     "text": "References"
+  },
+  {
+    "objectID": "1_1_background.html#test-setup",
+    "href": "1_1_background.html#test-setup",
+    "title": "1  Background",
+    "section": "1.1 Test Setup",
+    "text": "1.1 Test Setup"
+  },
+  {
+    "objectID": "1_1_background.html#oma",
+    "href": "1_1_background.html#oma",
+    "title": "1  Background",
+    "section": "1.2 OMA",
+    "text": "1.2 OMA"
+  },
+  {
+    "objectID": "1_1_background.html#statistical-analysis",
+    "href": "1_1_background.html#statistical-analysis",
+    "title": "1  Background",
+    "section": "1.3 Statistical Analysis",
+    "text": "1.3 Statistical Analysis"
+  },
+  {
+    "objectID": "1_1_background.html#damage-detection",
+    "href": "1_1_background.html#damage-detection",
+    "title": "1  Background",
+    "section": "1.4 Damage Detection",
+    "text": "1.4 Damage Detection"
+  },
+  {
+    "objectID": "1_1_background.html#validation",
+    "href": "1_1_background.html#validation",
+    "title": "1  Background",
+    "section": "1.5 Validation",
+    "text": "1.5 Validation"
+  },
+  {
+    "objectID": "1_1_background.html#references",
+    "href": "1_1_background.html#references",
+    "title": "1  Background",
+    "section": "1.6 References",
+    "text": "1.6 References"
+  },
+  {
+    "objectID": "1_2_test_setup.html#background",
+    "href": "1_2_test_setup.html#background",
+    "title": "2  Test Setup",
+    "section": "2.1 Background",
+    "text": "2.1 Background"
+  },
+  {
+    "objectID": "1_2_test_setup.html#test-setup",
+    "href": "1_2_test_setup.html#test-setup",
+    "title": "2  Test Setup",
+    "section": "2.2 Test Setup",
+    "text": "2.2 Test Setup"
+  },
+  {
+    "objectID": "1_2_test_setup.html#oma",
+    "href": "1_2_test_setup.html#oma",
+    "title": "2  Test Setup",
+    "section": "2.3 OMA",
+    "text": "2.3 OMA"
+  },
+  {
+    "objectID": "1_2_test_setup.html#statistical-analysis",
+    "href": "1_2_test_setup.html#statistical-analysis",
+    "title": "2  Test Setup",
+    "section": "2.4 Statistical Analysis",
+    "text": "2.4 Statistical Analysis"
+  },
+  {
+    "objectID": "1_2_test_setup.html#damage-detection",
+    "href": "1_2_test_setup.html#damage-detection",
+    "title": "2  Test Setup",
+    "section": "2.5 Damage Detection",
+    "text": "2.5 Damage Detection"
+  },
+  {
+    "objectID": "1_2_test_setup.html#validation",
+    "href": "1_2_test_setup.html#validation",
+    "title": "2  Test Setup",
+    "section": "2.6 Validation",
+    "text": "2.6 Validation"
+  },
+  {
+    "objectID": "1_2_test_setup.html#references",
+    "href": "1_2_test_setup.html#references",
+    "title": "2  Test Setup",
+    "section": "2.7 References",
+    "text": "2.7 References"
+  },
+  {
+    "objectID": "1_3_matl_prop.html#test-setup",
+    "href": "1_3_matl_prop.html#test-setup",
+    "title": "3  Material Properties",
+    "section": "3.1 Test Setup",
+    "text": "3.1 Test Setup"
+  },
+  {
+    "objectID": "1_3_matl_prop.html#oma",
+    "href": "1_3_matl_prop.html#oma",
+    "title": "3  Material Properties",
+    "section": "3.2 OMA",
+    "text": "3.2 OMA"
+  },
+  {
+    "objectID": "1_3_matl_prop.html#statistical-analysis",
+    "href": "1_3_matl_prop.html#statistical-analysis",
+    "title": "3  Material Properties",
+    "section": "3.3 Statistical Analysis",
+    "text": "3.3 Statistical Analysis"
+  },
+  {
+    "objectID": "1_3_matl_prop.html#damage-detection",
+    "href": "1_3_matl_prop.html#damage-detection",
+    "title": "3  Material Properties",
+    "section": "3.4 Damage Detection",
+    "text": "3.4 Damage Detection"
+  },
+  {
+    "objectID": "1_3_matl_prop.html#validation",
+    "href": "1_3_matl_prop.html#validation",
+    "title": "3  Material Properties",
+    "section": "3.5 Validation",
+    "text": "3.5 Validation"
+  },
+  {
+    "objectID": "1_3_matl_prop.html#references",
+    "href": "1_3_matl_prop.html#references",
+    "title": "3  Material Properties",
+    "section": "3.6 References",
+    "text": "3.6 References"
+  },
+  {
+    "objectID": "1_4_scale_law.html#background",
+    "href": "1_4_scale_law.html#background",
+    "title": "4  Scale Law",
+    "section": "4.1 Background",
+    "text": "4.1 Background"
+  },
+  {
+    "objectID": "1_4_scale_law.html#test-setup",
+    "href": "1_4_scale_law.html#test-setup",
+    "title": "4  Scale Law",
+    "section": "4.2 Test Setup",
+    "text": "4.2 Test Setup"
+  },
+  {
+    "objectID": "1_4_scale_law.html#oma",
+    "href": "1_4_scale_law.html#oma",
+    "title": "4  Scale Law",
+    "section": "4.3 OMA",
+    "text": "4.3 OMA"
+  },
+  {
+    "objectID": "1_4_scale_law.html#statistical-analysis",
+    "href": "1_4_scale_law.html#statistical-analysis",
+    "title": "4  Scale Law",
+    "section": "4.4 Statistical Analysis",
+    "text": "4.4 Statistical Analysis"
+  },
+  {
+    "objectID": "1_4_scale_law.html#damage-detection",
+    "href": "1_4_scale_law.html#damage-detection",
+    "title": "4  Scale Law",
+    "section": "4.5 Damage Detection",
+    "text": "4.5 Damage Detection"
+  },
+  {
+    "objectID": "1_4_scale_law.html#validation",
+    "href": "1_4_scale_law.html#validation",
+    "title": "4  Scale Law",
+    "section": "4.6 Validation",
+    "text": "4.6 Validation"
+  },
+  {
+    "objectID": "1_4_scale_law.html#references",
+    "href": "1_4_scale_law.html#references",
+    "title": "4  Scale Law",
+    "section": "4.7 References",
+    "text": "4.7 References"
+  },
+  {
+    "objectID": "2_4_verification.html#background",
+    "href": "2_4_verification.html#background",
+    "title": "11  Verification",
+    "section": "11.1 Background",
+    "text": "11.1 Background"
+  },
+  {
+    "objectID": "2_4_verification.html#test-setup",
+    "href": "2_4_verification.html#test-setup",
+    "title": "11  Verification",
+    "section": "11.2 Test Setup",
+    "text": "11.2 Test Setup"
+  },
+  {
+    "objectID": "2_4_verification.html#oma",
+    "href": "2_4_verification.html#oma",
+    "title": "11  Verification",
+    "section": "11.3 OMA",
+    "text": "11.3 OMA"
+  },
+  {
+    "objectID": "2_4_verification.html#statistical-analysis",
+    "href": "2_4_verification.html#statistical-analysis",
+    "title": "11  Verification",
+    "section": "11.4 Statistical Analysis",
+    "text": "11.4 Statistical Analysis"
+  },
+  {
+    "objectID": "2_4_verification.html#damage-detection",
+    "href": "2_4_verification.html#damage-detection",
+    "title": "11  Verification",
+    "section": "11.5 Damage Detection",
+    "text": "11.5 Damage Detection"
+  },
+  {
+    "objectID": "2_4_verification.html#validation",
+    "href": "2_4_verification.html#validation",
+    "title": "11  Verification",
+    "section": "11.6 Validation",
+    "text": "11.6 Validation"
+  },
+  {
+    "objectID": "2_4_verification.html#references",
+    "href": "2_4_verification.html#references",
+    "title": "11  Verification",
+    "section": "11.7 References",
+    "text": "11.7 References"
+  },
+  {
+    "objectID": "2_7_references.html#background",
+    "href": "2_7_references.html#background",
+    "title": "14  References",
+    "section": "14.1 Background",
+    "text": "14.1 Background"
+  },
+  {
+    "objectID": "2_7_references.html#test-setup",
+    "href": "2_7_references.html#test-setup",
+    "title": "14  References",
+    "section": "14.2 Test Setup",
+    "text": "14.2 Test Setup"
+  },
+  {
+    "objectID": "2_7_references.html#oma",
+    "href": "2_7_references.html#oma",
+    "title": "14  References",
+    "section": "14.3 OMA",
+    "text": "14.3 OMA"
+  },
+  {
+    "objectID": "2_7_references.html#statistical-analysis",
+    "href": "2_7_references.html#statistical-analysis",
+    "title": "14  References",
+    "section": "14.4 Statistical Analysis",
+    "text": "14.4 Statistical Analysis"
+  },
+  {
+    "objectID": "2_7_references.html#damage-detection",
+    "href": "2_7_references.html#damage-detection",
+    "title": "14  References",
+    "section": "14.5 Damage Detection",
+    "text": "14.5 Damage Detection"
+  },
+  {
+    "objectID": "2_7_references.html#validation",
+    "href": "2_7_references.html#validation",
+    "title": "14  References",
+    "section": "14.6 Validation",
+    "text": "14.6 Validation"
+  },
+  {
+    "objectID": "2_7_references.html#references",
+    "href": "2_7_references.html#references",
+    "title": "14  References",
+    "section": "14.7 References",
+    "text": "14.7 References"
   }
 ]
