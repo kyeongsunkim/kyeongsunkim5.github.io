@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kyeongsunkim.github.io/index.html</loc>
-    <lastmod>2023-02-05T07:03:09.110Z</lastmod>
+    <lastmod>2023-02-05T11:21:25.515Z</lastmod>
   </url>
   <url>
     <loc>https://kyeongsunkim.github.io/1_1_background.html</loc>
@@ -90,10 +90,18 @@
   </url>
   <url>
     <loc>https://kyeongsunkim.github.io/4_0_proposal.html</loc>
-    <lastmod>2023-02-05T07:03:09.158Z</lastmod>
+    <lastmod>2023-02-05T07:25:44.054Z</lastmod>
   </url>
   <url>
     <loc>https://kyeongsunkim.github.io/docs.pdf</loc>
     <lastmod>2023-02-05T07:03:07.977Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeongsunkim.github.io/4_0_meeting_note.html</loc>
+    <lastmod>2023-02-05T11:35:41.836Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeongsunkim.github.io/4_1_proposal.html</loc>
+    <lastmod>2023-02-05T11:34:41.939Z</lastmod>
   </url>
 </urlset>

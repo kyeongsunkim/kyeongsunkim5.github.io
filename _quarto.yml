@@ -44,14 +44,15 @@ book:
         - 3_7_references.qmd
     - part: "Proposal"
       chapters:
-        - 4_0_proposal.qmd
+        - 4_0_meeting_note.qmd
+        - 4_1_proposal.qmd        
 
 format:
   html:
     theme: cosmo
     code-copy: true
     toc: true
-    toc-depth: 2
+    toc-depth: 3
     toc-title: On this page
     toc-location: right
     html-math-method: katex

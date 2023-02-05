@@ -10,22 +10,22 @@
     "objectID": "index.html#centrifuge-test",
     "href": "index.html#centrifuge-test",
     "title": "ResearchNote",
-    "section": "Centrifuge Test",
-    "text": "Centrifuge Test"
+    "section": "1 Centrifuge Test",
+    "text": "1 Centrifuge Test"
   },
   {
     "objectID": "index.html#fe-analysis",
     "href": "index.html#fe-analysis",
     "title": "ResearchNote",
-    "section": "FE Analysis",
-    "text": "FE Analysis"
+    "section": "2 FE Analysis",
+    "text": "2 FE Analysis"
   },
   {
     "objectID": "index.html#ambient-vibrations",
     "href": "index.html#ambient-vibrations",
     "title": "ResearchNote",
-    "section": "Ambient Vibrations",
-    "text": "Ambient Vibrations"
+    "section": "3 Ambient Vibrations",
+    "text": "3 Ambient Vibrations"
   },
   {
     "objectID": "1_1_background.html#limitations-of-the-centrifuge-test",
@@ -186,7 +186,7 @@
     "href": "4_0_proposal.html#experimental-details",
     "title": "22  Proposal",
     "section": "22.1 Experimental Details",
-    "text": "22.1 Experimental Details\n\n22.1.1 Soil Choice\n\nMaterial model choice\n\nMohr-Coulomb Model\nHardening Mohr-Coulomb Model\nCyclic SANISAND Model\n\nYoung’s modulus and Poisson ratio\nCritical State Properties\nNonlinear Parameters\ncohesion and tensile properties\nCycllic strength parameters\n\n\n\n22.1.2 Structure Choice\n\nRigid or Linear Elastic Material\nYoung’s modulus and Poisson ratio\nFatigue properties (SN Curve)\nHardness properties (BHN)\n\n\n\n22.1.3 SSI Choice\n\nInterface friction coefficient\n\nHorizontal / Vertical\n\nModulus of subgrade reaction of soil\n\nHorizontal / Vertical / Rotational\n\n\n\n\n22.1.4 Loading Choice\n\nStatic Loading [[Pasted image 20230205154905.png]]\nCyclic Loading [[Pasted image 20230205154927.png]]\n\n[[Pasted image 20230205154840.png]]\n\nVibration Loading\n\n\n\n22.1.5 Software Choice\n\nABAQUS\n\nUMAT implementation\n\nPlaxis 3D\nARTeMIS Modal Pro\n\nOperational Modal Analayis\nStructural Health Monitoring\n\nSAP 2000\n\nnatural frequency for 3D structure on Winkler foundation"
+    "text": "22.1 Experimental Details\n\n22.1.1 Soil Choice\n\nMaterial model choice\n\nMohr-Coulomb Model\nHardening Mohr-Coulomb Model\nCyclic SANISAND Model\n\nYoung’s modulus and Poisson ratio\nCritical State Properties\nNonlinear Parameters\ncohesion and tensile properties\nCycllic strength parameters\n\n\n\n22.1.2 Structure Choice\n\nRigid or Linear Elastic Material\nYoung’s modulus and Poisson ratio\nFatigue properties (SN Curve)\nHardness properties (BHN)\n\n\n\n22.1.3 SSI Choice\n\nInterface friction coefficient\n\nHorizontal / Vertical\n\nModulus of subgrade reaction of soil\n\nHorizontal / Vertical / Rotational\n\n\n\n\n22.1.4 Loading Choice\n\nStatic Loading\nCyclic Loading {: width=“100%” height=“100%”}{: .center}\n\n{: width=“100%” height=“100%”}{: .center}\n\nVibration Loading\n\n\n\n22.1.5 Software Choice\n\nABAQUS\n\nUMAT implementation\n\nPlaxis 3D\nARTeMIS Modal Pro\n\nOperational Modal Analayis\nStructural Health Monitoring\n\nSAP 2000\n\nnatural frequency for 3D structure on Winkler foundation"
   },
   {
     "objectID": "4_0_proposal.html#verification-plan",
@@ -194,5 +194,61 @@
     "title": "22  Proposal",
     "section": "22.2 Verification Plan",
     "text": "22.2 Verification Plan\n\nWinkler model limitations\nMass-spring model limitations\nAccelerometer locations\nSensor Sensitivity and Capacity"
+  },
+  {
+    "objectID": "4_0_meeting_note.html#experimental-details",
+    "href": "4_0_meeting_note.html#experimental-details",
+    "title": "22  Meeting Note",
+    "section": "22.1 Experimental Details",
+    "text": "22.1 Experimental Details\n\n22.1.1 Soil Choice\n\nMaterial model choice\n\nMohr-Coulomb Model\nHardening Mohr-Coulomb Model\nCyclic SANISAND Model\n\nYoung’s modulus and Poisson ratio\nCritical State Properties\nNonlinear Parameters\ncohesion and tensile properties\nCycllic strength parameters\n\n\n\n22.1.2 Structure Choice\n\nRigid or Linear Elastic Material\nYoung’s modulus and Poisson ratio\nFatigue properties (SN Curve)\nHardness properties (BHN)\n\n\n\n22.1.3 SSI Choice\n\nInterface friction coefficient\n\nHorizontal / Vertical\n\nModulus of subgrade reaction of soil\n\nHorizontal / Vertical / Rotational\n\n\n\n\n22.1.4 Loading Choice\n\nActuators Static vs Cyclic\nVibrations Forced vs Ambient FFT vs FDD and EFDD For experimental investigation, means and location of excitation, the density of the measurement point grid, the sampling rate and the length of time window must be optimized for good quality results.\n\nForced: good: - provides “scaled” results - excites all (broad) range of natural frequencies - known force and mass, which allows FE updating\nbad: - artificial vibration required - first mode can be too low to be excited\nAmbient: good: - no artificial excitation - better for low frequency (large and complex structures) (need sensors of the force balance type instead of piezoelectric sensors) f <1 Hz - cheap (no shaker) - can be performed without embarrassing normal user (stopping traffic or humans)\nbad: - lack of stationarity (not controllable). scatter may occur. - not all natural frequency may be excited - non-linearity of structure itself (assumption of cross section). small movements in different locations (GPSS technique to syncronize time) - requires long cables - requires reference points >1 (3D or 1D sensors) - Time window must be selected > 1000~2000 times f_n - requires manual techniques for FE updating\n\n\n22.1.5 Software Choice\n\nABAQUS\n\nUMAT implementation\n\nPlaxis 3D\nARTeMIS Modal Pro\n\nOperational Modal Analayis\nStructural Health Monitoring\n\nSAP 2000\n\nnatural frequency for 3D structure on Winkler foundation"
+  },
+  {
+    "objectID": "4_0_meeting_note.html#verification-plan",
+    "href": "4_0_meeting_note.html#verification-plan",
+    "title": "22  Meeting Note",
+    "section": "22.2 Verification Plan",
+    "text": "22.2 Verification Plan\n\nWinkler model limitations\nMass-spring model limitations\nAccelerometer locations\nSensor Sensitivity and Capacity\nClear damage detection control chart"
+  },
+  {
+    "objectID": "4_1_proposal.html#해상풍력발전기-고유진동수의-영향인자-분석",
+    "href": "4_1_proposal.html#해상풍력발전기-고유진동수의-영향인자-분석",
+    "title": "23  Proposal",
+    "section": "23.1 해상풍력발전기 고유진동수의 영향인자 분석",
+    "text": "23.1 해상풍력발전기 고유진동수의 영향인자 분석\n\n23.1.1 세굴영향 고유진동수 분석을 위한 정밀 수치모델링 기술 개발\n\n23.1.1.1 지반물성값의 비선형성, 지반-지지구조 인터페이스, 풍력타워 구조체 등 시스템의 고유진동수를 정밀하게 모사하는 유한요소기반 수치모델링 기술 개발\nTo model natural frequency, solid element can be converted to beam elements, Boundary conditions can be applied as linear springs of soil stiffness. Interface properties are not needed.\nFor 3D modelling, only foundation can be modelled for application of static load. From load-displacement response, stiffness can be obtained, which can be used for calculation of natural frequency.\n\nPhysical domain effect:\n\n2D axis-symmetric vs 3D\n\nBoundary condition effect\n\nsize of soil box\n\nMesh quality analysis\n\naspect ratio, skewness, sensitivity, computational cost\n\nForce method vs Displacement method\nInitial soil stress\n\neffect of compaction or dilation\n\n\n\n\n23.1.1.2 세굴 깊이에 따른 지지력과 축방향 및 회전방향 지반강성 분석을 통해 고유진동수의 변화 확인\n\nrelationship between axial, horizontal, and rotational stiffness\ncheck dominance and interdependence or correlation\n\n\n\n\n23.1.2 원심모형을 통한 석션기초 고유진동수의 세굴영향 분석\n\n23.1.2.1 가속도, 변형률, 변위 등 다양한 결과를 이용한 고유진동수 측정방법 분석\n\naccelerometers: perform modal analysis to get dynamic properties (modal shape, natural frequency, damping coeffieicent, etc)\nstrain gauge: wind frequency, fatigue analysis\ndisplacement: mode shape verification, load-displacement curve -> E\n\n\n\n23.1.2.2 지반, 석션기초(Mono, Tripod), 상부타워 모형체 및 하중재하 장치 제작\n\nsoil bed: soil raining technique\nmono: reference\ntripod: spacing of buckets\nloading device: eccentric loading (wind only, wave only, wind+wave)\n\n\n\n23.1.2.3 세굴깊이에 따른 지지력 변화, 고유진동수 민감도 분석 및 중요인자 결정\nThen, we must select important influence factors for natural frequency: f_n = \\sqrt{\\frac{K}{M}}.\nVesic (1961) provided a relationship between the modulus of subgrade reaction K, used in the Winkler spring problem and the material properties in the elastic continuum problem as \nK = \\frac{0.65 E_s}{(1-\\mu^2_s)} \\big( \\frac{E_s D^4}{E_p I_p} \\big)^{1/12}\n where E_s= soil modulus of elasticity;\\mu_s= Poisson’s ratio of soil; D= diameter; and E_p I_p flexural rigidity of pile.\nFor circular footing embedded in stratum over bedrock, static stiffness of soil (DNV-OS-J101-2014 Table G-2) is given by: \nK_V = \\frac{4GR}{1-\\nu} (1+ 1.28 \\frac{R}{H}) (1+ \\frac{D}{2R}) (1+ (0.85  -0.28 \\frac{D}{R})\\frac{\\frac{D}{H}}{1-\\frac{D}{G}})\n\nK_{soil} depends on the following parameters: 1. embedment depth \\frac{D}{B} 2. depth to bedrock 3. Elastic properties G, \\nu 4. density of soil \\rho 5. tower’s flexural rigidity EI\n\n\n\n23.1.3 다양한 변수조건을 고려한 원심모형시험 수행\n\n23.1.3.1 석션기초 제원(Mono, Tripod), 지반조건(모래, 점토), 풍력발전기 규모 등의 다양한 영향인자를 고려한 변수연구 수행\n\ndensity of soil\n\nsilt: loose, medium, dense\nsand: loose, medium, dense\n\nsize of wind turbine: 3MW or 10MW (scale effect)\n\nscale effect may depend on non-homogeneity of material and rigidity of soil profile.\n\nVariable cross section of tower structure\n\n\n\n23.1.3.2 정밀 수치모델링 및 원심모형실험 결과와 비교하여 적용성 검증 및 고도화\n\ncomparison with international standards: DNV and API equations\ncorrelation between ultimate resistance and natural frequency changes\ncompare ambient vibration measurements and soil resistance\nmodel with damage detection algorithm with different scenarios"
+  },
+  {
+    "objectID": "4_1_proposal.html#고유진동수를-이용한-세굴안정성-평가기술-개발",
+    "href": "4_1_proposal.html#고유진동수를-이용한-세굴안정성-평가기술-개발",
+    "title": "23  Proposal",
+    "section": "23.2 고유진동수를 이용한 세굴안정성 평가기술 개발",
+    "text": "23.2 고유진동수를 이용한 세굴안정성 평가기술 개발\n\n23.2.1 세굴안정성 평가기술 검증 및 고도화\n\n23.2.1.1 세굴깊이에 따른 지지력과 고유진동수 변화 분석\n1 Comparison between static and dynamic soil parameters: - Dynamic earth pressure coefficient - Dynamic stiffness - Dynamic dashpot coefficient\n2 Soil strength degradation due to cyclic loading\n3 white noise cancelling method\n4 various statistical techniques for clear scour identification\n\n\n23.2.1.2 해상풍력발전기의 현장 상시진동 계측자료를 이용한 건전도 및 성능평가로 현장 적용성 분석\n\nstructural health monitoring\ncondition matrix"
+  },
+  {
+    "objectID": "4_1_proposal.html#해상풍력-석션기초-세굴안정성-스마트-모니터링-기술-개발",
+    "href": "4_1_proposal.html#해상풍력-석션기초-세굴안정성-스마트-모니터링-기술-개발",
+    "title": "23  Proposal",
+    "section": "23.3 해상풍력 석션기초 세굴안정성 스마트 모니터링 기술 개발",
+    "text": "23.3 해상풍력 석션기초 세굴안정성 스마트 모니터링 기술 개발\n\n23.3.1 세굴 안정성 최적 모니터링을 위한 현장 계측기술 개발\n\n23.3.1.1 계측결과 피드백을 통한 고유진동수 상시점검 및 평가체계 구축\n\n\n23.3.1.2 고유진동수 평가시스템 기반의 풍력터빈 위해영역 평가기술 개발\n\n\n\n23.3.2 세굴 안정성 평가 매뉴얼 개발\n\n23.3.2.1 원심모형실험/수치해석 결과를 이용한 세굴안정성 평가지표 개발\n\n\n23.3.2.2 다양한 운영 시나리오를 고려한 세굴안정성 평가 매뉴얼 개발"
+  },
+  {
+    "objectID": "4_1_proposal.html#차년도-해상풍력발전기-고유진동수의-영향인자-분석",
+    "href": "4_1_proposal.html#차년도-해상풍력발전기-고유진동수의-영향인자-분석",
+    "title": "23  Proposal Details",
+    "section": "23.1 1차년도: 해상풍력발전기 고유진동수의 영향인자 분석",
+    "text": "23.1 1차년도: 해상풍력발전기 고유진동수의 영향인자 분석\n\n23.1.1 세굴영향 고유진동수 분석을 위한 정밀 수치모델링 기술 개발\n\n23.1.1.1 지반물성값의 비선형성, 지반-지지구조 인터페이스, 풍력타워 구조체 등 시스템의 고유진동수를 정밀하게 모사하는 유한요소기반 수치모델링 기술 개발\nTo model natural frequency, solid element can be converted to beam elements, Boundary conditions can be applied as linear springs of soil stiffness. Interface properties are not needed.\nFor 3D modelling, only foundation can be modelled for application of static load. From load-displacement response, stiffness can be obtained, which can be used for calculation of natural frequency.\n\nPhysical domain effect:\n\n2D axis-symmetric vs 3D\n\nBoundary condition effect\n\nsize of soil box\n\nMesh quality analysis\n\naspect ratio, skewness, sensitivity, computational cost\n\nForce method vs Displacement method\nInitial soil stress\n\neffect of compaction or dilation\n\n\n\n\n23.1.1.2 세굴 깊이에 따른 지지력과 축방향 및 회전방향 지반강성 분석을 통해 고유진동수의 변화 확인\n\nrelationship between axial, horizontal, and rotational stiffness\ncheck dominance and interdependence or correlation\n\n\n\n\n23.1.2 원심모형을 통한 석션기초 고유진동수의 세굴영향 분석\n\n23.1.2.1 가속도, 변형률, 변위 등 다양한 결과를 이용한 고유진동수 측정방법 분석\n\naccelerometers: perform modal analysis to get dynamic properties (modal shape, natural frequency, damping coeffieicent, etc)\nstrain gauge: wind frequency, fatigue analysis\ndisplacement: mode shape verification, load-displacement curve -> stiffness -> natural frequency\n\n\n\n23.1.2.2 지반, 석션기초(Mono, Tripod), 상부타워 모형체 및 하중재하 장치 제작\n\nsoil bed: soil raining technique (use KAIST automatic raining machine)\nmono vs tripod\nloading device: eccentric loading (wind only, wave only, wind+wave)\n\n\n\n23.1.2.3 세굴깊이에 따른 지지력 변화, 고유진동수 민감도 분석 및 중요인자 결정\nWe must select important influence factors for natural frequency: f_n = \\sqrt{\\frac{K}{M}}.\nVesic (1961) provided a relationship between the modulus of subgrade reaction K, used in the Winkler spring problem and the material properties in the elastic continuum problem as \nK = \\frac{0.65 E_s}{(1-\\mu^2_s)} \\big( \\frac{E_s D^4}{E_p I_p} \\big)^{1/12}\n where E_s= soil modulus of elasticity;\\mu_s= Poisson’s ratio of soil; D= diameter; and E_p I_p flexural rigidity of pile.\nFor circular footing embedded in stratum over bedrock, static stiffness of soil (DNV-OS-J101-2014 Table G-2) is given by: \nK_V = \\frac{4GR}{1-\\nu} (1+ 1.28 \\frac{R}{H}) (1+ \\frac{D}{2R}) (1+ (0.85  -0.28 \\frac{D}{R})\\frac{\\frac{D}{H}}{1-\\frac{D}{G}})\n\nK_{soil} depends on the following parameters:\n\nembedment depth \\frac{D}{B}\ndepth to bedrock H\nElastic properties G, \\nu\ndensity of soil \\rho\ntower’s flexural rigidity EI\n\n\n\n\n23.1.3 다양한 변수조건을 고려한 원심모형시험 수행\n\n23.1.3.1 석션기초 제원(Mono, Tripod), 지반조건(모래, 점토), 풍력발전기 규모 등의 다양한 영향인자를 고려한 변수연구 수행\n\ndensity of soil\n\nsilt: loose, medium, dense\nsand: loose, medium, dense\n\nsize of wind turbine: 3MW or 10MW (scale effect)\n\nscale effect may depend on non-homogeneity of material and rigidity of soil profile.\n\nVariable cross section of tower structure\nMono vs Tripod: spacing\n\nspacing influences changes in properties of equivalent-beam model\n\n\n\n\n23.1.3.2 정밀 수치모델링 및 원심모형실험 결과와 비교하여 적용성 검증 및 고도화\n\ncomparison with international standards: DNV and API equations\ncomparison with FE and centrifuge results\ncomparison with other researcher’s results"
+  },
+  {
+    "objectID": "4_1_proposal.html#차년도-고유진동수를-이용한-세굴안정성-평가기술-개발",
+    "href": "4_1_proposal.html#차년도-고유진동수를-이용한-세굴안정성-평가기술-개발",
+    "title": "23  Proposal Details",
+    "section": "23.2 2차년도: 고유진동수를 이용한 세굴안정성 평가기술 개발",
+    "text": "23.2 2차년도: 고유진동수를 이용한 세굴안정성 평가기술 개발\n\n23.2.1 세굴안정성 평가기술 검증 및 고도화\n\n23.2.1.1 세굴깊이에 따른 지지력과 고유진동수 변화 분석\n1 Comparison between static and dynamic soil parameters:\n\nDynamic earth pressure coefficient\nDynamic stiffness\nDynamic dashpot coefficient\n\n2 Soil strength degradation due to cyclic loading\n3 correlation between ultimate resistance and natural frequency changes\n\n\n23.2.1.2 해상풍력발전기의 현장 상시진동 계측자료를 이용한 건전도 및 성능평가로 현장 적용성 분석\n\nwhite noise cancelling method\ncondition matrix\nvarious statistical techniques for clear scour identification"
+  },
+  {
+    "objectID": "4_1_proposal.html#차년도-해상풍력-석션기초-세굴안정성-스마트-모니터링-기술-개발",
+    "href": "4_1_proposal.html#차년도-해상풍력-석션기초-세굴안정성-스마트-모니터링-기술-개발",
+    "title": "23  Proposal Details",
+    "section": "23.3 3차년도: 해상풍력 석션기초 세굴안정성 스마트 모니터링 기술 개발",
+    "text": "23.3 3차년도: 해상풍력 석션기초 세굴안정성 스마트 모니터링 기술 개발\n\n23.3.1 세굴 안정성 최적 모니터링을 위한 현장 계측기술 개발\n\n23.3.1.1 계측결과 피드백을 통한 고유진동수 상시점검 및 평가체계 구축\n\nstructural health monitoring\n\n\n\n23.3.1.2 고유진동수 평가시스템 기반의 풍력터빈 위해영역 평가기술 개발\n\ndamage detection algorithm with different scenarios\n\n\n\n\n23.3.2 세굴 안정성 평가 매뉴얼 개발\n\n23.3.2.1 원심모형실험/수치해석 결과를 이용한 세굴안정성 평가지표 개발\n\nhealth index using Chi square Hypothesis Test\nProbabilistic analysis\n\n\n\n23.3.2.2 다양한 운영 시나리오를 고려한 세굴안정성 평가 매뉴얼 개발\n\ncheck international standards"
   }
 ]

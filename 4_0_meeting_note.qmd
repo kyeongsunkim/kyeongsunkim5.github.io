@@ -1,0 +1,129 @@
+---
+title: "Meeting Note"
+format:
+  docx:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    highlight-style: github
+    reference-doc: custom-reference-doc.docx
+---
+
+
+## Experimental Details
+
+### Soil Choice
+- Material model choice
+	- Mohr-Coulomb Model
+	- Hardening Mohr-Coulomb Model
+	- Cyclic SANISAND Model
+- Young's modulus and Poisson ratio
+- Critical State Properties
+- Nonlinear Parameters
+- cohesion and tensile properties
+- Cycllic strength parameters
+
+### Structure Choice
+- Rigid or Linear Elastic Material
+- Young's modulus and Poisson ratio
+- Fatigue properties (SN Curve)
+- Hardness properties (BHN)
+
+
+### SSI Choice
+- Interface friction coefficient
+	- Horizontal / Vertical
+- Modulus of subgrade reaction of soil
+	- Horizontal / Vertical / Rotational
+
+
+
+### Loading Choice
+- Actuators
+
+Static vs Cyclic
+
+- Vibrations
+
+Forced vs Ambient
+FFT vs FDD and EFDD
+
+For experimental investigation, means and location of excitation, the density of the measurement point grid, the sampling rate and the length of time window must be optimized for good quality results.
+
+Forced:
+
+good:
+
+- provides "scaled" results
+
+- excites all (broad) range of natural frequencies
+
+- known force and mass, which allows FE updating
+
+bad:
+
+- artificial vibration required
+
+- first mode can be too low to be excited
+
+Ambient:
+
+good:
+- no artificial excitation 
+
+- better for low frequency (large and complex structures) (need sensors of the force balance type instead of piezoelectric sensors) f <1 Hz
+
+- cheap (no shaker)
+
+- can be performed without embarrassing normal user (stopping traffic or humans)
+
+bad:
+
+- lack of stationarity (not controllable). scatter may occur.
+
+- not all natural frequency may be excited
+
+- non-linearity of structure itself (assumption of cross section). small movements in different locations (GPSS technique to syncronize time)
+
+- requires long cables 
+
+- requires reference points >1 (3D or 1D sensors)
+
+- Time window must be selected > 1000~2000 times f_n
+
+- requires manual techniques for FE updating
+
+
+### Software Choice
+
+- ABAQUS
+
+	- UMAT implementation
+
+- Plaxis 3D
+
+- ARTeMIS Modal Pro
+
+	- Operational Modal Analayis
+
+	- Structural Health Monitoring
+
+- SAP 2000
+	- natural frequency for 3D structure on Winkler foundation
+
+
+
+## Verification Plan
+
+- Winkler model limitations
+
+- Mass-spring model limitations
+
+- Accelerometer locations
+
+- Sensor Sensitivity and Capacity
+
+
+-  Clear damage detection
+control chart 
+- 

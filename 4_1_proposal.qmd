@@ -1,0 +1,175 @@
+---
+title: "Proposal Details"
+format:
+  docx:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    highlight-style: github
+    reference-doc: custom-reference-doc.docx
+---
+
+## **1차년도:** 해상풍력발전기 고유진동수의 영향인자 분석
+
+### 세굴영향 고유진동수 분석을 위한 정밀 수치모델링 기술 개발
+
+#### 지반물성값의 비선형성, 지반-지지구조 인터페이스, 풍력타워 구조체 등 시스템의 고유진동수를 정밀하게 모사하는 유한요소기반 수치모델링 기술 개발
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597259/cloudinary_img_/ijwm22ml5zthjeffv1rm.png)
+
+To model natural frequency, solid element can be converted to beam elements, Boundary conditions can be applied as linear springs of soil stiffness. Interface properties are not needed.
+
+For 3D modelling, only foundation can be modelled for application of static load. From load-displacement response, stiffness can be obtained, which can be used for calculation of natural frequency.
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597239/cloudinary_img_/utlxtzlmdfu7b10ehcn8.png)
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597213/cloudinary_img_/tsqovmfppwoo9hdxmchm.png)
+
+- Physical domain effect: 
+	- 2D axis-symmetric vs 3D
+- Boundary condition effect
+	- size of soil box
+- Mesh quality analysis
+	- aspect ratio, skewness, sensitivity, computational cost
+- Force method vs Displacement method
+- Initial soil stress
+	- effect of compaction or dilation
+
+#### 세굴 깊이에 따른 지지력과 축방향 및 회전방향 지반강성 분석을 통해 고유진동수의 변화 확인
+We must select important influence factors for natural frequency: $f_n = \sqrt{\frac{K}{M}}$.
+
+Vesic (1961) provided a relationship between the modulus of subgrade reaction $K$, used in the Winkler spring problem and the material properties in the elastic continuum problem as
+$$
+K = \frac{0.65 E_s}{(1-\mu^2_s)} \big( \frac{E_s D^4}{E_p I_p} \big)^{1/12}
+$$
+where $E_s=$ soil modulus of elasticity;$\mu_s=$ Poisson’s ratio of soil; $D=$ diameter; and $E_p I_p$ flexural  rigidity  of  pile.
+
+For circular footing embedded in stratum over bedrock, static stiffness of soil (DNV-OS-J101-2014 Table G-2) is given by:
+$$
+K_V = \frac{4GR}{1-\nu} (1+ 1.28 \frac{R}{H}) (1+ \frac{D}{2R}) (1+ (0.85  -0.28 \frac{D}{R})\frac{\frac{D}{H}}{1-\frac{D}{G}})
+$$
+
+$K_{soil}$ depends on the following parameters:
+
+- embedment depth $\frac{D}{B}$
+- depth to bedrock $H$
+- Elastic properties $G, \nu$
+- density of soil $\rho$ 
+- tower's flexural rigidity $EI$
+
+Check: 
+- relationship between axial, horizontal, and rotational stiffness
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597040/cloudinary_img_/w7cglu8mojvsplmhuehr.png)
+
+-  dominance and interdependence or correlation
+
+
+### 원심모형을 통한 석션기초 고유진동수의 세굴영향 분석
+
+#### 가속도, 변형률, 변위 등 다양한 결과를 이용한 고유진동수 측정방법 분석
+
+- accelerometers: perform modal analysis to get dynamic properties (modal shape, natural frequency, damping coeffieicent, etc)
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597845/cloudinary_img_/gxv7goy1pzrteadtmbvc.png)
+
+- strain gauge: wind frequency, fatigue analysis
+
+- displacement: mode shape verification, load-displacement curve -> stiffness -> natural frequency
+
+#### 지반, 석션기초(Mono, Tripod), 상부타워 모형체 및 하중재하 장치 제작
+
+- soil bed: soil raining technique (use KAIST automatic raining machine)
+
+- mono vs tripod
+
+- loading device: eccentric loading (wind only, wave only, wind+wave)
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597120/cloudinary_img_/xkgvzstx2uetcjvb3apl.png)
+
+#### 세굴깊이에 따른 지지력 변화, 고유진동수 민감도 분석 및 중요인자 결정
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597455/cloudinary_img_/sb42ugfxziavpa5o8mfv.png)
+
+
+- $\frac{m_{nacelle}}{m_{tower}}$
+- $\frac{m_{tower}}{m_{soil}}$
+- $\frac{K_{tower}}{K_{soil}}$
+- $\frac{L_{tower}}{L_{soil}}$
+- 
+
+
+### 다양한 변수조건을 고려한 원심모형시험 수행
+
+#### 석션기초 제원(Mono, Tripod), 지반조건(모래, 점토), 풍력발전기 규모 등의 다양한 영향인자를 고려한 변수연구 수행
+
+- density of soil
+	- silt: loose, medium, dense
+	- sand: loose, medium, dense
+- size of wind turbine: 3MW or 10MW (scale effect)
+	- scale effect may depend on non-homogeneity of material and rigidity of soil profile.
+-  Variable cross section of tower structure
+- Mono vs Tripod: spacing
+	- spacing influences changes in properties of equivalent-beam model
+
+#### 정밀 수치모델링 및 원심모형실험 결과와 비교하여 적용성 검증 및 고도화
+
+- comparison with international standards: DNV and API equations
+- comparison with FE and centrifuge results
+- comparison with other researcher's results
+
+
+## **2차년도:** 고유진동수를 이용한 세굴안정성 평가기술 개발
+
+### 세굴안정성 평가기술 검증 및 고도화
+
+
+#### 세굴깊이에 따른 지지력과 고유진동수 변화 분석
+
+1 Comparison between static and dynamic soil parameters:
+
+- Dynamic earth pressure coefficient
+- Dynamic stiffness
+- Dynamic dashpot coefficient
+
+2 Soil strength degradation due to cyclic loading
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597558/cloudinary_img_/rbgfxcuyofllzzzf9u67.png)
+
+3 accumulation of plastic strain
+
+4 correlation between ultimate resistance and natural frequency changes
+
+#### 해상풍력발전기의 현장 상시진동 계측자료를 이용한 건전도 및 성능평가로 현장 적용성 분석
+
+- white noise cancelling method
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597098/cloudinary_img_/hv0ws5qgbjbygmhdvsnn.png)
+
+- condition matrix
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597648/cloudinary_img_/icgs2pztkxidxz1wmkik.png)
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597690/cloudinary_img_/jvyzsxwupz8tpucyyiu5.png)
+
+- various statistical techniques for clear scour identification
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597633/cloudinary_img_/xv0d0fsmmjvsvu7y2io1.png)
+
+
+## **3차년도:** 해상풍력 석션기초 세굴안정성 스마트 모니터링 기술 개발
+
+### 세굴 안정성 최적 모니터링을 위한 현장 계측기술 개발
+
+
+#### 계측결과 피드백을 통한 고유진동수 상시점검 및 평가체계 구축
+- structural health monitoring
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597669/cloudinary_img_/byswpaqkkqvpywtkkywn.png)
+
+#### 고유진동수 평가시스템 기반의 풍력터빈 위해영역 평가기술 개발
+- damage detection algorithm with different scenarios
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597877/cloudinary_img_/s43eurlntfmcqdbpswev.png)
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597195/cloudinary_img_/rmpyyswydxqhpegn1hqp.png)
+
+### 세굴 안정성 평가 매뉴얼 개발
+
+#### 원심모형실험/수치해석 결과를 이용한 세굴안정성 평가지표 개발
+- health index using Chi square Hypothesis Test
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597791/cloudinary_img_/s9g51kpa2m1dm6g24r8z.png)
+
+- Probabilistic analysis
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597724/cloudinary_img_/pfx2ayyjqk9qz0nnry8q.png)
+
+#### 다양한 운영 시나리오를 고려한 세굴안정성 평가 매뉴얼 개발
+- check international standards
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597175/cloudinary_img_/q7xvmquzjbemfeoqnqr1.png)
