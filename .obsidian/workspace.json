@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3_3_operational_modal.qmd",
+                "file": "1_1_background.qmd",
                 "mode": "source",
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3_3_operational_modal.qmd",
+                "file": "1_1_background.qmd",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3_3_operational_modal.qmd",
+                "file": "1_1_background.qmd",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3_3_operational_modal.qmd"
+                "file": "1_1_background.qmd"
               }
             }
           }
@@ -149,15 +149,15 @@
   },
   "active": "cca76d8902697487",
   "lastOpenFiles": [
+    "index.qmd",
+    "3_3_operational_modal.qmd",
     "3_5_damage_detection.qmd",
     "3_4_statistical.qmd",
-    "3_3_operational_modal.qmd",
     "3_2_test_setup.qmd",
     "3_1_background.qmd",
     "2_7_references.qmd",
     "2_6_validation.qmd",
     "2_5_analysis.qmd",
-    "2_4_verification.qmd",
-    "2_3_matl_calib.qmd"
+    "2_4_verification.qmd"
   ]
 }
