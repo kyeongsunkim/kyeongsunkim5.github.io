@@ -13,21 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_7_references.qmd",
+                "file": "3_3_operational_modal.qmd",
                 "mode": "source",
                 "source": true
-              }
-            }
-          },
-          {
-            "id": "58bffee31fb9ffb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1_1_background.qmd",
-                "mode": "source",
-                "source": false
               }
             }
           }
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2_7_references.qmd",
+                "file": "3_3_operational_modal.qmd",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2_7_references.qmd",
+                "file": "3_3_operational_modal.qmd",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2_7_references.qmd"
+                "file": "3_3_operational_modal.qmd"
               }
             }
           }
@@ -161,15 +149,15 @@
   },
   "active": "cca76d8902697487",
   "lastOpenFiles": [
+    "3_5_damage_detection.qmd",
+    "3_4_statistical.qmd",
+    "3_3_operational_modal.qmd",
+    "3_2_test_setup.qmd",
+    "3_1_background.qmd",
+    "2_7_references.qmd",
+    "2_6_validation.qmd",
+    "2_5_analysis.qmd",
     "2_4_verification.qmd",
-    "1_4_scale_law.qmd",
-    "1_3_matl_prop.qmd",
-    "1_2_test_setup.qmd",
-    "1_1_background.qmd",
-    "3_0_Ambient.qmd",
-    "2_0_Finite.qmd",
-    "1_0_Centrifuge.qmd",
-    "index.qmd",
-    "3_7_references.qmd"
+    "2_3_matl_calib.qmd"
   ]
 }

@@ -2,18 +2,10 @@
 jupyter: python3
 ---
 
-# Summary {.unnumbered}
+# Contents {.unnumbered}
 
-This is a Quarto book.
+## Centrifuge Test
 
-It is divided by 3 main parts:
+## Finite Element Analysis
 
-1\. Centrifuge Test
-
-2\. Finite Element Analysis
-
-3\. Ambient Vibration Test
-
-To view this .html doc in .pdf format, visit link.
-
-To view this .html doc in .docx format, visit link.
+## Ambient Vibration Test

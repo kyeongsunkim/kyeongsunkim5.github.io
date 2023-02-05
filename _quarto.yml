@@ -15,7 +15,7 @@ book:
     background: light
   chapters:  
     - index.qmd
-    - part: 1_0_Centrifuge.qmd
+    - part: "Centrifuge Test"
       chapters: 
         - 1_1_background.qmd
         - 1_2_test_setup.qmd
@@ -24,7 +24,7 @@ book:
         - 1_5_analysis.qmd
         - 1_6_verification.qmd
         - 1_7_references.qmd
-    - part: 2_0_Finite.qmd
+    - part: "Finite Element Analysis"
       chapters: 
         - 2_1_background.qmd
         - 2_2_numerical_setup.qmd
@@ -33,7 +33,7 @@ book:
         - 2_5_analysis.qmd
         - 2_6_validation.qmd
         - 2_7_references.qmd
-    - part: 3_0_Ambient.qmd
+    - part: "Ambient Vibration Test"
       chapters: 
         - 3_1_background.qmd
         - 3_2_test_setup.qmd
