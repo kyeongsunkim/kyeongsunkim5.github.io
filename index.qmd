@@ -2,12 +2,18 @@
 jupyter: python3
 ---
 
-# Kyeong Sun Kim {.unnumbered}
+# Summary {.unnumbered}
 
 This is a Quarto book.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+It is divided by 3 main parts:
 
-```{python}
-1 + 1
-```
+1\. Centrifuge Test
+
+2\. Finite Element Analysis
+
+3\. Ambient Vibration Test
+
+To view this .html doc in .pdf format, visit link.
+
+To view this .html doc in .docx format, visit link.
