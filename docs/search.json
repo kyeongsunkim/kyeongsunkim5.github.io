@@ -7,333 +7,39 @@
     "text": "Contents"
   },
   {
-    "objectID": "1_1_background.html",
-    "href": "1_1_background.html",
+    "objectID": "index.html#centrifuge-test",
+    "href": "index.html#centrifuge-test",
+    "title": "ResearchNote",
+    "section": "Centrifuge Test",
+    "text": "Centrifuge Test"
+  },
+  {
+    "objectID": "index.html#fe-analysis",
+    "href": "index.html#fe-analysis",
+    "title": "ResearchNote",
+    "section": "FE Analysis",
+    "text": "FE Analysis"
+  },
+  {
+    "objectID": "index.html#ambient-vibrations",
+    "href": "index.html#ambient-vibrations",
+    "title": "ResearchNote",
+    "section": "Ambient Vibrations",
+    "text": "Ambient Vibrations"
+  },
+  {
+    "objectID": "1_1_background.html#limitations-of-the-centrifuge-test",
+    "href": "1_1_background.html#limitations-of-the-centrifuge-test",
     "title": "1  Background",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
+    "section": "1.1 Limitations of the Centrifuge Test",
+    "text": "1.1 Limitations of the Centrifuge Test"
   },
   {
-    "objectID": "1_2_test_setup.html",
-    "href": "1_2_test_setup.html",
-    "title": "2  Test Setup",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "1_3_matl_prop.html",
-    "href": "1_3_matl_prop.html",
-    "title": "3  Material Properties",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "1_4_scale_law.html",
-    "href": "1_4_scale_law.html",
-    "title": "4  Scale Law",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "1_5_analysis.html",
-    "href": "1_5_analysis.html",
-    "title": "5  Analysis",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "1_7_references.html",
-    "href": "1_7_references.html",
-    "title": "7  References",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "2_1_background.html",
-    "href": "2_1_background.html",
-    "title": "8  Background",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "2_2_numerical_setup.html",
-    "href": "2_2_numerical_setup.html",
-    "title": "9  Numerical Setup",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "2_4_verification.html",
-    "href": "2_4_verification.html",
-    "title": "11  Verification",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "2_5_analysis.html",
-    "href": "2_5_analysis.html",
-    "title": "12  Analysis",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "2_6_validation.html",
-    "href": "2_6_validation.html",
-    "title": "13  Validation",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "2_7_references.html",
-    "href": "2_7_references.html",
-    "title": "14  References",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "3_1_background.html",
-    "href": "3_1_background.html",
-    "title": "15  Background",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "3_2_test_setup.html",
-    "href": "3_2_test_setup.html",
-    "title": "16  Test Setup",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "3_3_operational_modal.html",
-    "href": "3_3_operational_modal.html",
-    "title": "17  Operational Modal Analysis",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "3_4_statistical.html",
-    "href": "3_4_statistical.html",
-    "title": "18  Statistical Analysis",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "3_5_damage_detection.html",
-    "href": "3_5_damage_detection.html",
-    "title": "19  Damage Detection Algorithm",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "3_6_validation.html",
-    "href": "3_6_validation.html",
-    "title": "20  Validation",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "3_7_references.html",
-    "href": "3_7_references.html",
-    "title": "21  References",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "1_6_verification.html",
-    "href": "1_6_verification.html",
-    "title": "6  Verification",
-    "section": "",
-    "text": "This is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "1_0_Centrifuge.html#background",
-    "href": "1_0_Centrifuge.html#background",
-    "title": "Centrifuge Test",
-    "section": "Background",
-    "text": "Background"
-  },
-  {
-    "objectID": "1_0_Centrifuge.html#test-setup",
-    "href": "1_0_Centrifuge.html#test-setup",
-    "title": "Centrifuge Test",
-    "section": "Test Setup",
-    "text": "Test Setup"
-  },
-  {
-    "objectID": "1_0_Centrifuge.html#material-properties",
-    "href": "1_0_Centrifuge.html#material-properties",
-    "title": "Centrifuge Test",
-    "section": "Material Properties",
-    "text": "Material Properties"
-  },
-  {
-    "objectID": "1_0_Centrifuge.html#scale-law",
-    "href": "1_0_Centrifuge.html#scale-law",
-    "title": "Centrifuge Test",
-    "section": "Scale Law",
-    "text": "Scale Law"
-  },
-  {
-    "objectID": "1_0_Centrifuge.html#analysis",
-    "href": "1_0_Centrifuge.html#analysis",
-    "title": "Centrifuge Test",
-    "section": "Analysis",
-    "text": "Analysis"
-  },
-  {
-    "objectID": "1_0_Centrifuge.html#verification",
-    "href": "1_0_Centrifuge.html#verification",
-    "title": "Centrifuge Test",
-    "section": "Verification",
-    "text": "Verification"
-  },
-  {
-    "objectID": "1_0_Centrifuge.html#references",
-    "href": "1_0_Centrifuge.html#references",
-    "title": "Centrifuge Test",
-    "section": "References",
-    "text": "References\nThis is a book created from markdown and executable code."
-  },
-  {
-    "objectID": "2_0_Finite.html#background",
-    "href": "2_0_Finite.html#background",
-    "title": "Finite Element Analysis",
-    "section": "Background",
-    "text": "Background"
-  },
-  {
-    "objectID": "2_0_Finite.html#test-setup",
-    "href": "2_0_Finite.html#test-setup",
-    "title": "Finite Element Analysis",
-    "section": "Test Setup",
-    "text": "Test Setup"
-  },
-  {
-    "objectID": "2_0_Finite.html#material-calibration",
-    "href": "2_0_Finite.html#material-calibration",
-    "title": "Finite Element Analysis",
-    "section": "Material Calibration",
-    "text": "Material Calibration"
-  },
-  {
-    "objectID": "2_0_Finite.html#verification",
-    "href": "2_0_Finite.html#verification",
-    "title": "Finite Element Analysis",
-    "section": "Verification",
-    "text": "Verification"
-  },
-  {
-    "objectID": "2_0_Finite.html#analysis",
-    "href": "2_0_Finite.html#analysis",
-    "title": "Finite Element Analysis",
-    "section": "Analysis",
-    "text": "Analysis"
-  },
-  {
-    "objectID": "2_0_Finite.html#validation",
-    "href": "2_0_Finite.html#validation",
-    "title": "Finite Element Analysis",
-    "section": "Validation",
-    "text": "Validation"
-  },
-  {
-    "objectID": "2_0_Finite.html#references",
-    "href": "2_0_Finite.html#references",
-    "title": "Finite Element Analysis",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "3_0_Ambient.html#background",
-    "href": "3_0_Ambient.html#background",
-    "title": "Ambient Vibration Test",
-    "section": "Background",
-    "text": "Background"
-  },
-  {
-    "objectID": "3_0_Ambient.html#test-setup",
-    "href": "3_0_Ambient.html#test-setup",
-    "title": "Ambient Vibration Test",
-    "section": "Test Setup",
-    "text": "Test Setup"
-  },
-  {
-    "objectID": "3_0_Ambient.html#oma",
-    "href": "3_0_Ambient.html#oma",
-    "title": "Ambient Vibration Test",
-    "section": "OMA",
-    "text": "OMA"
-  },
-  {
-    "objectID": "3_0_Ambient.html#statistical-analysis",
-    "href": "3_0_Ambient.html#statistical-analysis",
-    "title": "Ambient Vibration Test",
-    "section": "Statistical Analysis",
-    "text": "Statistical Analysis"
-  },
-  {
-    "objectID": "3_0_Ambient.html#damage-detection",
-    "href": "3_0_Ambient.html#damage-detection",
-    "title": "Ambient Vibration Test",
-    "section": "Damage Detection",
-    "text": "Damage Detection"
-  },
-  {
-    "objectID": "3_0_Ambient.html#validation",
-    "href": "3_0_Ambient.html#validation",
-    "title": "Ambient Vibration Test",
-    "section": "Validation",
-    "text": "Validation"
-  },
-  {
-    "objectID": "3_0_Ambient.html#references",
-    "href": "3_0_Ambient.html#references",
-    "title": "Ambient Vibration Test",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "1_1_background.html#test-setup",
-    "href": "1_1_background.html#test-setup",
+    "objectID": "1_1_background.html#failures-due-to-scour",
+    "href": "1_1_background.html#failures-due-to-scour",
     "title": "1  Background",
-    "section": "1.1 Test Setup",
-    "text": "1.1 Test Setup"
-  },
-  {
-    "objectID": "1_1_background.html#oma",
-    "href": "1_1_background.html#oma",
-    "title": "1  Background",
-    "section": "1.2 OMA",
-    "text": "1.2 OMA"
-  },
-  {
-    "objectID": "1_1_background.html#statistical-analysis",
-    "href": "1_1_background.html#statistical-analysis",
-    "title": "1  Background",
-    "section": "1.3 Statistical Analysis",
-    "text": "1.3 Statistical Analysis"
-  },
-  {
-    "objectID": "1_1_background.html#damage-detection",
-    "href": "1_1_background.html#damage-detection",
-    "title": "1  Background",
-    "section": "1.4 Damage Detection",
-    "text": "1.4 Damage Detection"
-  },
-  {
-    "objectID": "1_1_background.html#validation",
-    "href": "1_1_background.html#validation",
-    "title": "1  Background",
-    "section": "1.5 Validation",
-    "text": "1.5 Validation"
-  },
-  {
-    "objectID": "1_1_background.html#references",
-    "href": "1_1_background.html#references",
-    "title": "1  Background",
-    "section": "1.6 References",
-    "text": "1.6 References"
+    "section": "1.2 Failures due to scour",
+    "text": "1.2 Failures due to scour"
   },
   {
     "objectID": "1_2_test_setup.html#background",
@@ -343,88 +49,11 @@
     "text": "2.1 Background\nThis is a book created from markdown and executable code. ### third toc ## Test Setup This is a book created from markdown and executable code. ### third toc ## OMA This is a book created from markdown and executable code. ## Statistical Analysis This is a book created from markdown and executable code. ## Damage Detection This is a book created from markdown and executable code. ## Validation This is a book created from markdown and executable code. ## References ### third toc"
   },
   {
-    "objectID": "1_2_test_setup.html#test-setup",
-    "href": "1_2_test_setup.html#test-setup",
-    "title": "2  Test Setup",
-    "section": "2.2 Test Setup",
-    "text": "2.2 Test Setup"
-  },
-  {
-    "objectID": "1_2_test_setup.html#oma",
-    "href": "1_2_test_setup.html#oma",
-    "title": "2  Test Setup",
-    "section": "2.3 OMA",
-    "text": "2.3 OMA"
-  },
-  {
-    "objectID": "1_2_test_setup.html#statistical-analysis",
-    "href": "1_2_test_setup.html#statistical-analysis",
-    "title": "2  Test Setup",
-    "section": "2.4 Statistical Analysis",
-    "text": "2.4 Statistical Analysis"
-  },
-  {
-    "objectID": "1_2_test_setup.html#damage-detection",
-    "href": "1_2_test_setup.html#damage-detection",
-    "title": "2  Test Setup",
-    "section": "2.5 Damage Detection",
-    "text": "2.5 Damage Detection"
-  },
-  {
-    "objectID": "1_2_test_setup.html#validation",
-    "href": "1_2_test_setup.html#validation",
-    "title": "2  Test Setup",
-    "section": "2.6 Validation",
-    "text": "2.6 Validation"
-  },
-  {
-    "objectID": "1_2_test_setup.html#references",
-    "href": "1_2_test_setup.html#references",
-    "title": "2  Test Setup",
-    "section": "2.7 References",
-    "text": "2.7 References"
-  },
-  {
-    "objectID": "1_3_matl_prop.html#test-setup",
-    "href": "1_3_matl_prop.html#test-setup",
+    "objectID": "1_3_matl_prop.html#background",
+    "href": "1_3_matl_prop.html#background",
     "title": "3  Material Properties",
-    "section": "3.1 Test Setup",
-    "text": "3.1 Test Setup"
-  },
-  {
-    "objectID": "1_3_matl_prop.html#oma",
-    "href": "1_3_matl_prop.html#oma",
-    "title": "3  Material Properties",
-    "section": "3.2 OMA",
-    "text": "3.2 OMA"
-  },
-  {
-    "objectID": "1_3_matl_prop.html#statistical-analysis",
-    "href": "1_3_matl_prop.html#statistical-analysis",
-    "title": "3  Material Properties",
-    "section": "3.3 Statistical Analysis",
-    "text": "3.3 Statistical Analysis"
-  },
-  {
-    "objectID": "1_3_matl_prop.html#damage-detection",
-    "href": "1_3_matl_prop.html#damage-detection",
-    "title": "3  Material Properties",
-    "section": "3.4 Damage Detection",
-    "text": "3.4 Damage Detection"
-  },
-  {
-    "objectID": "1_3_matl_prop.html#validation",
-    "href": "1_3_matl_prop.html#validation",
-    "title": "3  Material Properties",
-    "section": "3.5 Validation",
-    "text": "3.5 Validation"
-  },
-  {
-    "objectID": "1_3_matl_prop.html#references",
-    "href": "1_3_matl_prop.html#references",
-    "title": "3  Material Properties",
-    "section": "3.6 References",
-    "text": "3.6 References"
+    "section": "3.1 Background",
+    "text": "3.1 Background\nThis is a book created from markdown and executable code. ### third toc ## Test Setup This is a book created from markdown and executable code. ### third toc ## OMA This is a book created from markdown and executable code. ## Statistical Analysis This is a book created from markdown and executable code. ## Damage Detection This is a book created from markdown and executable code. ## Validation This is a book created from markdown and executable code. ## References ### third toc"
   },
   {
     "objectID": "1_4_scale_law.html#background",
@@ -432,181 +61,6 @@
     "title": "4  Scale Law",
     "section": "4.1 Background",
     "text": "4.1 Background\nThis is a book created from markdown and executable code. ### third toc ## Test Setup This is a book created from markdown and executable code. ### third toc ## OMA This is a book created from markdown and executable code. ## Statistical Analysis This is a book created from markdown and executable code. ## Damage Detection This is a book created from markdown and executable code. ## Validation This is a book created from markdown and executable code. ## References ### third toc"
-  },
-  {
-    "objectID": "1_4_scale_law.html#test-setup",
-    "href": "1_4_scale_law.html#test-setup",
-    "title": "4  Scale Law",
-    "section": "4.2 Test Setup",
-    "text": "4.2 Test Setup"
-  },
-  {
-    "objectID": "1_4_scale_law.html#oma",
-    "href": "1_4_scale_law.html#oma",
-    "title": "4  Scale Law",
-    "section": "4.3 OMA",
-    "text": "4.3 OMA"
-  },
-  {
-    "objectID": "1_4_scale_law.html#statistical-analysis",
-    "href": "1_4_scale_law.html#statistical-analysis",
-    "title": "4  Scale Law",
-    "section": "4.4 Statistical Analysis",
-    "text": "4.4 Statistical Analysis"
-  },
-  {
-    "objectID": "1_4_scale_law.html#damage-detection",
-    "href": "1_4_scale_law.html#damage-detection",
-    "title": "4  Scale Law",
-    "section": "4.5 Damage Detection",
-    "text": "4.5 Damage Detection"
-  },
-  {
-    "objectID": "1_4_scale_law.html#validation",
-    "href": "1_4_scale_law.html#validation",
-    "title": "4  Scale Law",
-    "section": "4.6 Validation",
-    "text": "4.6 Validation"
-  },
-  {
-    "objectID": "1_4_scale_law.html#references",
-    "href": "1_4_scale_law.html#references",
-    "title": "4  Scale Law",
-    "section": "4.7 References",
-    "text": "4.7 References"
-  },
-  {
-    "objectID": "2_4_verification.html#background",
-    "href": "2_4_verification.html#background",
-    "title": "11  Verification",
-    "section": "11.1 Background",
-    "text": "11.1 Background\nThis is a book created from markdown and executable code. ### third toc ## Test Setup This is a book created from markdown and executable code. ### third toc ## OMA This is a book created from markdown and executable code. ## Statistical Analysis This is a book created from markdown and executable code. ## Damage Detection This is a book created from markdown and executable code. ## Validation This is a book created from markdown and executable code. ## References ### third toc"
-  },
-  {
-    "objectID": "2_4_verification.html#test-setup",
-    "href": "2_4_verification.html#test-setup",
-    "title": "11  Verification",
-    "section": "11.2 Test Setup",
-    "text": "11.2 Test Setup"
-  },
-  {
-    "objectID": "2_4_verification.html#oma",
-    "href": "2_4_verification.html#oma",
-    "title": "11  Verification",
-    "section": "11.3 OMA",
-    "text": "11.3 OMA"
-  },
-  {
-    "objectID": "2_4_verification.html#statistical-analysis",
-    "href": "2_4_verification.html#statistical-analysis",
-    "title": "11  Verification",
-    "section": "11.4 Statistical Analysis",
-    "text": "11.4 Statistical Analysis"
-  },
-  {
-    "objectID": "2_4_verification.html#damage-detection",
-    "href": "2_4_verification.html#damage-detection",
-    "title": "11  Verification",
-    "section": "11.5 Damage Detection",
-    "text": "11.5 Damage Detection"
-  },
-  {
-    "objectID": "2_4_verification.html#validation",
-    "href": "2_4_verification.html#validation",
-    "title": "11  Verification",
-    "section": "11.6 Validation",
-    "text": "11.6 Validation"
-  },
-  {
-    "objectID": "2_4_verification.html#references",
-    "href": "2_4_verification.html#references",
-    "title": "11  Verification",
-    "section": "11.7 References",
-    "text": "11.7 References"
-  },
-  {
-    "objectID": "2_7_references.html#background",
-    "href": "2_7_references.html#background",
-    "title": "14  References",
-    "section": "14.1 Background",
-    "text": "14.1 Background\nThis is a book created from markdown and executable code. ### third toc ## Test Setup This is a book created from markdown and executable code. ### third toc ## OMA This is a book created from markdown and executable code. ## Statistical Analysis This is a book created from markdown and executable code. ## Damage Detection This is a book created from markdown and executable code. ## Validation This is a book created from markdown and executable code. ## References ### third toc"
-  },
-  {
-    "objectID": "2_7_references.html#test-setup",
-    "href": "2_7_references.html#test-setup",
-    "title": "14  References",
-    "section": "14.2 Test Setup",
-    "text": "14.2 Test Setup"
-  },
-  {
-    "objectID": "2_7_references.html#oma",
-    "href": "2_7_references.html#oma",
-    "title": "14  References",
-    "section": "14.3 OMA",
-    "text": "14.3 OMA"
-  },
-  {
-    "objectID": "2_7_references.html#statistical-analysis",
-    "href": "2_7_references.html#statistical-analysis",
-    "title": "14  References",
-    "section": "14.4 Statistical Analysis",
-    "text": "14.4 Statistical Analysis"
-  },
-  {
-    "objectID": "2_7_references.html#damage-detection",
-    "href": "2_7_references.html#damage-detection",
-    "title": "14  References",
-    "section": "14.5 Damage Detection",
-    "text": "14.5 Damage Detection"
-  },
-  {
-    "objectID": "2_7_references.html#validation",
-    "href": "2_7_references.html#validation",
-    "title": "14  References",
-    "section": "14.6 Validation",
-    "text": "14.6 Validation"
-  },
-  {
-    "objectID": "2_7_references.html#references",
-    "href": "2_7_references.html#references",
-    "title": "14  References",
-    "section": "14.7 References",
-    "text": "14.7 References"
-  },
-  {
-    "objectID": "index.html#centrifuge-test",
-    "href": "index.html#centrifuge-test",
-    "title": "ResearchNote",
-    "section": "Centrifuge Test",
-    "text": "Centrifuge Test"
-  },
-  {
-    "objectID": "index.html#finite-element-analysis",
-    "href": "index.html#finite-element-analysis",
-    "title": "ResearchNote",
-    "section": "Finite Element Analysis",
-    "text": "Finite Element Analysis"
-  },
-  {
-    "objectID": "index.html#ambient-vibration-test",
-    "href": "index.html#ambient-vibration-test",
-    "title": "ResearchNote",
-    "section": "Ambient Vibration Test",
-    "text": "Ambient Vibration Test"
-  },
-  {
-    "objectID": "1_1_background.html#background",
-    "href": "1_1_background.html#background",
-    "title": "1  Background",
-    "section": "1.1 Background",
-    "text": "1.1 Background\nThis is a book created from markdown and executable code. ### third toc ## Test Setup This is a book created from markdown and executable code. ### third toc ## OMA This is a book created from markdown and executable code. ## Statistical Analysis This is a book created from markdown and executable code. ## Damage Detection This is a book created from markdown and executable code. ## Validation This is a book created from markdown and executable code. ## References ### third toc"
-  },
-  {
-    "objectID": "1_3_matl_prop.html#background",
-    "href": "1_3_matl_prop.html#background",
-    "title": "3  Material Properties",
-    "section": "3.1 Background",
-    "text": "3.1 Background\nThis is a book created from markdown and executable code. ### third toc ## Test Setup This is a book created from markdown and executable code. ### third toc ## OMA This is a book created from markdown and executable code. ## Statistical Analysis This is a book created from markdown and executable code. ## Damage Detection This is a book created from markdown and executable code. ## Validation This is a book created from markdown and executable code. ## References ### third toc"
   },
   {
     "objectID": "1_5_analysis.html#background",
@@ -651,6 +105,13 @@
     "text": "10.1 Background\nThis is a book created from markdown and executable code. ### third toc ## Test Setup This is a book created from markdown and executable code. ### third toc ## OMA This is a book created from markdown and executable code. ## Statistical Analysis This is a book created from markdown and executable code. ## Damage Detection This is a book created from markdown and executable code. ## Validation This is a book created from markdown and executable code. ## References ### third toc"
   },
   {
+    "objectID": "2_4_verification.html#background",
+    "href": "2_4_verification.html#background",
+    "title": "11  Verification",
+    "section": "11.1 Background",
+    "text": "11.1 Background\nThis is a book created from markdown and executable code. ### third toc ## Test Setup This is a book created from markdown and executable code. ### third toc ## OMA This is a book created from markdown and executable code. ## Statistical Analysis This is a book created from markdown and executable code. ## Damage Detection This is a book created from markdown and executable code. ## Validation This is a book created from markdown and executable code. ## References ### third toc"
+  },
+  {
     "objectID": "2_5_analysis.html#background",
     "href": "2_5_analysis.html#background",
     "title": "12  Analysis",
@@ -663,6 +124,13 @@
     "title": "13  Validation",
     "section": "13.1 Background",
     "text": "13.1 Background\nThis is a book created from markdown and executable code. ### third toc ## Test Setup This is a book created from markdown and executable code. ### third toc ## OMA This is a book created from markdown and executable code. ## Statistical Analysis This is a book created from markdown and executable code. ## Damage Detection This is a book created from markdown and executable code. ## Validation This is a book created from markdown and executable code. ## References ### third toc"
+  },
+  {
+    "objectID": "2_7_references.html#background",
+    "href": "2_7_references.html#background",
+    "title": "14  References",
+    "section": "14.1 Background",
+    "text": "14.1 Background\nThis is a book created from markdown and executable code. ### third toc ## Test Setup This is a book created from markdown and executable code. ### third toc ## OMA This is a book created from markdown and executable code. ## Statistical Analysis This is a book created from markdown and executable code. ## Damage Detection This is a book created from markdown and executable code. ## Validation This is a book created from markdown and executable code. ## References ### third toc"
   },
   {
     "objectID": "3_1_background.html#background",
@@ -698,5 +166,33 @@
     "title": "19  Damage Detection",
     "section": "19.1 Background",
     "text": "19.1 Background\nThis is a book created from markdown and executable code. ### third toc ## Test Setup This is a book created from markdown and executable code. ### third toc ## OMA This is a book created from markdown and executable code. ## Statistical Analysis This is a book created from markdown and executable code. ## Damage Detection This is a book created from markdown and executable code. ## Validation This is a book created from markdown and executable code. ## References ### third toc"
+  },
+  {
+    "objectID": "3_6_validation.html",
+    "href": "3_6_validation.html",
+    "title": "20  Validation",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "3_7_references.html",
+    "href": "3_7_references.html",
+    "title": "21  References",
+    "section": "",
+    "text": "This is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "4_0_proposal.html#experimental-details",
+    "href": "4_0_proposal.html#experimental-details",
+    "title": "22  Proposal",
+    "section": "22.1 Experimental Details",
+    "text": "22.1 Experimental Details\n\n22.1.1 Soil Choice\n\nMaterial model choice\n\nMohr-Coulomb Model\nHardening Mohr-Coulomb Model\nCyclic SANISAND Model\n\nYoung’s modulus and Poisson ratio\nCritical State Properties\nNonlinear Parameters\ncohesion and tensile properties\nCycllic strength parameters\n\n\n\n22.1.2 Structure Choice\n\nRigid or Linear Elastic Material\nYoung’s modulus and Poisson ratio\nFatigue properties (SN Curve)\nHardness properties (BHN)\n\n\n\n22.1.3 SSI Choice\n\nInterface friction coefficient\n\nHorizontal / Vertical\n\nModulus of subgrade reaction of soil\n\nHorizontal / Vertical / Rotational\n\n\n\n\n22.1.4 Loading Choice\n\nStatic Loading [[Pasted image 20230205154905.png]]\nCyclic Loading [[Pasted image 20230205154927.png]]\n\n[[Pasted image 20230205154840.png]]\n\nVibration Loading\n\n\n\n22.1.5 Software Choice\n\nABAQUS\n\nUMAT implementation\n\nPlaxis 3D\nARTeMIS Modal Pro\n\nOperational Modal Analayis\nStructural Health Monitoring\n\nSAP 2000\n\nnatural frequency for 3D structure on Winkler foundation"
+  },
+  {
+    "objectID": "4_0_proposal.html#verification-plan",
+    "href": "4_0_proposal.html#verification-plan",
+    "title": "22  Proposal",
+    "section": "22.2 Verification Plan",
+    "text": "22.2 Verification Plan\n\nWinkler model limitations\nMass-spring model limitations\nAccelerometer locations\nSensor Sensitivity and Capacity"
   }
 ]

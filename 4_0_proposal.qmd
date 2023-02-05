@@ -1,5 +1,5 @@
 ---
-title: "proposal"
+title: "Proposal"
 format:
   docx:
     toc: true
@@ -10,7 +10,70 @@ format:
 ---
 
 
-# References
+## Experimental Details
 
-This is a book created from markdown and executable code.
+### Soil Choice
+- Material model choice
+	- Mohr-Coulomb Model
+	- Hardening Mohr-Coulomb Model
+	- Cyclic SANISAND Model
+- Young's modulus and Poisson ratio
+- Critical State Properties
+- Nonlinear Parameters
+- cohesion and tensile properties
+- Cycllic strength parameters
 
+### Structure Choice
+- Rigid or Linear Elastic Material
+- Young's modulus and Poisson ratio
+- Fatigue properties (SN Curve)
+- Hardness properties (BHN)
+
+
+### SSI Choice
+- Interface friction coefficient
+	- Horizontal / Vertical
+- Modulus of subgrade reaction of soil
+	- Horizontal / Vertical / Rotational
+
+
+
+### Loading Choice
+- Static Loading
+![[Pasted image 20230205154905.png]]
+- Cyclic Loading
+![[Pasted image 20230205154927.png]]
+
+![[Pasted image 20230205154840.png]]
+
+- Vibration Loading
+
+
+### Software Choice
+
+- ABAQUS
+
+	- UMAT implementation
+
+- Plaxis 3D
+
+- ARTeMIS Modal Pro
+
+	- Operational Modal Analayis
+
+	- Structural Health Monitoring
+
+- SAP 2000
+	- natural frequency for 3D structure on Winkler foundation
+
+
+
+## Verification Plan
+
+- Winkler model limitations
+
+- Mass-spring model limitations
+
+- Accelerometer locations
+
+- Sensor Sensitivity and Capacity

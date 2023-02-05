@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_1_background.qmd",
+                "file": "4_0_proposal.qmd",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1_1_background.qmd",
+                "file": "4_0_proposal.qmd",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1_1_background.qmd",
+                "file": "4_0_proposal.qmd",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1_1_background.qmd"
+                "file": "4_0_proposal.qmd"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "cca76d8902697487",
   "lastOpenFiles": [
+    "1_1_background.qmd",
     "index.qmd",
     "3_3_operational_modal.qmd",
     "3_5_damage_detection.qmd",
@@ -157,7 +158,6 @@
     "3_1_background.qmd",
     "2_7_references.qmd",
     "2_6_validation.qmd",
-    "2_5_analysis.qmd",
-    "2_4_verification.qmd"
+    "2_5_analysis.qmd"
   ]
 }

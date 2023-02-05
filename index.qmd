@@ -4,8 +4,8 @@ jupyter: python3
 
 # Contents {.unnumbered}
 
-## 1. Centrifuge Test
+## Centrifuge Test {.unnumbered}
 
-## 2. FE Analysis
+## FE Analysis {.unnumbered}
 
-## 3. Ambient Vibrations
+## Ambient Vibrations {.unnumbered}
