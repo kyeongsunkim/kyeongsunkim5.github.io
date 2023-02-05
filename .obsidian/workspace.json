@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3_0_Ambient.qmd",
+                "file": "1_1_background.qmd",
                 "mode": "source",
                 "source": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3_0_Ambient.qmd",
+                "file": "1_1_background.qmd",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3_0_Ambient.qmd",
+                "file": "1_1_background.qmd",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3_0_Ambient.qmd"
+                "file": "1_1_background.qmd"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "cca76d8902697487",
   "lastOpenFiles": [
+    "3_0_Ambient.qmd",
     "2_0_Finite.qmd",
     "1_0_Centrifuge.qmd",
     "index.qmd",
@@ -169,7 +170,6 @@
     "1_6_verification.qmd",
     "4_0_proposal.qmd",
     "3_6_validation.qmd",
-    "3_5_damage_detection.qmd",
-    "3_4_statistical.qmd"
+    "3_5_damage_detection.qmd"
   ]
 }
