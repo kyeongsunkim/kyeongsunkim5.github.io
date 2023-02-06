@@ -46,6 +46,8 @@ book:
       chapters:
         - 4_0_meeting_note.qmd
         - 4_1_proposal.qmd
+        - 4_2_ChatGPT_output.qmd
+        - 4_3_literature.qmd
 
 format:
   html:
@@ -61,6 +63,11 @@ format:
     citations-hover: true
     footnotes-hover: true
     minimal: false
+    
+  pdf:
+    documentclass: scrreprt
+    keep-tex: true
+    fontfamily: libertinus
 
 editor: visual
 

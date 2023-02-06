@@ -1,5 +1,5 @@
 ---
-title: "Meeting Note"
+title: "Choices"
 ---
 
 
@@ -30,7 +30,6 @@ title: "Meeting Note"
 	- Horizontal / Vertical / Rotational
 
 
-
 ### Loading Choice
 - Actuators
 
@@ -43,48 +42,19 @@ FFT vs FDD and EFDD
 
 For experimental investigation, means and location of excitation, the density of the measurement point grid, the sampling rate and the length of time window must be optimized for good quality results.
 
-Forced:
 
-good:
-
-- provides "scaled" results
-
-- excites all (broad) range of natural frequencies
-
-- known force and mass, which allows FE updating
-
-bad:
-
-- artificial vibration required
-
-- first mode can be too low to be excited
-
-Ambient:
-
-good:
-- no artificial excitation 
-
-- better for low frequency (large and complex structures) (need sensors of the force balance type instead of piezoelectric sensors) f <1 Hz
-
-- cheap (no shaker)
-
-- can be performed without embarrassing normal user (stopping traffic or humans)
-
-bad:
-
-- lack of stationarity (not controllable). scatter may occur.
-
-- not all natural frequency may be excited
-
-- non-linearity of structure itself (assumption of cross section). small movements in different locations (GPSS technique to syncronize time)
-
-- requires long cables 
-
-- requires reference points >1 (3D or 1D sensors)
-
-- Time window must be selected > 1000~2000 times f_n
-
-- requires manual techniques for FE updating
+| Method                                                                         | Advantages                                                      | Disadvantages                                               |
+|--------------------------------------------------------------------------------|-----------------------------------------------------------------|-------------------------------------------------------------|
+| Forced                                                                         | Provides "scaled" results                                       | Artificial vibration required                               |
+| Excites all (broad) range of natural frequencies                               | First mode can be too low to be excited                         |
+| Known force and mass, which allows FE updating                                 |                                                                 |
+| Ambient                                                                        | No artificial excitation                                        | Lack of stationarity (not controllable). scatter may occur. |
+| Better for low frequency (large and complex structures)                        | Not all natural frequency may be excited                        |
+| Cheap (no shaker)                                                              | Non-linearity of structure itself (assumption of cross section) |
+| Can be performed without embarrassing normal user (stopping traffic or humans) | Requires long cables                                            |
+| Requires reference points >1 (3D or 1D sensors)                                |
+| Time window must be selected > 1000~2000 times f_n                             |
+| Requires manual techniques for FE updating                                     |
 
 
 ### Software Choice
@@ -116,7 +86,14 @@ bad:
 
 - Sensor Sensitivity and Capacity
 
+-  Clear damage detection (condition chart)
 
--  Clear damage detection
-control chart 
-- 
+
+## Deployment Process
+
+- anomaly detection
+- sesnsor deployment
+- model validation
+- threshold check
+- damage detection
+

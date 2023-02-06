@@ -4,8 +4,18 @@ jupyter: python3
 
 # Contents {.unnumbered}
 
-## 1 Centrifuge Test {.unnumbered}
+## 1. Centrifuge Test {.unnumbered}
 
-## 2 FE Analysis {.unnumbered}
+## 2. FE Analysis {.unnumbered}
 
-## 3 Ambient Vibrations {.unnumbered}
+## 3. Ambient Vibrations {.unnumbered}
+
+## 4. Proposal Doc {.unnumbered}
+
+### 4.1. Choices  {.unnumbered}
+
+### 4.2. Proposal Details {.unnumbered}
+
+### 4.3. ChatGPT Output {.unnumbered}
+
+### 4.4. Literature Review (200 papers) {.unnumbered}
