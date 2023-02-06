@@ -14,7 +14,11 @@ book:
     style: docked
     background: light
   chapters:  
-    - index.qmd
+  
+    - part: "Summary"
+      chapters:
+        - index.qmd
+        
     - part: "Proposal"
       chapters:
         - 4_1_proposal.qmd
