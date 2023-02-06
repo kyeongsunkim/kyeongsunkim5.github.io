@@ -3,8 +3,7 @@ title: "Literature Review"
 ---
 
 
-## Centrifuge Test
-
+## **Centrifuge Test**
 
 ### Comparison of the dynamic responses of monopiles and gravity base foundations for offshore wind turbines in sand using centrifuge modelling
 
@@ -46,7 +45,7 @@ In this study, the cyclic responses of an offshore wind turbine with a tripod fo
 2.  The use of finite element analysis software is becoming popular for predicting fatigue endurance.
 3.  This paper shows successful coupling of Abaqus/FEA and fe-safe software for uni-axial fatigue behavior prediction of a stainless steel specimen and verifies the results against experimental literature. Sensitivity to surface roughness and material model was also analyzed.
 
-## Finite Element
+## **Finite Element**
 
 ### Simulation of Low Cycle Fatigue with Abaqus/FEA
 
@@ -98,7 +97,7 @@ Abstract   A simplified scour model for tripod foundation taking into account bo
 -   Design guidelines in codes of practices only apply to simple shapes, and laboratory verification is expensive, leading to an increasing use of finite element simulation.
 -   The paper presents a successful coupling of Abaqus/FEA and fe-safe software to predict the uni-axial fatigue behavior of a stainless steel specimen, verified against experimental results and examined for sensitivity to surface roughness and material model.
 
-## Operational Modal
+## **Operational Modal**
 
 ### Artificial and Natural Excitation Testing of SWiFT Vestas V27 Wind Turbines
 
@@ -218,7 +217,7 @@ The results of an ambient-vibration based investigation conducted on a historica
 2.  The assessment procedure includes full-scale ambient vibration testing, modal identification and finite element modeling
 3.  The results show good match between theoretical and experimental modal parameters and the model updating was performed to identify structural parameters.
 
-## Case Histroy
+## **Case Histroy**
 
 ### Case History Analysis of Bridge Failures due to Scour
 
