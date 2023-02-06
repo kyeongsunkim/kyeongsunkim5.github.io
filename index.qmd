@@ -14,12 +14,8 @@ jupyter: python3
 
 -   The outcome of the study will lead to improved timing of maintenance and reduced offshore investigation and maintenance jobs, resulting in reduced risk of failure for the OWT. The system's dynamic property parameters can be monitored to ensure its safe operation.
 
-## Proposal Doc
-
-### [Choices](https://kyeongsunkim.github.io/4_0_meeting_note.html)
+# Meeting Note
 
 ### [Proposal Details](https://kyeongsunkim.github.io/4_1_proposal.html)
-
-### [ChatGPT Output](https://kyeongsunkim.github.io/4_2_ChatGPT_output.html)
 
 ### [Literature Review](https://kyeongsunkim.github.io/4_3_literature.html)

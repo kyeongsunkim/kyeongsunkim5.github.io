@@ -15,9 +15,6 @@ book:
     background: light
   chapters:  
     - index.qmd
-    - part: "OMA"
-      chapters:
-        - 3_1_background.qmd
     - part: "Proposal"
       chapters:
         - 4_1_proposal.qmd
