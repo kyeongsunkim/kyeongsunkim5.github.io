@@ -15,9 +15,33 @@ book:
     background: light
   chapters:  
     - index.qmd
-    - part: "OMA"
-      chapters:
+    - part: "Centrifuge Test"
+      chapters: 
+        - 1_1_background.qmd
+        - 1_2_test_setup.qmd
+        - 1_3_matl_prop.qmd
+        - 1_4_scale_law.qmd
+        - 1_5_analysis.qmd
+        - 1_6_verification.qmd
+        - 1_7_references.qmd
+    - part: "FE Analysis"
+      chapters: 
+        - 2_1_background.qmd
+        - 2_2_numerical_setup.qmd
+        - 2_3_matl_calib.qmd
+        - 2_4_verification.qmd
+        - 2_5_analysis.qmd
+        - 2_6_validation.qmd
+        - 2_7_references.qmd
+    - part: "Ambient Vibrations"
+      chapters: 
         - 3_1_background.qmd
+        - 3_2_test_setup.qmd
+        - 3_3_operational_modal.qmd
+        - 3_4_statistical.qmd
+        - 3_5_damage_detection.qmd
+        - 3_6_validation.qmd
+        - 3_7_references.qmd
     - part: "Proposal"
       chapters:
         - 4_0_meeting_note.qmd
@@ -39,6 +63,11 @@ format:
     citations-hover: true
     footnotes-hover: true
     minimal: false
+    
+  pdf:
+    documentclass: scrreprt
+    keep-tex: true
+    fontfamily: libertinus
 
 editor: visual
 

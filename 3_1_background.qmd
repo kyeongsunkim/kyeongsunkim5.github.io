@@ -1,10 +1,6 @@
 ---
-jupyter: python3
+title: "Background of OMA"
 ---
-
-# Background
-
-This is a book created from markdown and executable code.
 
 ## Experimental Modal Analysis and Operational modal Analysis
 
@@ -14,11 +10,11 @@ Everything vibrates! This is a fact of life and modal analysis is the technique 
 
 A mode of vibration is characterized by the following three modal parameters:
 
--   Natural Frequency, _fi_. This value is typically given in Hertz (Hz).
--   Damping Ratio, _ζi_. This value is typically represented as a fraction of the critical damping and therefore given in percent (%).
--   Mode shape, _φi_. The geometrical way the structure moves in this particular mode of vibration.
+-   Natural Frequency. This value is typically given in Hertz (Hz).
+-   Damping Ratio. This value is typically represented as a fraction of the critical damping and therefore given in percent (%).
+-   Mode shape. The geometrical way the structure moves in this particular mode of vibration.
 
-![a structure typically has many modes of vibration](http://svibs.com/wp-content/uploads/2020/01/TechReview1_1.png "Technical review")
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675652716/cloudinary_img_/uylahmpqjcm847rbzf0l.png)
 
 As shown in the figure above a structure typically has many modes of vibration. As the modes get higher and higher in frequency they normally also get more and more complicated modes shapes and it normally require more energy to excite these modes compared to the more simple low frequency modes.
 
@@ -32,7 +28,7 @@ The excitation is normally produced by either an Impact Hammer or by one or more
 
 If one or more shakers are used they will be mounted in positions where the modes of interest can be excited by them. Now it is one or more accelerometers that are moved around on the structure from measurement to measurement. Shakers are normally used for larger structures that cannot easily be excited, or if a specific input signal is desired.
 
-![Experimental Modal Analysis (EMA) – A well-proven technique for small structures](http://svibs.com/wp-content/uploads/2020/01/TechReview1_2.png "Technical review")
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675652756/cloudinary_img_/gydjxghkvmbqr8vzddc4.png)
 
 Experimental Modal Analysis (EMA) – A well-proven technique for small structures
 
@@ -44,7 +40,7 @@ To keep the FRF clean it is very important that only the measurable force is the
 
 ### 1.2.4 Limitations of Experimental Modal Analysis
 
-There are cases where the Experimental Modal Analysis have difficulties in provided the expected results. It is interesting to list these as it explains why there is a need for complimentary [Operational Modal Analysis](https://svibs.com/applications/operational-modal-analysis/ "Operational Modal Analysis") tools. The limitations can be summarized in the follow list:
+There are cases where the Experimental Modal Analysis have difficulties in provided the expected results. It is interesting to list these as it explains why there is a need for complimentary tools. tools. The limitations can be summarized in the follow list:
 
 -   No external excitation during testing – Test Rig Required!  
     It is absolutely not allowed that any excitation that cannot be measured is exciting the structure. This will deteriorate the Frequency Response Function and therefore the modes being estimated from it.
@@ -75,7 +71,7 @@ The major difference to Experimental Modal Analysis performed in a laboratory is
 
 This means that the theoretically framework in Operational Modal Analysis needs to be something different from the completely known (deterministic) input output relation – The Frequency Response Function. It is now necessary to assume something about the unknown excitation forces. When something need to be assumed the theoretically framework shifts to a stochastic framework where the input now is assumed to be a so-called stochastic process.
 
-![The stochastic framework used in Operational Modal Analysis](http://svibs.com/wp-content/uploads/2020/01/TechReview1_3.png "Technical review")
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675652769/cloudinary_img_/ghwrzsoxgzu1ghwk3cmi.png)
 
 The stochastic framework used in Operational Modal Analysis
 
@@ -104,7 +100,7 @@ There are cases where it is undesirable to move around with the sensors. In thes
 **Multiple Test Setups Measurement Procedure**  
 In many cases though the sensors are moved around from one set of positions to another set. This is called a Multiple Test Setups measurement procedure.
 
-![Multiple Test Setup measurement procedure](http://svibs.com/wp-content/uploads/2020/01/TechReview1_4.png "Technical review")
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675652819/cloudinary_img_/dapyl4r6tuhvgxnuucng.png)
 
 Multiple Test Setup measurement procedure
 

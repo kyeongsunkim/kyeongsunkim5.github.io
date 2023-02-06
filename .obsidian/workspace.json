@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3_1_background.qmd",
-                "mode": "preview",
+                "file": "4_1_proposal.qmd",
+                "mode": "source",
                 "source": true
               }
             }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3_1_background.qmd",
+                "file": "4_1_proposal.qmd",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3_1_background.qmd",
+                "file": "4_1_proposal.qmd",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3_1_background.qmd"
+                "file": "4_1_proposal.qmd"
               }
             }
           }
@@ -160,15 +160,15 @@
   },
   "active": "cca76d8902697487",
   "lastOpenFiles": [
-    "4_3_literature.qmd",
+    "3_1_background.qmd",
     "4_0_meeting_note.qmd",
     "4_1_proposal.qmd",
     "4_2_ChatGPT_output.qmd",
+    "4_3_literature.qmd",
     "index.qmd",
     "4_0_proposal.qmd",
     "repository-open-graph-template.png",
     "Pasted image 20230205154840.png",
-    "1_1_background.qmd",
-    "3_3_operational_modal.qmd"
+    "1_1_background.qmd"
   ]
 }

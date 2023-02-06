@@ -2,13 +2,18 @@
 jupyter: python3
 ---
 
-# Contents {.unnumbered}
 
-## 1. Centrifuge Test {.unnumbered}
+# Executive Summary {.unnumbered}
 
-## 2. FE Analysis {.unnumbered}
+- A single degree-of-freedom system loaded by ambient white noise was investigated by statistical assessment of dynamic modal parameters such as natural frequency and damping factors of Offshore Wind Turbine(OWT).
 
-## 3. Ambient Vibrations {.unnumbered}
+- The UNISON's U4 (4MW) OWT system of was simulated using advanced Finite Element modelling considering soil-structure interaction was validated and updated using a series of centrifuge experiments, which can account for the influence of soil's confining pressure and blade-rotor-nacelle assembly and tower's mass scale effects.
+
+- Using state-of-art statistical techniques such as correlation functions estimated by both Random Decrement Analysis (RDA) and Perturbation Wavelet Analysis (PWA) and Chi-squared Hypothesis Tests as a basis for system parameter identification, the OWT system was assessed by a threshold estimation procedure, developed with machine learning model fed with scour-damaged response data correlated with foundation's ULS, SLS, and FLS performances.
+
+- The model's accuracy was further enhanced by supervised learning from large amount of virtual data produced by the updated FEM model to be able to predict for a long term (20 years) Remaining Useful Life (RUL) or to classify Scour Health Index based on current system parameters.
+
+- The outcome of the study will lead to improved timing of maintenance and reduced offshore investigation and maintenance jobs, resulting in reduced risk of failure for the OWT. The system's dynamic property parameters can be monitored to ensure its safe operation.
 
 ## 4. Proposal Doc {.unnumbered}
 
