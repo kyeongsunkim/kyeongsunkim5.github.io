@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "66be4bfe0ec5a069",
+        "id": "c996ce14aef82105",
         "type": "tabs",
         "children": [
           {
-            "id": "cca76d8902697487",
+            "id": "f31aa42f13a976ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "4_1_proposal.qmd",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -158,17 +158,17 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "cca76d8902697487",
+  "active": "f31aa42f13a976ff",
   "lastOpenFiles": [
+    "3d2.n8k0.md",
+    "4_1_proposal.qmd",
     "3_1_background.qmd",
     "4_0_meeting_note.qmd",
-    "4_1_proposal.qmd",
     "4_2_ChatGPT_output.qmd",
     "4_3_literature.qmd",
     "index.qmd",
     "4_0_proposal.qmd",
     "repository-open-graph-template.png",
-    "Pasted image 20230205154840.png",
-    "1_1_background.qmd"
+    "Pasted image 20230205154840.png"
   ]
 }

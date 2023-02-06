@@ -2,6 +2,18 @@
 title: "Proposal Details"
 ---
 
+## 최종목표
+
+-   A single degree-of-freedom system loaded by ambient white noise was investigated by statistical assessment of dynamic modal parameters such as natural frequency and damping factors of Offshore Wind Turbine(OWT).
+
+-   The UNISON's U4 (4MW) OWT system of was simulated using advanced Finite Element modelling considering soil-structure interaction was validated and updated using a series of centrifuge experiments, which can account for the influence of soil's confining pressure and blade-rotor-nacelle assembly and tower's mass scale effects.
+
+-   Using state-of-art statistical techniques such as correlation functions estimated by both Random Decrement Analysis (RDA) and Perturbation Wavelet Analysis (PWA) and Chi-squared Hypothesis Tests as a basis for system parameter identification, the OWT system was assessed by a threshold estimation procedure, developed with machine learning model fed with scour-damaged response data correlated with foundation's ULS, SLS, and FLS performances.
+
+-   The model's accuracy was further enhanced by supervised learning from large amount of virtual data produced by the updated FEM model to be able to predict for a long term (20 years) Remaining Useful Life (RUL) or to classify Scour Health Index based on current system parameters.
+
+-   The outcome of the study will lead to improved timing of maintenance and reduced offshore investigation and maintenance jobs, resulting in reduced risk of failure for the OWT. The system's dynamic property parameters can be monitored to ensure its safe operation.
+
 ## **1차년도:** 해상풍력발전기 고유진동수의 영향인자 분석
 
 
@@ -10,26 +22,38 @@ title: "Proposal Details"
 
 #### 지반물성값의 비선형성, 지반-지지구조 인터페이스, 풍력타워 구조체 등 시스템의 고유진동수를 정밀하게 모사하는 유한요소기반 수치모델링 기술 개발
 
+Based on the real OWT (KEPRI) information, decide on the dimensions of the model.
 
-![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597259/cloudinary_img_/ijwm22ml5zthjeffv1rm.png)
+As a preliminary study, the following should be investigated:
 
-To model natural frequency, solid element can be converted to beam elements, Boundary conditions can be applied as linear springs of soil stiffness. Interface properties are not needed.
+- Physical domain effect: 
+	- 2D axis-symmetric vs 3D
+- Effect of soil model
+	- Standard MC vs Nonlinear Soil Models
+- Effect of roughness
+- Effect of mass
+- Boundary condition effect
+	- size of soil box
+- Mesh quality analysis
+	- aspect ratio, skewness, sensitivity, computational cost
+- Force method vs Displacement result comparisons
+- Initial soil stress
+	- effect of compaction or dilation
+- Soil behavior in plastic region
+- Effect of long-term cyclic load (user-generated UMAT file required)
 
-For 3D modelling, only foundation can be modelled for application of static load. From load-displacement response, stiffness can be obtained, which can be used for calculation of natural frequency.
+Strategy: 
+
+- Cyclic triaxial test should be performed.
+- Structure's material properties should be tested
+- Soil's index properties must be obtained
+- Soil's modulus of subgrade reaction must be analyzed
 
 ![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597239/cloudinary_img_/utlxtzlmdfu7b10ehcn8.png)
 
 ![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597213/cloudinary_img_/tsqovmfppwoo9hdxmchm.png)
 
-- Physical domain effect: 
-	- 2D axis-symmetric vs 3D
-- Boundary condition effect
-	- size of soil box
-- Mesh quality analysis
-	- aspect ratio, skewness, sensitivity, computational cost
-- Force method vs Displacement method
-- Initial soil stress
-	- effect of compaction or dilation
+
 
 #### 세굴 깊이에 따른 지지력과 축방향 및 회전방향 지반강성 분석을 통해 고유진동수의 변화 확인
 
@@ -60,7 +84,7 @@ Check:
 
 ![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597040/cloudinary_img_/w7cglu8mojvsplmhuehr.png)
 
--  dominance and interdependence or correlation
+
 
 
 ### 원심모형을 통한 석션기초 고유진동수의 세굴영향 분석
@@ -71,9 +95,62 @@ Check:
 
 ![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597845/cloudinary_img_/gxv7goy1pzrteadtmbvc.png)
 
-- strain gauge: wind frequency, fatigue analysis
+- strain gauge: wind frequency, fatigue limit state
+- displacement transducer: mode shape verification, load-displacement curve -> stiffness -> natural frequency
+- Anemometer : wind speed -> accurate loading cycles
+- 
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675657528/cloudinary_img_/bwyh198ldbk9zsh1z08m.png)
 
-- displacement: mode shape verification, load-displacement curve -> stiffness -> natural frequency
+- Excitation sources
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675657757/cloudinary_img_/let5cnfxgxuwd184q2ja.png)
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675657745/cloudinary_img_/fovzpwcz2ytbnbp8aa09.png)
+
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675657733/cloudinary_img_/in5lpg0juebgbo1cb5ut.png)
+
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675657676/cloudinary_img_/exetmv7cibmpz0pwwddm.png)
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675657700/cloudinary_img_/qaocmcekxtcxcmr8zhid.png)
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675657816/cloudinary_img_/sqbftqlavfcbx6afqcw9.png)
+
+
+
+
+- shear wave velocity measaurement (variation of soil stiffness)
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675657656/cloudinary_img_/ophe4bsiainknhallpup.png)
+
+- static loading arm
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675657877/cloudinary_img_/bnofwx2usnngzf4lekys.png)
+
+- loading device: eccentric loading (wind only, wave only, wind+wave)
+
+Types of Scaled Model Apparatus Based on the literature of physical modelling and in the context of predicting foundation behaviour, the experimental test setup can be classified as follows: 
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675658044/cloudinary_img_/blddojbjsinysd6txlwf.png)
+
+TYPE 1: “Foundation only modelling”—referred to as Type 1 as shown schematically in Figure 13a. In this modelling, cyclic loads (e.g., one-way cyclic, two-way cyclic, symmetric, asymmetric, or a combination) can be applied. The limitation of this method is that the effects of vibration of the whole system, i.e., the effects of inertia of the RNA mass, are not modelled. If we were to translate the context and apply the understanding of soil mechanics, the small strain vibration due to the system dynamics of the wind turbine (i.e., resonance type mechanism in Figure 12) is ignored. For sandy soil, this phenomenon will definitely densify the soil around the foundation. Ignoring such effects will overestimate the tilting prediction (i.e., SLS requirements) of the foundation. However, Type-1 modelling may be appropriate for foundations for floating systems; see Figure 13b, in which the loads on the foundations are applied through mooring lines and dynamic effects can be ignored. 
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675658057/cloudinary_img_/s5vz4jzzw6p52a9fuxrb.png)
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675658074/cloudinary_img_/pb0qiwsuj4hlaxjel4ty.png)
+
+
+TYPE 2: “Whole system modelling with an actuator (attached with the model with a rigid link)”—referred to as Type 2 as shown in Figure 14a. In this case, the actuator provides lateral stiffness to the overall system, and the effect is distorting the modes of vibration; see Figure 14b,ii for an explanation. Example applications of Type 2 modelling can be found in Lombardi et al. [30], and some examples are provided here in Figure 14c, d. However, this type of modelling is suitable to understand various aspects of damping, i.e., physics of the problem. TYPE 3: “Whole system modelling with eccentric mass actuator”—referred to as Type 3 as shown in Figure 15a–c. Figure 15a shows the schematic representation of the setup. This is currently the most appropriate physical modelling technique, and details can be found in [31]. 
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675658097/cloudinary_img_/rfluogojzrj7mvsdgous.png)
+
+
+
+Type 3 modelling technique is scalable, can model wind–wave misalignment, can be used in field testing, and can also study fatigue-related issues. Examples of testing using the Type 3 technique can be found in [32,33], and the long-term performance of monopiles was studied by [34], in which the fatigue problem was studied using the apparatus (for further details, see Figures 16 and 17).
+
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675658115/cloudinary_img_/xgt0f0s3fyjhuxyxrqjj.png)
+
 
 #### 지반, 석션기초(Mono, Tripod), 상부타워 모형체 및 하중재하 장치 제작
 
@@ -81,40 +158,88 @@ Check:
 
 - mono vs tripod
 
-- loading device: eccentric loading (wind only, wave only, wind+wave)
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675657787/cloudinary_img_/kvodvc2vgpfycqxhutua.png)
+
+
+- scour hole scraper
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675657857/cloudinary_img_/zkisikrfjgmeda3togio.png)
+
+- scour levels
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675657963/cloudinary_img_/vilnmjhpwmdhlvgnfxc2.png)
+
+- loading device
 
 ![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597120/cloudinary_img_/xkgvzstx2uetcjvb3apl.png)
+
+
 
 #### 세굴깊이에 따른 지지력 변화, 고유진동수 민감도 분석 및 중요인자 결정
 
 ![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597455/cloudinary_img_/sb42ugfxziavpa5o8mfv.png)
 
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675658240/cloudinary_img_/ht7eue20tnznpn9kqsrw.png)
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675658344/cloudinary_img_/mdeagrctz4pquwprkj92.png)
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675658472/cloudinary_img_/qovkm8qpflf3dcp039hz.png)
+
+- spring stiffness
+- correlation with $K_{H}, K_{V}, K_{R}$ 
+- adhesion / tip suction pressure
+- friction coefficients
+- spacing between springs
+- Elastic modulus variation
+
+
+
+
+- simplified model vs full 3D model
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675658404/cloudinary_img_/q5dgnj3vcshbbll0i2ol.png)
 
 - $\frac{m_{nacelle}}{m_{tower}}$
 - $\frac{m_{tower}}{m_{soil}}$
 - $\frac{K_{tower}}{K_{soil}}$
 - $\frac{L_{tower}}{L_{soil}}$
-- 
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675658429/cloudinary_img_/btsmlqcg1pkhd8slusk2.png)
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675658502/cloudinary_img_/q4ewwqph1ezpchyjwpx5.png)
+
+- sensitivity analysis
+
+1 Overcoming uncertainties and scatter (variances)
+
+The natural frequency is more of a severe scour damage indicator, unless its measurement uncertainty is lower than what was observed at Baildon Bridge. There is a potential that typical bridges that are less bulky and stiff than Baildon Bridge may have lower natural frequency uncertainties. For example, several weeks of monitoring natural frequency of a long span bridge by Caetano and Magalha (2009) produced maximum measurement uncertainties and operational variabilities of 0.3%, which would have provided significantly finer scour depth resolutions with the natural frequencies.
+
+2 mode shape changes
+
+When scour occurred at a bridge pier, the mode shape amplitudes increased only at that pier, while little change was seen elsewhere. The largest increase was seen near the part of the pier that lost the soil support/restraint as a result of scour. Therefore, such a mode shape change can be attributed to the loss of the partial restraint previously provided by the scoured soil.
+
+3 Input Excitation Dependency (Mass participation)
+
+Third, the output-only spectral density at the modal peaks also showed significant scour monitoring potential, both in the field trial and in the centrifuge modelling experiment. One issue with the output-only spectral density is its dependence on the input excitation. Nevertheless, significant changes in spectral density were observed in both the field trial and the centrifuge tests. Despite the spectral density being more uncertain than the natural frequency in Baildon Bridge, the uncertainty had been compensated for by the significant sensitivity of the spectral density to scour.Therefore, spectral density was found to be a reliable indicator of scour.
 
 
 ### 다양한 변수조건을 고려한 원심모형시험 수행
 
+Centrifuge modelling was assumed to correct the inaccurate scaling of stiffness and other properties of small-scale soil-structure models. Since natural frequency is highly sensitive to the stiffness of soil (Prendergast, Hester and Gavin, 2016a), an inaccuracy in soil stiffness scaling can have a significant effect, resulting in natural-frequency estimates that are not representative of full-scale bridges. The accuracy of the natural frequency estimates during the centrifuge tests was confirmed by comparing with the natural frequencies observed at normal gravity and with fixed base instead of soil. Although the centrifuge modelling corrects the scaling inaccuracies, It involves complicated designs of impacting techniques to excite the structure, a technique to remove soil to simulate scour, and vibration measurement techniques that are functional under high centrifuge acceleration of up to a hundred times the normal gravity on the earth’s surface.
+
+
 #### 석션기초 제원(Mono, Tripod), 지반조건(모래, 점토), 풍력발전기 규모 등의 다양한 영향인자를 고려한 변수연구 수행
 
-- density of soil
+- Soil Density
 	- silt: loose, medium, dense
 	- sand: loose, medium, dense
-- size of wind turbine: 3MW or 10MW (scale effect)
+
+- Non-homogeneity
 	- scale effect may depend on non-homogeneity of material and rigidity of soil profile.
+
 -  Variable cross section of tower structure
-- Mono vs Tripod: spacing
-	- spacing influences changes in properties of equivalent-beam model
+	- Changes mass participation
 
-#### 정밀 수치모델링 및 원심모형실험 결과와 비교하여 적용성 검증 및 고도화
-
-- comparison with international standards: DNV and API equations
-- comparison with FE and centrifuge results
-- comparison with other researcher's results
+- Mono vs Tripod: (spacing of legs)
+	- spacing influences changes in moment of inertial properties of equivalent-beam system
 
 
 ## **2차년도:** 고유진동수를 이용한 세굴안정성 평가기술 개발
@@ -138,19 +263,25 @@ Check:
 
 4 correlation between ultimate resistance and natural frequency changes
 
+#### 정밀 수치모델링 및 원심모형실험 결과와 비교하여 적용성 검증 및 고도화
+
+-   Using state-of-art statistical techniques such as correlation functions estimated by both Random Decrement Analysis (RDA) and Perturbation Wavelet Analysis (PWA) and Chi-squared Hypothesis Tests as a basis for system parameter identification, the OWT system was assessed by a threshold estimation procedure, developed with machine learning model fed with scour-damaged response data correlated with foundation’s ULS, SLS, and FLS performances.
+
+-   The model’s accuracy was further enhanced by supervised learning from large amount of virtual data produced by the updated FEM model to be able to predict for a long term (20 years) Remaining Useful Life (RUL) or to classify Scour Health Index based on current system parameters.
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597195/cloudinary_img_/rmpyyswydxqhpegn1hqp.png)
+
 #### 해상풍력발전기의 현장 상시진동 계측자료를 이용한 건전도 및 성능평가로 현장 적용성 분석
 
 - white noise cancelling method
 
 ![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597098/cloudinary_img_/hv0ws5qgbjbygmhdvsnn.png)
 
-- condition matrix
+- condition matrix for correlation analysis
 
 ![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597648/cloudinary_img_/icgs2pztkxidxz1wmkik.png)
 
 ![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597690/cloudinary_img_/jvyzsxwupz8tpucyyiu5.png)
-
-- various statistical techniques for clear scour identification
 
 ![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597633/cloudinary_img_/xv0d0fsmmjvsvu7y2io1.png)
 
@@ -159,35 +290,53 @@ Check:
 
 ### 세굴 안정성 최적 모니터링을 위한 현장 계측기술 개발
 
-
 #### 계측결과 피드백을 통한 고유진동수 상시점검 및 평가체계 구축
 
-- structural health monitoring
-![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597669/cloudinary_img_/byswpaqkkqvpywtkkywn.png)
+Structural Health monitoring Process:
+1. Data acquistion
+2. Processing of data
+3. Identification of system state
+4. Detection of anomaly
+5. Prediction of Remaining Useful Life (RUL) or to classify Scour Health Index using Machin Learning Algorithm
+
 
 #### 고유진동수 평가시스템 기반의 풍력터빈 위해영역 평가기술 개발
 
-- damage detection algorithm with different scenarios
+- Chi-squared Hypothesis thesting with different scenarios
 
 ![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597877/cloudinary_img_/s43eurlntfmcqdbpswev.png)
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597791/cloudinary_img_/s9g51kpa2m1dm6g24r8z.png)
 
+- Probabilistic Risk analysis
 
-![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597195/cloudinary_img_/rmpyyswydxqhpegn1hqp.png)
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597724/cloudinary_img_/pfx2ayyjqk9qz0nnry8q.png)
 
 ### 세굴 안정성 평가 매뉴얼 개발
 
 #### 원심모형실험/수치해석 결과를 이용한 세굴안정성 평가지표 개발
 
-- health index using Chi square Hypothesis Test
+First, Check whether the location is scour-suscpetible.
 
-![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597791/cloudinary_img_/s9g51kpa2m1dm6g24r8z.png)
+Second, acquire data and process it using developed models.
 
-- Probabilistic analysis
-
-![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597724/cloudinary_img_/pfx2ayyjqk9qz0nnry8q.png)
+Third, Calculate indicies such as following:
+- Performance Threshold (ULS, SLS, FLS)
+- Scour Health Index
+- Remaining Useful Life
+- Fatigue Damage Life
 
 #### 다양한 운영 시나리오를 고려한 세굴안정성 평가 매뉴얼 개발
 
-- check international standards
+The Scenarios:
+
+1 Reference State (Calm Sea)
+
+2 Normal (Operational) State (Speedy Wind)
+
+3 Extreme Storm State
+
+4 Ultra Extreme State (Earth Quake or Ship Impact)
+
+- check international standards (API, DNV, IEC, ISO, etc) and compare in easy EXCEL sheet or program development.
 
 ![](https://res.cloudinary.com/darfmzyks/image/upload/v1675597175/cloudinary_img_/q7xvmquzjbemfeoqnqr1.png)

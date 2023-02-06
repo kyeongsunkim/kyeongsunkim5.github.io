@@ -20,9 +20,7 @@ book:
         - 3_1_background.qmd
     - part: "Proposal"
       chapters:
-        - 4_0_meeting_note.qmd
         - 4_1_proposal.qmd
-        - 4_2_ChatGPT_output.qmd
         - 4_3_literature.qmd
 
 format:
