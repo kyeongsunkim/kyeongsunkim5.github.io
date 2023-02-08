@@ -238,3 +238,40 @@ Over 500 failures of bridge structures in the United States between 1989 and 200
 1.  A study was conducted on over 500 bridge failures in the United States from 1989 to 2000.
 2.  The most frequent causes of bridge failures were attributed to floods and collisions, followed by overload and lateral impact forces from trucks, barges/ships, and trains.
 3.  The study revealed that human-induced external events frequently occurred in all three periods studied, but were most dominant in the first and third periods.
+
+
+## Damage Detection
+
+Statistical methods for damage detection applied to civil structures
+Author links open overlay panelSzymon Gres a e, Martin Dalgaard Ulriksen b, Michael Döhler c, Rasmus Johan Johansen b, Palle Andersen d, Lars Damkilde b, Søren Andreas Nielsen e
+
+Damage detection consists of monitoring the deviations of a current system from its reference state, characterized by some nominal property repeatable for every healthy state. Preferably, the damage detection is performed directly on vibration data, hereby avoiding modal identification of the structure. The practical aspect of using only the output measurements cause difficulties because of variations in ambient excitation due to variability in the environmental conditions, like sea, wind, and temperature. In this paper, a new Mahalanobis distance-based damage detection method is studied and compared to the well-known subspace-based damage detection algorithm in the context of two large case studies. Both methods are implemented in the modal analysis and structural health monitoring software ARTeMIS, in which the joint features of the methods are concluded in a control chart in an attempt to enhance the resolution of the damage detection. The damage indicators from both methods are evaluated based on the ambient vibration signals from numerical simulations on a novel offshore support structure and an experimental campaign with a full scale bridge. The results reveal that the performance of the two damage detection methods is similar, hereby implying merit of the new Mahalanobis distance-based approach, as it is less computational complex. The fusion of the damage indicators in the control chart provides the most accurate view on the progressively damaged systems.
+
+
+A Comparison of Damage Detection Methods Applied to Civil Engineering Structures
+Szymon Gres, Palle Andersen, Rasmus Johan Johansen, Martin Dalgaard Ulriksen & Lars Damkilde 
+
+
+Facilitating detection of early-stage damage is crucial for in-time repairs and cost-optimized maintenance plans of civil engineering structures. Preferably, the damage detection is performed by use of output vibration data, hereby avoiding modal identification of the structure. Most of the work within the vibration-based damage detection research field assumes that the unmeasured excitation signal is time-invariant with a constant covariance, which is hardly achieved in practice. In this paper, we present a comparison of a new Mahalanobis distance-based damage detection method with the well-known subspace-based damage detection algorithm robust to changes in the excitation covariance. Both methods are implemented in the modal analysis and structural health monitoring software ARTeMIS, in which the joint features of the methods are concluded in a control chart in an attempt to enhance the damage detection resolution. The performances of the methods and their fusion are evaluated in the context of ambient vibration signals obtained from, respectively, numerical simulations on a simple chain-like system and a full-scale experimental example, namely, the Dogna Bridge. The results reveal that the performances of the two damage detection methods are quite similar, hereby evidencing the justification of the new Mahalanobis distance-based approach as it is less computational complex. The control chart presents a comprehensive overview of the progressively damaged structure.
+
+A SUMMARY REVIEW OF VIBRATION-BASED DAMAGE IDENTIFICATION METHODS
+
+This paper provides an overview of methods to detect, locate, and characterize damage in
+structural and mechanical systems by examining changes in measured vibration response.
+Research in vibration-based damage identification has been rapidly expanding over the last few
+years. The basic idea behind this technology is that modal parameters (notably frequencies, mode
+shapes, and modal damping) are functions of the physical properties of the structure (mass,
+damping, and stiffness). Therefore, changes in the physical properties will cause detectable
+changes in the modal properties. The motivation for the development of this technology is
+presented. The methods are categorized according to various criteria such as the level of damage
+detection provided, model-based vs. non-model-based methods and linear vs. nonlinear methods.
+The methods are also described in general terms including difficulties associated with their
+implementation and their fidelity. Past, current and future-planned applications of this technology
+to actual engineering systems are summarized. The paper concludes with a discussion of critical
+issues for future research in the area of vibration-based damage identification.
+
+• Level 1: Determination that damage is present in the structure
+• Level 2: Level 1 plus determination of the geometric location of the damage
+• Level 3: Level 2 plus quantification of the severity of the damage
+• Level 4: Level 3 plus prediction of the remaining service life of the structure
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4_3_literature.qmd",
+                "file": "4_0_meeting_note.qmd",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4_3_literature.qmd",
+                "file": "4_0_meeting_note.qmd",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4_3_literature.qmd",
+                "file": "4_0_meeting_note.qmd",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4_3_literature.qmd"
+                "file": "4_0_meeting_note.qmd"
               }
             }
           }
@@ -161,11 +161,11 @@
   "active": "f31aa42f13a976ff",
   "lastOpenFiles": [
     "4_1_proposal.qmd",
+    "4_0_meeting_note.qmd",
+    "4_3_literature.qmd",
     "3d2.n8k0.md",
     "3_1_background.qmd",
-    "4_0_meeting_note.qmd",
     "4_2_ChatGPT_output.qmd",
-    "4_3_literature.qmd",
     "index.qmd",
     "4_0_proposal.qmd",
     "repository-open-graph-template.png",
