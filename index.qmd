@@ -1,8 +1,11 @@
 ---
+title: "Front Matter"
+author: "Kyeong Sun Kim"
+date: "Some day in 2023"
 jupyter: python3
 ---
 
-# [Executive Summary](https://kyeongsunkim.github.io/)
+# [Front Matter](https://kyeongsunkim.github.io/)
 
 -   A single degree-of-freedom system loaded by ambient white noise was investigated by statistical assessment of dynamic modal parameters such as natural frequency and damping factors of Offshore Wind Turbine(OWT).
 
@@ -13,9 +16,3 @@ jupyter: python3
 -   The model's accuracy was further enhanced by supervised learning from large amount of virtual data produced by the updated FEM model to be able to predict for a long term (20 years) Remaining Useful Life (RUL) or to classify Scour Health Index based on current system parameters.
 
 -   The outcome of the study will lead to improved timing of maintenance and reduced offshore investigation and maintenance jobs, resulting in reduced risk of failure for the OWT. The system's dynamic property parameters can be monitored to ensure its safe operation.
-
-# Meeting Note
-
-### [Proposal Details](https://kyeongsunkim.github.io/4_1_proposal.html)
-
-### [Literature Review](https://kyeongsunkim.github.io/4_3_literature.html)

@@ -1,0 +1,184 @@
+---
+title: "Code Snippets"
+author: "Kyeong Sun Kim"
+date: "Some day in 2023"
+format: 
+  html:
+    page-layout: custom
+server: shiny
+---
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675897497/cloudinary_img_/pgr9tjaozpzzmduxwruh.png)
+
+## Callout Blocks
+
+::: {.callout-note icon="false"}
+## ::: {.callout-note icon="false"}
+
+general
+:::
+
+::: callout-important
+## :::{.callout-important} - very important
+
+This is important
+:::
+
+::: callout-caution
+## :::{.callout-caution} - important
+
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
+
+::: callout-tip
+### :::{.callout-tip} - better
+
+This is an example of a callout with a caption.
+:::
+
+::: callout-note
+### :::{.callout-note} - good
+
+Note that there are five types of callouts, including:
+
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+------------------------------------------------------------------------
+
+## Shinylive for Python
+
+``` {shinylive-python}
+#| standalone: true
+#| components: [editor, viewer]
+#| layout: horizontal
+
+from shiny import ui, render, App, reactive
+from matplotlib import pyplot as plt
+import pandas as pd
+import jinja2
+
+
+choices = {"a": "Choice A", "b": "Choice B"}
+
+
+app_ui = ui.page_fluid(
+
+	ui.input_slider("x", "Choose a number", 1, 100, 50),
+    ui.input_checkbox("x1", "Checkbox"),
+	ui.input_numeric("x1", "Number", value=10),
+	ui.input_slider("x2", "Slider", value=10, min=0, max=20),
+	ui.input_text("x1", "Text", placeholder="Enter text"),
+	ui.input_text_area("x2", "Text area", placeholder="Enter text"),
+	ui.input_password ("x3", "Password", placeholder="Enter password"),
+	ui.input_select("x1", "Select", choices),
+	ui.input_checkbox_group("x2", "Checkbox group", choices),
+	ui.input_radio_buttons("x3", "Radio buttons", choices),
+	ui.input_date("x9", "Date input"),
+	ui.input_date_range("x10", "Date range input"),
+    
+	ui.output_text("my_cool_text"),
+	ui.output_text_verbatim("a_code_block"),
+	ui.output_table("a_data_frame"),
+	ui.output_plot("a_scatter_plot"),
+	ui.output_ui("some_html"),
+    ui.output_text_verbatim("txt1")
+
+)
+
+def server(input, output, session):
+
+    @output
+    @render.text
+    def my_cool_text():
+        return "hello, world!"
+
+    @output
+    @render.text
+    def a_code_block():
+        # This function should return a string
+        return str([1, 2, 3, 4, 5])
+
+    @output
+    @render.table
+    def a_data_frame():
+        df = pd.DataFrame({"x": [1,2,3]})
+        return df
+
+    @output
+    @render.plot
+    def a_scatter_plot():
+        return plt.scatter([1,2,3], [5, 2, 3])
+    
+    @output
+    @render.ui
+    def some_html():
+        return ui.HTML("<marquee>hello, world!</marquee>")
+        
+    @reactive.Calc
+    def x_times_2():
+        val = input.x() * 2
+        print(f"Running x_times_2(). Result is {val}.")
+        return val
+        
+    @output
+    @render.text
+    def txt1():
+        return f'x times 2 is: "{x_times_2()}"'
+
+
+app = App(app_ui, server)
+```
+
+
+
+## OJS
+
+```{ojs}
+//| panel: sidebar
+vars = ["Sepal.Length", "Sepal.Width", "Petal.Length", "Petal.Width"]
+viewof xcol = Inputs.select(vars, {label: "X Variable"})
+viewof ycol = Inputs.select(vars, {label: "Y Variable", value: vars[1]})
+viewof count = Inputs.range([1, 9], {label: "Cluster Count", step: 1, value: 3})
+```
+
+```{ojs}
+//| panel: fill
+Plot.plot({
+  color: {
+    type: "ordinal",
+    scheme: "category10"
+  },
+  marks: [
+    Plot.dot(transpose(selectedData), {
+      x: xcol,
+      y: ycol,
+      fill: (d, i) => clusters.cluster[i],
+    }),
+    Plot.dot(clusters.centers, { 
+      x: d => d[0],
+      y: d => d[1],
+      r: 10,
+      stroke: "black",
+      fill: (d, i) => i + 1
+    }),
+  ]
+})
+```
+
+## R server
+
+```{r}
+sliderInput("bins", "Number of bins:", 
+            min = 1, max = 50, value = 30)
+plotOutput("distPlot")
+```
+
+```{r}
+#| context: server
+output$distPlot <- renderPlot({
+  x <- faithful[, 2]  # Old Faithful Geyser data
+  bins <- seq(min(x), max(x), length.out = input$bins + 1)
+  hist(x, breaks = bins, col = 'darkgray', border = 'white')
+})
+```

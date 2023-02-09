@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "ResearchNote",
     "section": "",
-    "text": "1 Executive Summary\n\nA single degree-of-freedom system loaded by ambient white noise was investigated by statistical assessment of dynamic modal parameters such as natural frequency and damping factors of Offshore Wind Turbine(OWT).\nThe UNISON’s U4 (4MW) OWT system of was simulated using advanced Finite Element modelling considering soil-structure interaction was validated and updated using a series of centrifuge experiments, which can account for the influence of soil’s confining pressure and blade-rotor-nacelle assembly and tower’s mass scale effects.\nUsing state-of-art statistical techniques such as correlation functions estimated by both Random Decrement Analysis (RDA) and Perturbation Wavelet Analysis (PWA) and Chi-squared Hypothesis Tests as a basis for system parameter identification, the OWT system was assessed by a threshold estimation procedure, developed with machine learning model fed with scour-damaged response data correlated with foundation’s ULS, SLS, and FLS performances.\nThe model’s accuracy was further enhanced by supervised learning from large amount of virtual data produced by the updated FEM model to be able to predict for a long term (20 years) Remaining Useful Life (RUL) or to classify Scour Health Index based on current system parameters.\nThe outcome of the study will lead to improved timing of maintenance and reduced offshore investigation and maintenance jobs, resulting in reduced risk of failure for the OWT. The system’s dynamic property parameters can be monitored to ensure its safe operation.\n\n\n\n2 Meeting Note\n\n2.0.1 Proposal Details\n\n\n2.0.2 Literature Review"
+    "text": "1 Front Matter\n\nA single degree-of-freedom system loaded by ambient white noise was investigated by statistical assessment of dynamic modal parameters such as natural frequency and damping factors of Offshore Wind Turbine(OWT).\nThe UNISON’s U4 (4MW) OWT system of was simulated using advanced Finite Element modelling considering soil-structure interaction was validated and updated using a series of centrifuge experiments, which can account for the influence of soil’s confining pressure and blade-rotor-nacelle assembly and tower’s mass scale effects.\nUsing state-of-art statistical techniques such as correlation functions estimated by both Random Decrement Analysis (RDA) and Perturbation Wavelet Analysis (PWA) and Chi-squared Hypothesis Tests as a basis for system parameter identification, the OWT system was assessed by a threshold estimation procedure, developed with machine learning model fed with scour-damaged response data correlated with foundation’s ULS, SLS, and FLS performances.\nThe model’s accuracy was further enhanced by supervised learning from large amount of virtual data produced by the updated FEM model to be able to predict for a long term (20 years) Remaining Useful Life (RUL) or to classify Scour Health Index based on current system parameters.\nThe outcome of the study will lead to improved timing of maintenance and reduced offshore investigation and maintenance jobs, resulting in reduced risk of failure for the OWT. The system’s dynamic property parameters can be monitored to ensure its safe operation."
   },
   {
     "objectID": "4_1_proposal.html#최종목표",
@@ -61,5 +61,103 @@
     "title": "3  Literature Review",
     "section": "3.4 Case Histroy",
     "text": "3.4 Case Histroy\n\n3.4.1 Case History Analysis of Bridge Failures due to Scour\nScour is a major cause for bridge failure. To understand the characteristics of bridge failures under scour conditions and provide useful information for scour countermeasure, this study reviewed and analyzed totally 36 historical cases of bridge failure due to scour, including their hydraulic, geotechnical, and structural conditions and failure modes. Based on the collected data, most of scour depths (i.e. up to 41%) ranged from 0.5 to 5 m; but, the maximum scour depth could be up to 15 m. Local scour was accounted for 64% bridge failures, followed by channel migration (14%), and contraction scour (5%). Possible bridge failure modes due to scour included vertical failure, lateral failure, torsional failure, and bridge deck failure. Approximately 70% of bridge failures were lateral and vertical. The findings from this study can be updated when more cases of bridge failure under scour conditions are collected and/or become available.\n\n3.4.1.1 3 bullet points summary\n\nThis study reviewed and analyzed 36 historical cases of bridge failure caused by scour.\nThe most common scour depths ranged from 0.5 to 5m and local scour accounted for 64% of the failures.\nThe most common failure modes were lateral and vertical failure, accounting for 70% of the failures.\n\n\n\n\n3.4.2 ANALYSIS OF RECENT BRIDGE FAILURES IN THE UNITED STATES\nOver 500 failures of bridge structures in the United States between 1989 and 2000 were studied. The age of the failed bridges ranged from 1 year (during construction) to 157 years, with an average of 52.5 years. The most frequent causes of bridge failures were attributed to floods and collisions. Flood and scour, with the major flood disaster in 1993, contributed to the frequency peak of bridge failures (almost 53% of all failures). Bridge overload and lateral impact forces from trucks, barges/ships, and trains constitute 20% of the total bridge failures. Other frequent principal causes are design, detailing, construction, material, and maintenance. Comparison made among three periods of similar studies (1977–1981, 1982–1988, and 1989–2000) revealed almost similar trends, with most failures occurring during the bridge’s service life. Also, human-induced external events occurred frequently in all three periods, but were most dominant in the first and third periods.\n\n3.4.2.1 3 bullet points summary\n\nA study was conducted on over 500 bridge failures in the United States from 1989 to 2000.\nThe most frequent causes of bridge failures were attributed to floods and collisions, followed by overload and lateral impact forces from trucks, barges/ships, and trains.\nThe study revealed that human-induced external events frequently occurred in all three periods studied, but were most dominant in the first and third periods."
+  },
+  {
+    "objectID": "1_IdeaNote.html",
+    "href": "1_IdeaNote.html",
+    "title": "2  Fleeting Ideas",
+    "section": "",
+    "text": "3 Title\n\n\n4 Second Title\n\n4.0.1 Third Title\n\n4.0.1.1 Fourth Title"
+  },
+  {
+    "objectID": "2_VocabNote.html",
+    "href": "2_VocabNote.html",
+    "title": "3  Vocabulary",
+    "section": "",
+    "text": "4 Title\n\n\n5 Second Title\n\n5.0.1 Third Title\n\n5.0.1.1 Fourth Title"
+  },
+  {
+    "objectID": "3_ReadingNote.html",
+    "href": "3_ReadingNote.html",
+    "title": "4  Reading Note",
+    "section": "",
+    "text": "5 Title\n\n\n6 Second Title\n\n6.0.1 Third Title\n\n6.0.1.1 Fourth Title"
+  },
+  {
+    "objectID": "4_WritingNote.html",
+    "href": "4_WritingNote.html",
+    "title": "5  Writings",
+    "section": "",
+    "text": "6 Title\n\n\n7 Second Title\n\n7.0.1 Third Title\n\n7.0.1.1 Fourth Title"
+  },
+  {
+    "objectID": "5_FormulaeNote.html",
+    "href": "5_FormulaeNote.html",
+    "title": "6  Formulae",
+    "section": "",
+    "text": "7 Title\n\n\n8 Second Title\n\n8.0.1 Third Title\n\n8.0.1.1 Fourth Title"
+  },
+  {
+    "objectID": "6_ReferenceNote.html#callout-blocks",
+    "href": "6_ReferenceNote.html#callout-blocks",
+    "title": "7  References",
+    "section": "7.1 Callout Blocks",
+    "text": "7.1 Callout Blocks\n\n\n\n\n\n\nNote\n\n\n\n\n\nNote that there are five types of callouts, including:\nnote, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\n\nTip With Caption\n\n\n\n\n\nThis is an example of a callout with a caption."
+  },
+  {
+    "objectID": "6_ReferenceNote.html#more-callout-blocks",
+    "href": "6_ReferenceNote.html#more-callout-blocks",
+    "title": "7  References",
+    "section": "7.2 More callout blocks",
+    "text": "7.2 More callout blocks\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default.\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\n\n\nThis is important\n\n\n\n\n\n\n\n\n\nwarning\n\n\n\n\n\nWARNINGS !!!!"
+  },
+  {
+    "objectID": "7_CodeBlocks.html#callout-blocks",
+    "href": "7_CodeBlocks.html#callout-blocks",
+    "title": "8  Code Snippets",
+    "section": "8.1 Callout Blocks",
+    "text": "8.1 Callout Blocks\n\n\n\n\n\n\n:::\n\n\n\n\n\ngeneral\n\n\n\n\n\n\n\n\n\n:::{.callout-important} - very important\n\n\n\n\n\nThis is important\n\n\n\n\n\n\n\n\n\n:::{.callout-caution} - important\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default.\n\n\n\n\n\n\n\n\n\n:::{.callout-tip} - better\n\n\n\n\n\nThis is an example of a callout with a caption.\n\n\n\n\n\n\n\n\n\n:::{.callout-note} - good\n\n\n\n\n\nNote that there are five types of callouts, including:\nnote, warning, important, tip, and caution."
+  },
+  {
+    "objectID": "7_CodeBlocks.html#dt-editor-shiny-module",
+    "href": "7_CodeBlocks.html#dt-editor-shiny-module",
+    "title": "8  Code Snippets",
+    "section": "8.2 DT editor shiny module",
+    "text": "8.2 DT editor shiny module"
+  },
+  {
+    "objectID": "7_CodeBlocks.html#shinylive-for-python-extension",
+    "href": "7_CodeBlocks.html#shinylive-for-python-extension",
+    "title": "8  Code Snippets",
+    "section": "8.2 Shinylive for Python Extension",
+    "text": "8.2 Shinylive for Python Extension\n#| standalone: true\n#| components: [editor, viewer]\n#| layout: horizontal\n\nfrom shiny import *\napp_ui = ui.page_fluid(\n    ui.input_slider(\"n\", \"N\", 0, 100, 40),\n    ui.output_text_verbatim(\"txt\"),\n)\ndef server(input, output, session):\n    @output\n    @render.text\n    def txt():\n        return f\"The value of n*2 is {input.n() * 2}\"\napp = App(app_ui, server)"
+  },
+  {
+    "objectID": "7_CodeBlocks.html#quarto-shiny-reactives",
+    "href": "7_CodeBlocks.html#quarto-shiny-reactives",
+    "title": "8  Code Snippets",
+    "section": "8.4 Quarto Shiny Reactives",
+    "text": "8.4 Quarto Shiny Reactives\n\n\n\nCode\nvars = [\"Sepal.Length\", \"Sepal.Width\", \"Petal.Length\", \"Petal.Width\"]\nviewof xcol = Inputs.select(vars, {label: \"X Variable\"})\nviewof ycol = Inputs.select(vars, {label: \"Y Variable\", value: vars[1]})\nviewof count = Inputs.range([1, 9], {label: \"Cluster Count\", step: 1, value: 3})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nPlot.plot({\n  color: {\n    type: \"ordinal\",\n    scheme: \"category10\"\n  },\n  marks: [\n    Plot.dot(transpose(selectedData), {\n      x: xcol,\n      y: ycol,\n      fill: (d, i) => clusters.cluster[i],\n    }),\n    Plot.dot(clusters.centers, { \n      x: d => d[0],\n      y: d => d[1],\n      r: 10,\n      stroke: \"black\",\n      fill: (d, i) => i + 1\n    }),\n  ]\n})"
+  },
+  {
+    "objectID": "7_CodeBlocks.html#shinylive-for-python",
+    "href": "7_CodeBlocks.html#shinylive-for-python",
+    "title": "8  Code Snippets",
+    "section": "8.2 Shinylive for Python",
+    "text": "8.2 Shinylive for Python\n#| standalone: true\n#| components: [editor, viewer]\n#| layout: horizontal\n\nfrom shiny import ui, render, App, reactive\nfrom matplotlib import pyplot as plt\nimport pandas as pd\nimport jinja2\n\n\nchoices = {\"a\": \"Choice A\", \"b\": \"Choice B\"}\n\n\napp_ui = ui.page_fluid(\n\n    ui.input_slider(\"x\", \"Choose a number\", 1, 100, 50),\n    ui.input_checkbox(\"x1\", \"Checkbox\"),\n    ui.input_numeric(\"x1\", \"Number\", value=10),\n    ui.input_slider(\"x2\", \"Slider\", value=10, min=0, max=20),\n    ui.input_text(\"x1\", \"Text\", placeholder=\"Enter text\"),\n    ui.input_text_area(\"x2\", \"Text area\", placeholder=\"Enter text\"),\n    ui.input_password (\"x3\", \"Password\", placeholder=\"Enter password\"),\n    ui.input_select(\"x1\", \"Select\", choices),\n    ui.input_checkbox_group(\"x2\", \"Checkbox group\", choices),\n    ui.input_radio_buttons(\"x3\", \"Radio buttons\", choices),\n    ui.input_date(\"x9\", \"Date input\"),\n    ui.input_date_range(\"x10\", \"Date range input\"),\n    \n    ui.output_text(\"my_cool_text\"),\n    ui.output_text_verbatim(\"a_code_block\"),\n    ui.output_table(\"a_data_frame\"),\n    ui.output_plot(\"a_scatter_plot\"),\n    ui.output_ui(\"some_html\"),\n    ui.output_text_verbatim(\"txt1\")\n\n)\n\ndef server(input, output, session):\n\n    @output\n    @render.text\n    def my_cool_text():\n        return \"hello, world!\"\n\n    @output\n    @render.text\n    def a_code_block():\n        # This function should return a string\n        return str([1, 2, 3, 4, 5])\n\n    @output\n    @render.table\n    def a_data_frame():\n        df = pd.DataFrame({\"x\": [1,2,3]})\n        return df\n\n    @output\n    @render.plot\n    def a_scatter_plot():\n        return plt.scatter([1,2,3], [5, 2, 3])\n    \n    @output\n    @render.ui\n    def some_html():\n        return ui.HTML(\"<marquee>hello, world!</marquee>\")\n        \n    @reactive.Calc\n    def x_times_2():\n        val = input.x() * 2\n        print(f\"Running x_times_2(). Result is {val}.\")\n        return val\n        \n    @output\n    @render.text\n    def txt1():\n        return f'x times 2 is: \"{x_times_2()}\"'\n\n\napp = App(app_ui, server)"
+  },
+  {
+    "objectID": "7_CodeBlocks.html#r-server",
+    "href": "7_CodeBlocks.html#r-server",
+    "title": "8  Code Snippets",
+    "section": "8.4 R server",
+    "text": "8.4 R server\n\n\n\nNumber of bins:"
+  },
+  {
+    "objectID": "7_CodeBlocks.html#ojs",
+    "href": "7_CodeBlocks.html#ojs",
+    "title": "8  Code Snippets",
+    "section": "8.3 OJS",
+    "text": "8.3 OJS\n\n\n\nCode\nvars = [\"Sepal.Length\", \"Sepal.Width\", \"Petal.Length\", \"Petal.Width\"]\nviewof xcol = Inputs.select(vars, {label: \"X Variable\"})\nviewof ycol = Inputs.select(vars, {label: \"Y Variable\", value: vars[1]})\nviewof count = Inputs.range([1, 9], {label: \"Cluster Count\", step: 1, value: 3})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nPlot.plot({\n  color: {\n    type: \"ordinal\",\n    scheme: \"category10\"\n  },\n  marks: [\n    Plot.dot(transpose(selectedData), {\n      x: xcol,\n      y: ycol,\n      fill: (d, i) => clusters.cluster[i],\n    }),\n    Plot.dot(clusters.centers, { \n      x: d => d[0],\n      y: d => d[1],\n      r: 10,\n      stroke: \"black\",\n      fill: (d, i) => i + 1\n    }),\n  ]\n})"
   }
 ]

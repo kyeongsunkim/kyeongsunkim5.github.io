@@ -6,7 +6,7 @@ book:
   title: "ResearchNote"
   output-file: "docs"
   author: "Kyeong Sun Kim"
-  date: "2023"
+  date: "Some day in 2023"
   site-url: https://kyeongsunkim.github.io
   repo-url: https://github.com/kyeongsunkim/kyeongsunkim.github.io.git
   search: true
@@ -14,20 +14,22 @@ book:
     style: docked
     background: light
   chapters:  
-  
-    - part: "Summary"
+    - part: "My Research Note"
       chapters:
         - index.qmd
-        
-    - part: "Proposal"
-      chapters:
-        - 4_1_proposal.qmd
-        - 4_3_literature.qmd
-
+        - 1_IdeaNote.qmd
+        - 2_VocabNote.qmd
+        - 3_ReadingNote.qmd
+        - 4_WritingNote.qmd
+        - 5_FormulaeNote.qmd
+        - 6_ReferenceNote.qmd
+        - 7_CodeBlocks.qmd   
+       
 format:
   html:
     theme: cosmo
     code-copy: true
+    code-fold: true
     toc: true
     toc-depth: 3
     toc-title: On this page
@@ -39,10 +41,19 @@ format:
     footnotes-hover: true
     minimal: false
 
-editor: visual
-
-page-navigation: true
-  
 comments:
   hypothesis:
     theme: clean
+    
+filters:
+  - collapse-callout
+  - shinylive
+  
+collapse-callout:
+  all: true
+  
+callout-appearance: simple
+callout-icon: true
+self-contained: false
+editor: visual
+page-navigation: true

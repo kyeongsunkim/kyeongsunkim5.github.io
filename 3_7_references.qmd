@@ -1,8 +1,0 @@
----
-jupyter: python3
----
-
-# References
-
-This is a book created from markdown and executable code.
-

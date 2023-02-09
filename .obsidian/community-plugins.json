@@ -4,10 +4,12 @@
   "obsidian-minimal-settings",
   "obsidian-style-settings",
   "table-editor-obsidian",
-  "cm-editor-syntax-highlight-obsidian",
   "file-tree-alternative",
   "quick-latex",
   "obsidian-latex-suite",
   "notion-like-tables",
-  "obsidian-excel-to-markdown-table"
+  "obsidian-excel-to-markdown-table",
+  "obsidian-codemirror-options",
+  "execute-code",
+  "cm-editor-syntax-highlight-obsidian"
 ]
