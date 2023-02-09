@@ -31,7 +31,7 @@ format:
     code-copy: true
     code-fold: true
     toc: true
-    toc-depth: 3
+    toc-depth: 4
     toc-title: On this page
     toc-location: right
     html-math-method: katex
