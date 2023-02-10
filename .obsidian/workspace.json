@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5_WritingNote.qmd",
+                "file": "9_CodeBlocks.qmd",
                 "mode": "source",
                 "source": true
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5_WritingNote.qmd",
+                "file": "9_CodeBlocks.qmd",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5_WritingNote.qmd",
+                "file": "9_CodeBlocks.qmd",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5_WritingNote.qmd"
+                "file": "9_CodeBlocks.qmd"
               }
             }
           }
@@ -194,10 +194,10 @@
   },
   "active": "51c021ea86ef13c1",
   "lastOpenFiles": [
+    "5_WritingNote.qmd",
     "5_ReadingNote.qmd",
     "4_1_proposal.qmd",
     "6_FormulaeNote.qmd",
-    "5_WritingNote.qmd",
     "7_IdeaNote.qmd",
     "4_AIWritingAssistant.qmd",
     "3_LiteratureReview.qmd",

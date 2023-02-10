@@ -5,6 +5,23 @@ format:
     page-layout: custom
 server: shiny
 ---
+
+```{=html}
+<iframe src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1" title="Live Python REPL"
+width="100%"
+height="500px">
+</iframe>
+```
+
+```{=html}
+<iframe src="https://jupyterlite.github.io/demo/lab/index.html" title="JupyterLite"
+width="100%"
+height="500px">
+</iframe>
+```
+
+
+
 ```{python}
 #| echo: true
 #| label: fig-polar

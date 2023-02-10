@@ -174,6 +174,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#r-server" id="toc-r-server"><span class="toc-section-number">10.4</span>  R server</a></li>
   </ul>
 </nav>
+<iframe src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&amp;toolbar=1" title="Live Python REPL" width="100%" height="500px">
+</iframe>
+<iframe src="https://jupyterlite.github.io/demo/lab/index.html" title="JupyterLite" width="100%" height="500px">
+</iframe>
 <div class="cell">
 <details>
 <summary>Code</summary>
@@ -415,10 +419,10 @@ app = App(app_ui, server)</code></pre>
 <div class="cell panel-sidebar card bg-light p-2 g-col-24 g-col-lg-7">
 <details class="hidden">
 <summary>Code</summary>
-<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="198" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 197;"><span id="cb6-198"><a href="#cb6-198" aria-hidden="true" tabindex="-1"></a>vars <span class="op">=</span> [<span class="st">"Sepal.Length"</span><span class="op">,</span> <span class="st">"Sepal.Width"</span><span class="op">,</span> <span class="st">"Petal.Length"</span><span class="op">,</span> <span class="st">"Petal.Width"</span>]</span>
-<span id="cb6-199"><a href="#cb6-199" aria-hidden="true" tabindex="-1"></a>viewof xcol <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(vars<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"X Variable"</span>})</span>
-<span id="cb6-200"><a href="#cb6-200" aria-hidden="true" tabindex="-1"></a>viewof ycol <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(vars<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Y Variable"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> vars[<span class="dv">1</span>]})</span>
-<span id="cb6-201"><a href="#cb6-201" aria-hidden="true" tabindex="-1"></a>viewof count <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">1</span><span class="op">,</span> <span class="dv">9</span>]<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Cluster Count"</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="215" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 214;"><span id="cb6-215"><a href="#cb6-215" aria-hidden="true" tabindex="-1"></a>vars <span class="op">=</span> [<span class="st">"Sepal.Length"</span><span class="op">,</span> <span class="st">"Sepal.Width"</span><span class="op">,</span> <span class="st">"Petal.Length"</span><span class="op">,</span> <span class="st">"Petal.Width"</span>]</span>
+<span id="cb6-216"><a href="#cb6-216" aria-hidden="true" tabindex="-1"></a>viewof xcol <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(vars<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"X Variable"</span>})</span>
+<span id="cb6-217"><a href="#cb6-217" aria-hidden="true" tabindex="-1"></a>viewof ycol <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>(vars<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Y Variable"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> vars[<span class="dv">1</span>]})</span>
+<span id="cb6-218"><a href="#cb6-218" aria-hidden="true" tabindex="-1"></a>viewof count <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="dv">1</span><span class="op">,</span> <span class="dv">9</span>]<span class="op">,</span> {<span class="dt">label</span><span class="op">:</span> <span class="st">"Cluster Count"</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="dv">3</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -454,26 +458,26 @@ app = App(app_ui, server)</code></pre>
 <div class="cell panel-fill">
 <details class="hidden">
 <summary>Code</summary>
-<div class="sourceCode cell-code hidden" id="cb7" data-startfrom="205" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 204;"><span id="cb7-205"><a href="#cb7-205" aria-hidden="true" tabindex="-1"></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
-<span id="cb7-206"><a href="#cb7-206" aria-hidden="true" tabindex="-1"></a>  <span class="dt">color</span><span class="op">:</span> {</span>
-<span id="cb7-207"><a href="#cb7-207" aria-hidden="true" tabindex="-1"></a>    <span class="dt">type</span><span class="op">:</span> <span class="st">"ordinal"</span><span class="op">,</span></span>
-<span id="cb7-208"><a href="#cb7-208" aria-hidden="true" tabindex="-1"></a>    <span class="dt">scheme</span><span class="op">:</span> <span class="st">"category10"</span></span>
-<span id="cb7-209"><a href="#cb7-209" aria-hidden="true" tabindex="-1"></a>  }<span class="op">,</span></span>
-<span id="cb7-210"><a href="#cb7-210" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
-<span id="cb7-211"><a href="#cb7-211" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">dot</span>(<span class="fu">transpose</span>(selectedData)<span class="op">,</span> {</span>
-<span id="cb7-212"><a href="#cb7-212" aria-hidden="true" tabindex="-1"></a>      <span class="dt">x</span><span class="op">:</span> xcol<span class="op">,</span></span>
-<span id="cb7-213"><a href="#cb7-213" aria-hidden="true" tabindex="-1"></a>      <span class="dt">y</span><span class="op">:</span> ycol<span class="op">,</span></span>
-<span id="cb7-214"><a href="#cb7-214" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fill</span><span class="op">:</span> (d<span class="op">,</span> i) <span class="kw">=&gt;</span> clusters<span class="op">.</span><span class="at">cluster</span>[i]<span class="op">,</span></span>
-<span id="cb7-215"><a href="#cb7-215" aria-hidden="true" tabindex="-1"></a>    })<span class="op">,</span></span>
-<span id="cb7-216"><a href="#cb7-216" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">dot</span>(clusters<span class="op">.</span><span class="at">centers</span><span class="op">,</span> { </span>
-<span id="cb7-217"><a href="#cb7-217" aria-hidden="true" tabindex="-1"></a>      <span class="dt">x</span><span class="op">:</span> d <span class="kw">=&gt;</span> d[<span class="dv">0</span>]<span class="op">,</span></span>
-<span id="cb7-218"><a href="#cb7-218" aria-hidden="true" tabindex="-1"></a>      <span class="dt">y</span><span class="op">:</span> d <span class="kw">=&gt;</span> d[<span class="dv">1</span>]<span class="op">,</span></span>
-<span id="cb7-219"><a href="#cb7-219" aria-hidden="true" tabindex="-1"></a>      <span class="dt">r</span><span class="op">:</span> <span class="dv">10</span><span class="op">,</span></span>
-<span id="cb7-220"><a href="#cb7-220" aria-hidden="true" tabindex="-1"></a>      <span class="dt">stroke</span><span class="op">:</span> <span class="st">"black"</span><span class="op">,</span></span>
-<span id="cb7-221"><a href="#cb7-221" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fill</span><span class="op">:</span> (d<span class="op">,</span> i) <span class="kw">=&gt;</span> i <span class="op">+</span> <span class="dv">1</span></span>
-<span id="cb7-222"><a href="#cb7-222" aria-hidden="true" tabindex="-1"></a>    })<span class="op">,</span></span>
-<span id="cb7-223"><a href="#cb7-223" aria-hidden="true" tabindex="-1"></a>  ]</span>
-<span id="cb7-224"><a href="#cb7-224" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb7" data-startfrom="222" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 221;"><span id="cb7-222"><a href="#cb7-222" aria-hidden="true" tabindex="-1"></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb7-223"><a href="#cb7-223" aria-hidden="true" tabindex="-1"></a>  <span class="dt">color</span><span class="op">:</span> {</span>
+<span id="cb7-224"><a href="#cb7-224" aria-hidden="true" tabindex="-1"></a>    <span class="dt">type</span><span class="op">:</span> <span class="st">"ordinal"</span><span class="op">,</span></span>
+<span id="cb7-225"><a href="#cb7-225" aria-hidden="true" tabindex="-1"></a>    <span class="dt">scheme</span><span class="op">:</span> <span class="st">"category10"</span></span>
+<span id="cb7-226"><a href="#cb7-226" aria-hidden="true" tabindex="-1"></a>  }<span class="op">,</span></span>
+<span id="cb7-227"><a href="#cb7-227" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb7-228"><a href="#cb7-228" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">dot</span>(<span class="fu">transpose</span>(selectedData)<span class="op">,</span> {</span>
+<span id="cb7-229"><a href="#cb7-229" aria-hidden="true" tabindex="-1"></a>      <span class="dt">x</span><span class="op">:</span> xcol<span class="op">,</span></span>
+<span id="cb7-230"><a href="#cb7-230" aria-hidden="true" tabindex="-1"></a>      <span class="dt">y</span><span class="op">:</span> ycol<span class="op">,</span></span>
+<span id="cb7-231"><a href="#cb7-231" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fill</span><span class="op">:</span> (d<span class="op">,</span> i) <span class="kw">=&gt;</span> clusters<span class="op">.</span><span class="at">cluster</span>[i]<span class="op">,</span></span>
+<span id="cb7-232"><a href="#cb7-232" aria-hidden="true" tabindex="-1"></a>    })<span class="op">,</span></span>
+<span id="cb7-233"><a href="#cb7-233" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">dot</span>(clusters<span class="op">.</span><span class="at">centers</span><span class="op">,</span> { </span>
+<span id="cb7-234"><a href="#cb7-234" aria-hidden="true" tabindex="-1"></a>      <span class="dt">x</span><span class="op">:</span> d <span class="kw">=&gt;</span> d[<span class="dv">0</span>]<span class="op">,</span></span>
+<span id="cb7-235"><a href="#cb7-235" aria-hidden="true" tabindex="-1"></a>      <span class="dt">y</span><span class="op">:</span> d <span class="kw">=&gt;</span> d[<span class="dv">1</span>]<span class="op">,</span></span>
+<span id="cb7-236"><a href="#cb7-236" aria-hidden="true" tabindex="-1"></a>      <span class="dt">r</span><span class="op">:</span> <span class="dv">10</span><span class="op">,</span></span>
+<span id="cb7-237"><a href="#cb7-237" aria-hidden="true" tabindex="-1"></a>      <span class="dt">stroke</span><span class="op">:</span> <span class="st">"black"</span><span class="op">,</span></span>
+<span id="cb7-238"><a href="#cb7-238" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fill</span><span class="op">:</span> (d<span class="op">,</span> i) <span class="kw">=&gt;</span> i <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb7-239"><a href="#cb7-239" aria-hidden="true" tabindex="-1"></a>    })<span class="op">,</span></span>
+<span id="cb7-240"><a href="#cb7-240" aria-hidden="true" tabindex="-1"></a>  ]</span>
+<span id="cb7-241"><a href="#cb7-241" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-2" data-nodetype="expression">
