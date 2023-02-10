@@ -1,12 +1,71 @@
 ---
-title: "Code Snippets"
-author: "Kyeong Sun Kim"
-date: "Some day in 2023"
+title: "Code Blocks"
 format: 
   html:
     page-layout: custom
 server: shiny
 ---
+```{python}
+#| echo: true
+#| label: fig-polar
+#| fig-cap: "A line plot on a polar axis"
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(
+  subplot_kw = {'projection': 'polar'} 
+)
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+```{python}
+#| echo: true
+
+from IPython.display import display, Markdown
+
+radius = 10
+
+
+display(Markdown("""
+The radius of the circle is {radius}.
+""".format(radius = radius)))
+
+```
+
+``` {shinylive-python}
+#| echo: true
+#| standalone: true
+#| viewerHeight: 300
+#| components: [editor, viewer]
+#| layout: vertical
+
+from shiny import App, reactive, render, ui
+############################################
+app_ui = ui.page_fluid(
+    ui.input_slider("x", "Choose a number", 1, 100, 50),
+    ui.output_text_verbatim("txt1"),
+)
+############################################
+def server(input, output, session):
+    @reactive.Calc
+    def x_times_2():
+        val = input.x() * 2
+        print(f"Running x_times_2(). Result is {val}.")
+        return val
+
+    @output
+    @render.text
+    def txt1():
+        return f'x times 2 is: "{x_times_2()}"'
+############################################
+app = App(app_ui, server)
+```
 
 ![](https://res.cloudinary.com/darfmzyks/image/upload/v1675897497/cloudinary_img_/pgr9tjaozpzzmduxwruh.png)
 
@@ -51,7 +110,7 @@ Note that there are five types of callouts, including:
 ``` {shinylive-python}
 #| standalone: true
 #| components: [editor, viewer]
-#| layout: horizontal
+#| layout: vertical
 
 from shiny import ui, render, App, reactive
 from matplotlib import pyplot as plt
@@ -181,4 +240,24 @@ output$distPlot <- renderPlot({
   bins <- seq(min(x), max(x), length.out = input$bins + 1)
   hist(x, breaks = bins, col = 'darkgray', border = 'white')
 })
+```
+
+
+```{python}
+#| label: tbl-planet-measures
+#| tbl-cap: Planets
+
+from IPython.display import Markdown
+from tabulate import tabulate
+
+table = [["Sun",696000,1989100000],
+         ["Earth",6371,5973.6],
+         ["Moon",1737,73.5],
+         ["Mars",3390,641.85]]
+         
+Markdown(tabulate(
+  table, 
+  headers=["Planet","R (km)", "mass (x 10^29 kg)"]
+))
+
 ```

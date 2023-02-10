@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kyeongsunkim.github.io/index.html</loc>
-    <lastmod>2023-02-09T06:14:12.041Z</lastmod>
+    <lastmod>2023-02-10T09:28:21.330Z</lastmod>
   </url>
   <url>
     <loc>https://kyeongsunkim.github.io/4_1_proposal.html</loc>
@@ -38,6 +38,46 @@
   </url>
   <url>
     <loc>https://kyeongsunkim.github.io/7_CodeBlocks.html</loc>
-    <lastmod>2023-02-09T06:16:17.572Z</lastmod>
+    <lastmod>2023-02-09T06:39:07.656Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeongsunkim.github.io/2_TaskManager.html</loc>
+    <lastmod>2023-02-10T09:28:16.331Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeongsunkim.github.io/3_LiteratureReview.html</loc>
+    <lastmod>2023-02-10T04:29:01.328Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeongsunkim.github.io/4_WritingAssistant.html</loc>
+    <lastmod>2023-02-10T03:14:19.955Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeongsunkim.github.io/5_ReadingNote.html</loc>
+    <lastmod>2023-02-10T03:14:19.956Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeongsunkim.github.io/6_FormulaeNote.html</loc>
+    <lastmod>2023-02-10T09:28:16.336Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeongsunkim.github.io/7_IdeaNote.html</loc>
+    <lastmod>2023-02-10T09:28:16.337Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeongsunkim.github.io/8_VocabNote.html</loc>
+    <lastmod>2023-02-10T03:14:19.958Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeongsunkim.github.io/9_CodeBlocks.html</loc>
+    <lastmod>2023-02-10T09:28:16.341Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeongsunkim.github.io/5_WritingNote.html</loc>
+    <lastmod>2023-02-10T09:28:16.335Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kyeongsunkim.github.io/4_AIWritingAssistant.html</loc>
+    <lastmod>2023-02-10T09:28:16.331Z</lastmod>
   </url>
 </urlset>

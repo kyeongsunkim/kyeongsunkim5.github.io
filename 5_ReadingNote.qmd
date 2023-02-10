@@ -1,7 +1,7 @@
 ---
-title: "Literature Review"
+title: "Reading Note"
+jupyter: python3
 ---
-
 
 ## **Centrifuge Test**
 

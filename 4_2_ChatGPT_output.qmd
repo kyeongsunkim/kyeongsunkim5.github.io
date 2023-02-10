@@ -1,5 +1,6 @@
 ---
 title: "ChatGPT Answers"
+jupyter: python3
 ---
 
 

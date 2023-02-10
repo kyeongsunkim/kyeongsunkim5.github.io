@@ -1,40 +1,75 @@
 {
   "main": {
-    "id": "a67797e336183bec",
+    "id": "f2ab1a362dbaf001",
     "type": "split",
     "children": [
       {
-        "id": "5b82d1fe16547b81",
+        "id": "b20cc10304d862a4",
         "type": "tabs",
         "children": [
           {
-            "id": "ff1ba61029ae1e69",
+            "id": "51c021ea86ef13c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3_ReadingNote.qmd",
+                "file": "5_WritingNote.qmd",
                 "mode": "source",
                 "source": true
               }
             }
+          },
+          {
+            "id": "92a587be99da6d21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2_TaskManager.qmd",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c27d1dcc0118c8a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3_LiteratureReview.qmd",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85476ab08b9f9e23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9_CodeBlocks.qmd",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "2d7f44003dbc96ef",
+    "id": "232693811e59483f",
     "type": "split",
     "children": [
       {
-        "id": "a8b2635e6e63450a",
+        "id": "90066a6e9a091b4a",
         "type": "tabs",
         "children": [
           {
-            "id": "b0136eea9968b228",
+            "id": "0ff058f85df52b15",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +79,7 @@
             }
           },
           {
-            "id": "154120db92ba21ae",
+            "id": "1b32329ef5b7aeab",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -59,7 +94,7 @@
             }
           },
           {
-            "id": "36d1ea2ccf30b72e",
+            "id": "913dc9f3977adf14",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -67,7 +102,7 @@
             }
           },
           {
-            "id": "fc9fa3e0545774e2",
+            "id": "7bf8164b70847ba1",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -79,23 +114,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 594.5
+    "width": 496.5
   },
   "right": {
-    "id": "514edc7acda2e52f",
+    "id": "495d64fddf22c3cc",
     "type": "split",
     "children": [
       {
-        "id": "189eeb83d6ea9dbb",
+        "id": "dd4a30d76ac1ad72",
         "type": "tabs",
         "children": [
           {
-            "id": "cc0b29cfdf26393b",
+            "id": "5adb1e3eb0800299",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3_ReadingNote.qmd",
+                "file": "5_WritingNote.qmd",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,19 +142,19 @@
             }
           },
           {
-            "id": "4fab82645667ab48",
+            "id": "b26809baadc77aa8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3_ReadingNote.qmd",
+                "file": "5_WritingNote.qmd",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "92374c421faf6066",
+            "id": "cf98c38f97c65d12",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -130,12 +165,12 @@
             }
           },
           {
-            "id": "aaf532b289c3f8b2",
+            "id": "0a6478a44a3a66b1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "3_ReadingNote.qmd"
+                "file": "5_WritingNote.qmd"
               }
             }
           }
@@ -143,32 +178,31 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:Create new canvas": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "ff1ba61029ae1e69",
+  "active": "51c021ea86ef13c1",
   "lastOpenFiles": [
-    "4_3_literature.qmd",
-    "4_2_ChatGPT_output.qmd",
+    "5_ReadingNote.qmd",
     "4_1_proposal.qmd",
-    "4_0_meeting_note.qmd",
+    "6_FormulaeNote.qmd",
+    "5_WritingNote.qmd",
+    "7_IdeaNote.qmd",
+    "4_AIWritingAssistant.qmd",
+    "3_LiteratureReview.qmd",
     "Untitled.canvas",
-    "Pasted image 20230209130536.png",
-    "7_CodeBlocks.qmd",
-    "6_ReferenceNote.qmd",
-    "Meeting Followup.md",
-    "5_FormulaeNote.qmd"
+    "2_TaskManager.qmd",
+    "9_CodeBlocks.qmd"
   ]
 }

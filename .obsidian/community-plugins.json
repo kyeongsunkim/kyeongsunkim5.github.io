@@ -11,5 +11,7 @@
   "obsidian-excel-to-markdown-table",
   "obsidian-codemirror-options",
   "execute-code",
-  "cm-editor-syntax-highlight-obsidian"
+  "cm-editor-syntax-highlight-obsidian",
+  "dataview",
+  "obsidian-jupyter"
 ]

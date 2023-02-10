@@ -1,5 +1,6 @@
 ---
 title: "Choices"
+jupyter: python3
 ---
 
 

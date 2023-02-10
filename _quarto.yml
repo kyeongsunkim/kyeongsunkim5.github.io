@@ -17,13 +17,15 @@ book:
     - part: "My Research Note"
       chapters:
         - index.qmd
-        - 1_IdeaNote.qmd
-        - 2_VocabNote.qmd
-        - 3_ReadingNote.qmd
-        - 4_WritingNote.qmd
-        - 5_FormulaeNote.qmd
-        - 6_ReferenceNote.qmd
-        - 7_CodeBlocks.qmd   
+        - 2_TaskManager.qmd
+        - 3_LiteratureReview.qmd
+        - 4_AIWritingAssistant.qmd
+        - 5_ReadingNote.qmd
+        - 5_WritingNote.qmd        
+        - 6_FormulaeNote.qmd
+        - 7_IdeaNote.qmd
+        - 8_VocabNote.qmd         
+        - 9_CodeBlocks.qmd   
        
 format:
   html:
