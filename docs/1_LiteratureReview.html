@@ -67,9 +67,47 @@ ul.task-list li input[type="checkbox"] {
 }
 </script>
 <script async="" src="https://hypothes.is/embed.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+<script src="site_libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="site_libs/datatables-binding-0.27/datatables.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/dt-core-1.12.1/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="site_libs/dt-core-1.12.1/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="site_libs/dt-core-1.12.1/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/dt-ext-autofill-1.12.1/css/autoFill.dataTables.min.css" rel="stylesheet">
+<script src="site_libs/dt-ext-autofill-1.12.1/js/dataTables.autoFill.min.js"></script>
+<script src="site_libs/jszip-1.12.1/jszip.min.js"></script>
+<script src="site_libs/pdfmake-1.12.1/pdfmake.js"></script>
+<script src="site_libs/pdfmake-1.12.1/vfs_fonts.js"></script>
+<link href="site_libs/dt-ext-buttons-1.12.1/css/buttons.dataTables.min.css" rel="stylesheet">
+<script src="site_libs/dt-ext-buttons-1.12.1/js/dataTables.buttons.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.12.1/js/buttons.html5.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.12.1/js/buttons.colVis.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.12.1/js/buttons.print.min.js"></script>
+<link href="site_libs/dt-ext-colreorder-1.12.1/css/colReorder.dataTables.min.css" rel="stylesheet">
+<script src="site_libs/dt-ext-colreorder-1.12.1/js/dataTables.colReorder.min.js"></script>
+<link href="site_libs/dt-ext-keytable-1.12.1/css/keyTable.dataTables.min.css" rel="stylesheet">
+<script src="site_libs/dt-ext-keytable-1.12.1/js/dataTables.keyTable.min.js"></script>
+<link href="site_libs/dt-ext-fixedheader-1.12.1/css/fixedHeader.dataTables.min.css" rel="stylesheet">
+<script src="site_libs/dt-ext-fixedheader-1.12.1/js/dataTables.fixedHeader.min.js"></script>
+<link href="site_libs/dt-ext-responsive-1.12.1/css/responsive.dataTables.min.css" rel="stylesheet">
+<script src="site_libs/dt-ext-responsive-1.12.1/js/dataTables.responsive.min.js"></script>
+<link href="site_libs/dt-ext-scroller-1.12.1/css/scroller.dataTables.min.css" rel="stylesheet">
+<script src="site_libs/dt-ext-scroller-1.12.1/js/dataTables.scroller.min.js"></script>
+<link href="site_libs/dt-ext-searchpanes-1.12.1/css/searchPanes.dataTables.min.css" rel="stylesheet">
+<script src="site_libs/dt-ext-searchpanes-1.12.1/js/dataTables.searchPanes.min.js"></script>
+<link href="site_libs/dt-ext-select-1.12.1/css/select.dataTables.min.css" rel="stylesheet">
+<script src="site_libs/dt-ext-select-1.12.1/js/dataTables.select.min.js"></script>
+<link href="site_libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet">
+<script src="site_libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="site_libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet">
+<script src="site_libs/selectize-0.12.0/selectize.min.js"></script>
+<link href="site_libs/dt-plugin-searchhighlight-1.12.1/source.css" rel="stylesheet">
+<script src="site_libs/dt-plugin-searchhighlight-1.12.1/jquery.highlight.js"></script>
+<script src="site_libs/dt-plugin-searchhighlight-1.12.1/source.min.js"></script>
+<link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
 
 
 </head>
@@ -192,14 +230,11 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div class="cell page-columns page-full" data-execution_count="1">
-<div class="cell-output cell-output-display column-screen-inset-right">
+<div class="cell page-columns page-full">
+<div class="cell-output-display column-screen-inset-right">
 
-        <iframe width="100%" height="475" src="http://DESKTOP-J8HH22K:40000/dtale/iframe/1" frameborder="0" allowfullscreen=""></iframe>
-        
-</div>
-<div class="cell-output cell-output-display">
-<pre><code></code></pre>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-1b3aa502ffdcbf792553" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-1b3aa502ffdcbf792553">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td><\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"0\" data-max=\"84\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"number\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"display: none;position: absolute;width: 200px;opacity: 1\">\n      <div data-min=\"2012\" data-max=\"2022\"><\/div>\n      <span style=\"float: left;\"><\/span>\n      <span style=\"float: right;\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","extensions":["AutoFill","Buttons","ColReorder","KeyTable","FixedHeader","Responsive","Scroller","SearchPanes","Select"],"editable":{"target":"cell","disable":{"columns":null},"numeric":[1,2],"area":[]},"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"],[41,84,80,9,3,0,1,0,4,51,2,6,45,10,18],[2013,2015,2012,2020,2020,2022,2020,2022,2020,2014,2021,2020,2017,2020,2019],["Shen-Haw Ju","Luke J. Prendergast","A. Zarafshan","Kasun D Kariyawasam","Myungjae Lee","Jawalageri","Dong-Hyawn Kim","G. Park","M. Ryu","Dong-Joon Kim","Y. Jeong","Yun-Ho Seo","Xuefei Wang","Y. Jeong","F. Zhu"],["Taiwan","Ireland","US","France","Korea","US","Korea","Korea","Korea","Korea","Korea","Korea","China","Korea","UWA"],["Field","FE, model","Field","Centrifuge","Field","Field","FE","3D FE, LSTM","FE","Centrifuge","Centrifuge","FE, Field","Centrifuge","Centrifuge","Centrifuge"],["Determination of scoured bridge natural frequencies with soil-structure interaction","An investigation into the effect of scour on the natural frequency of an Offshore Wind Turbine","Vibration-Based Method and Sensor for Monitoring of Bridge Scour","Assessment of bridge natural frequency as an indicator of scour using centrifuge modelling","Study on Dynamic Behavior of Bridge Pier by Impact Load Test Considering Scour","Influence of soil properties on the shift in natural frequencies of a monopile-supported 5MW offshore wind turbine under scour","Scour Risk Assessment of Offshore Wind Turbine with Suction Bucket Foundation","Natural Frequency Degradation Prediction for Offshore Wind Turbine Structures","Closed Form Solutions for Predicting Lateral Response of Tripod Suction Pile for Offshore Wind Turbine Foundation","Investigation of Monotonic and Cyclic Behavior of Tripod Suction Bucket Foundations for Offshore Wind Towers Using Centrifuge Modeling","Centrifuge Modeling for the Evaluation of the Cyclic Behavior of Offshore Wind Turbine with Tripod Foundation","Dynamic Characteristics of an Offshore Wind Turbine with Tripod Suction Buckets via Full-Scale Testing","Centrifuge modeling of lateral bearing behavior of offshore wind turbine with suction bucket foundation in sand","Centrifuge modelling of drained pullout and compression cyclic behaviour of suction bucket","Suction caisson foundations for offshore wind energy: cyclic response in sand and sand over clay"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Cited<\/th>\n      <th>Year<\/th>\n      <th>Author<\/th>\n      <th>Region<\/th>\n      <th>Study Type<\/th>\n      <th>Title<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":true,"pageLength":20,"searchHighlight":true,"autoFill":true,"dom":"Bfrtip","buttons":["selectAll","selectNone","copy","csv","excel","pdf","print"],"colReorder":true,"scrollX":true,"keys":true,"fixedHeader":true,"deferRender":true,"scrollY":650,"scrollCollapse":true,"columnDefs":[{"className":"dt-right","targets":[1,2]},{"orderable":false,"targets":0}],"order":[],"orderClasses":false,"orderCellsTop":true,"responsive":true,"lengthMenu":[10,20,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <section id="shen-haw-ju-2013" class="level2" data-number="2.1">

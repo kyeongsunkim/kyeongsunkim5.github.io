@@ -39,6 +39,7 @@ format:
     citations-hover: true
     footnotes-hover: true
     minimal: false
+    navbar: false
 
 comments:
   hypothesis:

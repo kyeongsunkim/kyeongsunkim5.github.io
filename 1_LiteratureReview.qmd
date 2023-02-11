@@ -2,21 +2,31 @@
 title: "Literature Review"
 execute:
   echo: false
-jupyter: python3
 ---
 
-```{python}
+```{r}
 #| column: screen-inset-right
-import pandas as pd
-import openpyxl as opx
-import dtale
-import ipywidgets as widgets
-from IPython.display import Markdown
-from tabulate import tabulate
-out1 = widgets.Output()
-filename = '~\Literature.xlsx'
-df = pd.read_excel(filename)
-display(dtale.show(df))
+library(DT)
+library(readxl)
+df <- read_excel("Literature.xlsx")
+DT::datatable(df,
+              editable='cell',
+              filter='top',
+              options=list(autoWidth=TRUE,
+                           pageLength=20,
+                           searchHighlight=TRUE,
+                           autoFill=TRUE,
+                           dom='Bfrtip',
+                           buttons =c('selectAll','selectNone','copy','csv','excel','pdf','print'),
+                           colReorder=TRUE,
+                           scrollX=TRUE,
+                           keys=TRUE,
+                           fixedHeader=TRUE,
+                           deferRender=TRUE,
+                           scrollY=650,
+                           scrollCollapse=TRUE),
+              extensions=c('AutoFill','Buttons','ColReorder','KeyTable','FixedHeader','Responsive','Scroller','SearchPanes','Select')
+              )
 ```
 
 ## Shen-Haw Ju (2013)

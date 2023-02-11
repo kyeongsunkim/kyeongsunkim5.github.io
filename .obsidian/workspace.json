@@ -71,7 +71,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1_LiteratureReview.qmd",
+                "file": "4_CodeBlocks.qmd",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1_LiteratureReview.qmd",
+                "file": "4_CodeBlocks.qmd",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1_LiteratureReview.qmd"
+                "file": "4_CodeBlocks.qmd"
               }
             }
           }
@@ -208,12 +209,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65cab8b9e3b08d17",
+  "active": "e4a5aca6ea58b348",
   "lastOpenFiles": [
+    "1_LiteratureReview.qmd",
     "3_WritingNote.qmd",
     "2_ReadingNote.qmd",
     "4_CodeBlocks.qmd",
-    "1_LiteratureReview.qmd",
     "0_Canvas.canvas",
     "5_FormulaeNote.qmd",
     "9_CodeBlocks.qmd",

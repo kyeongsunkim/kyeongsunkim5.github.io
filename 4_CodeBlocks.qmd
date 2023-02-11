@@ -278,3 +278,20 @@ Markdown(tabulate(
 ))
 
 ```
+
+```{python}
+#| column: screen-inset-right
+import pandas as pd
+import openpyxl as opx
+import dtale
+import ipywidgets as widgets
+import ipysheet
+import ipydatagrid
+import IPython
+from tabulate import tabulate
+out1 = widgets.Output()
+filename = '~\Literature.xlsx'
+df = pd.read_excel(filename)
+display(df)
+```
+
