@@ -1,0 +1,537 @@
+---
+title: "Literature Review"
+execute:
+  echo: false
+jupyter: python3
+---
+
+```{python}
+#| column: screen
+
+import pandas as pd
+import openpyxl as opx
+import dtale
+import ipywidgets as widgets
+from IPython.display import Markdown
+from tabulate import tabulate
+out1 = widgets.Output()
+filename = '~\Literature.xlsx'
+df = pd.read_excel(filename)
+display(dtale.show(df))
+
+```
+
+
+## Shen-Haw Ju (2013)
+
+### Main Findings
+
+The trend of the frequency decreases with the increase of the scour depth.
+
+### Summary
+
+This paper **developed a finite element method with the effect of soil–fluid–structure interaction to calculate bridge natural frequencies**. It **validated that the natural frequencies calculated using the proposed finite element method had acceptable accuracy**. The **frequency change due to the fluid effect is not obvious**, but the changes in natural frequency with the scour depth are more obvious when the scour depth is such that pile cap is exposed.
+
+### Measurements
+
+• 1st natural frequency in each direction
+
+• the natural frequencies calculated using the proposed finite element method
+
+### Critiques
+
+[Prendergast et al.](https://www.semanticscholar.org/paper/fd33fdebe7255c5df8ed94414b4415369ed5dc1f) critique this paper, **Ju**, by saying:
+
+> Due to the difficulty in quantifying water-added mass and the numerical complexity involved (Ju, 2013), its effect on the natural frequency of vibration has been ignored in the present study.
+
+[Bao et al.](https://www.semanticscholar.org/paper/5453c61955b66d109aac069ac56fafaf463ffb7a) said:
+
+> The water was not included in this model as the effect of water on the PNF is possibly negligible according to the existing studies [12,17].
+
+[Zhang et al.](https://www.semanticscholar.org/paper/ef2946bc911a0d88b16aa74c779a80ac07f41a64) said:
+
+> This numerical model ignores the effect of soil mass and fluid-structure interaction which has been proved to have negligible influence on the structural dynamic behavior (Prendergast et al. 2013), Ju 2013).
+
+[Jung](https://www.semanticscholar.org/paper/be545fa221d014f5514f0c749b74e4c05cba0ba0) said:
+
+> 그러 나 각 세굴 모사에 따른 응답 지배주파수 감소의 경향은 깊이에 따라 뚜렷하지 않을 수 있으나 세굴 전후로는 감 소가 큰 것으로 확인되었다(Ju, 2013; Prendergast, 2015).
+
+[Shang et al.](https://www.semanticscholar.org/paper/9d9f235e7a240adf5999f878d1208db319877116) said:
+
+> …the seismic response of the site, structure, and soil-pile-structure interaction, including the finite-element and finite-difference methods (Ju 2013), the dynamic p-y methods (Boulanger et al. 1999; Castelli and Maugeri 2009; Brandenberg et al. 2005), and the simplified two-step methods…
+
+[Scozzese et al.](https://www.semanticscholar.org/paper/becc666b54542d5e5152da05488b011753ed3fcf) said:
+
+> the studies of [11,12] in the context of masonry arch bridges, or the ones of [13,14] for steel and reinforced concrete bridges).
+
+[Prendergast et al.](https://www.semanticscholar.org/paper/dad1be55f40f1bfbdc17087f7f3398b874464b2d) said:
+
+> Several authors have investigated vibration-based scour detection methods, see Briaud et al. (2011); Elsaid & Seracino (2014); Foti & Sabia (2011); Prendergast et al. (2013); Prendergast et al. (2015); Klinga & Alipour (2015); Ju (2013); Chen et al. (2014).
+
+[Choudhury et al.](https://www.semanticscholar.org/paper/ac04aa6ee17ce5b3d425c1e55e57376e73e77a3f) said:
+
+> Analytical approaches based solely on numerical models have also been used to theoretically investigate the effects of scour on the dynamic properties of simply supported bridges, as seen in Ju [41], Zheng and Yu [31], Feng et al.
+
+[Prendergast et al.](https://www.semanticscholar.org/paper/f5c4caa8218dbea8001fbf1f5507f3c0bdcf681d) said:
+
+> Ju [15] conducted a study of the changes in natural frequency of a bridge due to scour incorporating soil–fluid–structure interaction, and concluded that the presence of water around foundation elements leads to lower natural frequency values than the absence of water due to wateradded mass effects.
+
+
+## Prendergast (2015)
+
+### Main Findings
+
+• Scour can reduce the ultimate capacity and alter the dynamic response of offshore wind turbine foundations. 
+
+• A vibration-based method can be used to monitor scour. 
+
+• Wind turbines founded in loose sand would experience the largest relative reductions in natural frequency due to scour.
+
+### Summary
+
+This paper investigates the **use of a vibration-based method to monitor scour** and the **effect of scour on the natural frequency of an offshore wind turbine**. It finds that **wind turbines founded in loose sand would exhibit the largest relative reductions in natural frequency resulting from scour**.
+
+### Measurements
+
+• accelerometers and natural frequency of an 3.6 MW offshore wind turbine
+
+### Critiques
+
+[Prendergast et al.](https://www.semanticscholar.org/paper/4fd835f5507c2465869c986a2298f4bbec3769a7) critique this paper, **Prendergast et al.**, by saying:
+
+> The specific technical details of the model used in this paper have been published in Prendergast et al. (2016b); therefore, this section does not provide too much detail on the model.
+
+[Alkhoury et al.](https://www.semanticscholar.org/paper/7a4c6a4ac61695710a7c70cada1c05de95bd56c6) said:
+
+> Another approach was used by Prendergast et al.13 to derive the spring stiffness distribution in sand from p − y curves based on cone penetration test (CPT) data making use of the expression proposed by Suryasentana and Lehane.16 This expression is given as follows: p γ:z
+
+[Jiang et al.](https://www.semanticscholar.org/paper/76e5c78494a7a7231cb2f5abfcff96eed5026961) said:
+
+> At present, most studies (Prendergast et al. 2015, Abhinav and Saha 2017, Li et al. 2018) focus on the dynamic properties of OWTs such as the scour-induced shifts in the natural frequencies, while limited study (Jia et al. 2017) focuses on the seismic responses of OWTs under scoured conditions.
+
+[Prendergast et al.](https://www.semanticscholar.org/paper/f87bf7c08a597a4da6eb6d13db5e6e6021f9b77e) said:
+
+> Moreover, Prendergast et 379 al.[12,26] derived soil stiffness profiles using Eq.
+
+[Amar-Bouzid](https://www.semanticscholar.org/paper/bf60e8fb1011b05d991b26aef76c007dd4c1e71c) said:
+
+> In the computation of eigenfrequency most authors (Yi et al. 2015 and Prendergast et al. 2015) simply replaced the soil with a medium having an infinite stiffness.
+
+[Prendergast et al.](https://www.semanticscholar.org/paper/dad1be55f40f1bfbdc17087f7f3398b874464b2d) said:
+
+> The method for deriving soil stiffness is available in L J Prendergast et al. (2015).
+
+[Aissa et al.](https://www.semanticscholar.org/paper/aba30ccfc9c28b5366e5c5258a01b8bb4f023f63) said:
+
+> In the computation eigenfrequency f1, most authors in the past tried to model this complex system according fundamentally to two ways (Jin-Hak et al. 2015 and Prendergast et al. 2015).
+
+[Subbian](https://www.semanticscholar.org/paper/2f4a01cdb0b4f9374f13f06260fcdd97110ad8d1) said:
+
+> 10 2.6 Excitation frequency range for offshore wind turbine (Prendergast et al, 2015 [3]) . . . . . . . . . 11 2.7 Maximum horizontal hydrodynamic load resulting in the foundation . . . . . . . . . . . . . . . .
+
+[Prendergast et al.](https://www.semanticscholar.org/paper/b10d3686603c17f49fc3085f02c64d7867f117bf) said:
+
+> The site has been the location for several full and pilot-scale foundation tests over the last number of years (Gavin et al., 2009; Gavin and Lehane, 2007; Igoe et al., 2011; Prendergast et al., 2015, 2013; Prendergast and Gavin, 2016).
+
+
+## Zarafshan et al. (2012)
+
+### Main Findings
+• A new and simple type of scour sensor has been developed, tested, and implemented in the field.
+
+• The sensor uses a single fiber-optic Bragg grating (FBG) sensor for transduction of the vibration frequency. 
+
+• A computational approach has been developed based on the Winkler spring reaction soil model for automated calibration of the scour sensor during installation in the riverbed.
+
+### Summary
+
+This paper describes the development and testing of a new type of scour sensor that is based on measuring the fundamental frequency of vibration of a rod embedded in the riverbed. The sensor uses a single fiber-optic Bragg grating (FBG) sensor for transduction of the vibration frequency. The inverse relationship between the fundamental frequency and the length of the sensor rod is used for detection of the scour depth.
+### Measurements
+
+• scour depth detection
+
+• transduction of the vibration frequency 
+
+• calibration of the scour sensor
+
+### Critiques
+
+[Loh et al.](https://www.semanticscholar.org/paper/642e1699bf83dcf7400577539ca6bac500774e17) said:
+
+> The procedure adopted is comparable to that by Zarafshan et al. (2012), except their algorithm has been designed for FBG sensors.
+
+[Park et al.](https://www.semanticscholar.org/paper/264027ed64b6479832fdf3091e9e57b27f0d5550) said:
+
+> In addition, the existing IoT sensor is a vibrationbased sensor, and it was difficult to measure displacement, which is a major indicator of the dynamic characteristics of a bridge, as it only collects acceleration and natural frequencies (Zarafshan et al., 2012).
+
+[Malekjafarian et al.](https://www.semanticscholar.org/paper/ad0fd3ad835b79a0be8b6630ae062a541648f2e6) said:
+
+> Remote monitoring systems are under increasing development, and often require the installation or operation of a device close to a foundation element to ascertain the time-varying scour condition (De Falco and Mele 2002; Hunt 2009; Yu 2009; Briaud et al. 2011; Zarafshan et al. 2012; Fisher et al. 2013; Prendergast and Gavin 2014; Kong et al. 2017).
+
+[Boujia et al.](https://www.semanticscholar.org/paper/75d404578212631b3bb19426db07bb8a7c31709d) said:
+
+> For this purpose, new monitoring techniques have being proposed including the sliding magnetic collar (Lu et al, 2008), time-domain reflectometry (Yankielum and Zabilansky, 1999; Yu and Yu, 2009), fiber optic (Lin et al., 2005; Zarafshan et al., 2012) and vibration based techniques (Foti and Sabia, 2011; Zarafshan et al.
+
+[Su](https://www.semanticscholar.org/paper/ded430c77c2105c87aac63fd1639fe5ac7ec1cd8) said:
+
+> …conductivity devices: time domain reflectometry (TDR, Yu and Yu., 2009); tilt sensor (Washer, 2010), fiber optic/ fiber bragg grating (FBG, Zarafshan et al., 2012), buried accelerometers (Gendaszek et al., 2013); float-out device: remote sensor (Briaud et al., 2011), wireless tracer (Yang…
+
+[Zanini et al.](https://www.semanticscholar.org/paper/e9fa6d0268448fa6e6225cc86c9bb6505f2b7e1f) said:
+
+> 1999; Yu 2009; Yankielun & Zabilansky 1999), buried or driven rod systems (NCHRP 2009; De Falco & Mele 2002; Zarafshan et al. 2012; Fisher et al. 2013), sound-wave devices (Nassif et al.
+
+[Ghorbani et al.](https://www.semanticscholar.org/paper/ee7710a12f2c16b51875d95d4c4a27360799c9fe) said:
+
+> (1) A novel output-only physics model-based scour level quantification method was introduced.
+
+[Palanisamy et al.](https://www.semanticscholar.org/paper/2e01f501f83cd18c7831111a2e9e398ca0b1b9be) said:
+
+> …depth measuring instruments such as single use devices (Briaud et al., 2011), Pulse or radar devices (Hussein, 2012), Fiber-Bragg grating (May et al., 2002), Buried rods (Zarafshan et al., 2012), sound wave devices (Anderson et al., 2007) and electrical conductivity devices (Anderson et al., 2007).
+
+
+
+
+## Kariyawasam et al. (2020)
+
+### Main Findings
+
+• Tests found up to a 40% variation in natural frequency for 30% loss of embedment for a two-span integral bridge with 15 m spans. 
+
+• Shallow foundation models showed lower frequency sensitivity to scour than deep foundation models. 
+
+• Frequency sensitivity to “global scour” is slightly higher than the sensitivity to “local scour”, for all foundation types.
+### Summary
+
+This paper describes a centrifuge-testing programme to establish the **sensitivity of bridge natural frequency to scour**. It found that the **level of frequency sensitivity is high**, demonstrating the potential for using natural frequency as an indicator of both local and global scour of bridges.
+
+
+### Measurements
+
+• natural frequency of the bridge 
+
+• the level of scour
+
+### Critiques
+
+
+
+
+## Myungjae Lee, M. Yoo, H. Jung, Kihyun Kim, I. Lee
+
+### Main Findings
+• The surcharge load had the greatest effect on the pier's first mode of vibration. 
+
+• The second mode of vibration can be used to determine the stability of the pier.
+
+• The third mode of vibration can be used to determine the direction of the scour.
+
+### Summary
+
+This paper presents a **study on the dynamic behavior of bridge pier by impact load test**. It was found that the **stability of the pier can be determined using the second mode, and the direction of the scour can be determined using the third mode**.
+
+### Measurements
+
+• pier's behavior according to the impact direction 
+
+• the pier's natural frequency according to the impact direction and surcharge load 
+
+• the pier's 1st, 2nd, and1/3 modes according to the impact direction and surcharge load
+
+### Critiques
+
+[Harasti et al.](https://www.semanticscholar.org/paper/7458914735b6d36b73119acefcc2e020102f76fd) said:
+
+> During the lifespan of the bridge crossing rivers, changes in the flow and sediment regime are anticipated, as well as consequent change in the variable action-imposed loads on the structure [2], or even complete undermining of the foundation soil [3], which can result in bridge failure or even collapse.
+
+[Bedon et al.](https://www.semanticscholar.org/paper/e5c2e388a48c5fe17a9d600bcacb30784e07f261) said:
+
+> Impact test methods are presented in [9] to assess the structural capacity of bridge piers, given that the stability of bridge substructures is closely related to safety problems.
+
+
+
+
+## Zarafshan et al. (2012)
+
+### Main Findings
+
+• The natural frequencies of the NREL 5MW monopile-supported offshore wind turbine (OWT) decrease with increasing scour depth around the foundation. 
+
+• Soil density and scour hole depth have a significant influence on the obtained natural frequencies. 
+
+• Accelerations were extracted at nine locations along the tower resulting from applied wind and wave loads.
+
+### Summary
+
+This paper studies the **change in the natural frequencies of the NREL 5MW monopile-supported offshore wind turbine (OWT) due to scour**. It uses the **OpenFAST and SESAM software** to model the wind turbine and consider soil-structure interaction. It is shown that the **increase in scour depth around the foundation of the OWT leads to a decrease in natural frequencies**.
+
+### Measurements
+
+A model of the wind turbine was developed using OpenFAST and SESAM software which considers aerodynamic and hydrodynamic loading with soil structure interaction
+
+Accelerations are extracted at nine locations along the tower resulting from applied wind and wave loads. The first two system natural frequencies are estimated using frequency domain decomposition (FDD) applied to the acceleration time-histories for each scour depth and soil type.
+
+## Dong-Hyawn Kim (2020)
+
+### Main Findings
+
+The proposed approach can be used in determining wind farm location where scour is significant.
+
+A risk assessment procedure for offshore wind turbine support structures induced by scour
+
+### Summary
+
+Scour induced failure probability of support structure for a given wave height then can be found by integrating the multiplication of hazard and fragility.
+
+### Measurements
+• scour depth 
+
+• significant wave height
+
+• return period
+
+
+## G. Park, Dayoung You, Ki‐Yong Oh, Woochul Nam (2022)
+
+### Main Findings
+In practice, this LSTM model could be used to predict future natural frequencies using the dynamic response of the structure, which can be measured using actual sensors (accelerometers and strain gauges).
+
+
+### Summary
+Strong aero/hydrodynamic loads can degrade the dynamic characteristics of offshore wind turbines because they are installed on soft seabeds.
+
+
+### Measurements
+• natural frequency of the structure
+
+• the accelerations 
+
+• the strains
+
+## Ryu et al. (2020)
+
+### Main Findings
+
+a simplified analysis technique for predicting the dynamic behavior of a tripod suction pile
+
+The displacement at the pile head satisfied the structural design requirements.
+
+### Summary
+
+a simplified analysis technique capable of predicting the dynamic behavior of a tripod suction pile subjected to a horizontal load
+
+
+### Measurements
+• 1st natural frequency of the system 
+
+• horizontal displacement 
+
+• allowable rotation angle at the pile head
+
+
+## Dong-Joon Kim et al. (2014)
+
+### Main Findings
+
+The yield moment for the tripod foundation was half that of the monopod.
+
+When the resultant moment of cyclic loading was smaller than the monotonic yield moment, negligible accumulated plastic deformation was observed for both one-way and two-way loading. However, when the resultant moment was higher than the monotonic yield moment, significant cumulated deformation resulted.
+
+### Summary
+
+This paper performed centrifuge load tests of a tripod bucket foundation preliminarily designed as a supporting system of wind turbines and compared the results to those obtained from a test of a monopod bucket foundation
+
+### Measurements
+
+• moment rotation angle curves for the tripod foundations
+
+• the yield moment for the tripod foundation
+
+• the rotation angle for the yield moment
+
+• the behavior of the tripod foundation under a cyclic load with respect to the accumulated plastic deformation
+
+
+### Critiques
+
+[Barari](https://www.semanticscholar.org/paper/d75b7e0b582ff11078df7b64e37f9ba70e2e84a1) said:
+
+> As the behavior of soil elements/1g lab tests cannot be directly transferred to the earth systems [22], the calibration of the HSsmall model against element tests is adopted by means of well-documented centrifuge tests of monobucket configuration in sand [23].
+
+[Zhu et al.](https://www.semanticscholar.org/paper/eec3364a231044034d8164bb7c7a827e362dc38b) said:
+
+> This value of aspect ratio was mostly adopted in previous studies (e.g. Dyvik et al. 1993; Du et al. 2016; Kim et al. 2014) especially when the caisson was used a footing of a jacket structure, whilst caissons with low aspect ratio are also very common, typically more suited for mono-caisson…
+
+[Shen et al.](https://www.semanticscholar.org/paper/2bea2b5c00dd1ee557d7d5d17305d3f1d0bc85d5) said:
+
+> It is found in the centrifuge tests in Kim et al. (2014) that the responses in rotation angle is much smaller for the tripod bucket foundation compared to the monopod foundation with a reasonable CONTACT Kanmin Shen shenkanmin@163.com Powerchina Huadong Engineering Co Ltd, Hangzhou, Zhejiang, China…
+
+[Park](https://www.semanticscholar.org/paper/3fc4c487103d99a42d0f3e26679bd041fc25323d) said:
+
+> Kim et al.(2014)이 원심모형실험을 수행한 석션기초의 직 경(D)과 길이(L), 두께(t)는 각각 15.5 m, 10.5 m, 0.04 m이다.
+
+[Seo et al.](https://www.semanticscholar.org/paper/0fe7508e8a572919319916bbc47d22042ee1ac57) said:
+
+> The centrifuge test was carried out at 68.7 g using K-water centrifuge in Korea, which has a radius of 8.5 m and an effective radius of 7.5 m.
+
+[Shen et al.](https://www.semanticscholar.org/paper/8e7fe1f2ffb7257baf7bada981c1ef61cef84a7e) said:
+
+> Similarly, a constant value of a was adopted in most existing numerical studies, e.g., a¼ 1 in Kim, Hung, and Oh (2014) and Hung and Kim (2014) and a¼ 0.65 in He et al. (2021).
+
+[Choo et al.](https://www.semanticscholar.org/paper/66e840195f38bbf1b72b1ed34daef5546ab0aa70) said:
+
+> Marine Georesources & Geotechnology, 34: 729–740 Copyright # 2016 Taylor & Francis Group, LLC ISSN: 1064-119X print/1521-0618 online DOI: 10.1080/1064119X.2015.1080334 et al. 2012; Kwag et al. 2013; Kim et al. 2014; Shin et al. 2014).
+
+[Wang et al.](https://www.semanticscholar.org/paper/99e7edfc7d716b59d53efc7de4c8878b7f3fb25a) said:
+
+> Kim et al. (2014) performed centrifuge cyclic load tests on a tripod bucket foundation prototype and compared the results with those obtained from a test on a monopod bucket foundation, showing that the moment–rotation curve of the tripod was nearly bilinear, whereas that of the monopod showed a…
+
+[Olalo et al.](https://www.semanticscholar.org/paper/b308d27f724ef56339d03f4a7ef05c05ab6e724b) said:
+
+> The maximum shaking frequency of the equipment is 300 Hz (Kim et al., 2014b; Segismundo et al., 2014).
+
+[Jeong et al.](https://www.semanticscholar.org/paper/7b9d44d351a0bf265f077462513f6bbbb4c0bbfc) said:
+
+> These results are to those of previous studies on the cyclic behavior of the tripod foundation [20,30].
+
+[Wang et al.](https://www.semanticscholar.org/paper/eeefb712b9548f133cad7fef985d5029c4d9400b) said:
+
+> Similar observations were also made from the centrifuge tests that investigated the monotonic response of monopod and tripod in silt (Kim et al., 2014).
+
+[Jeong et al.](https://www.semanticscholar.org/paper/f276cf2f9d28471e20d1b3575bd1450fd37fcef8) said:
+
+> The pad-eye (which implies loading point) is at 2/3 of the length from the top lid, which is the optimal loading point resulting in a minimum displacement of the bucket foundation (Bang et al., 2006; Kim et al., 2015).
+
+[Wu et al.](https://www.semanticscholar.org/paper/5161fb24a8c0418da9625b2e11eed7b6311102e7) said:
+
+> As a novel type of foundation in beach-shallow sea, suction bucket foundation emerges in the need of exploration of boundary oil fields (Hung and Kim, 2014; Kim et al., 2014).
+
+
+## Y. Jeong et al. (2021)
+
+### Main Findings
+
+the cyclic behaviors of the tripod were more affected by the load amplitude than the number of cycles.
+
+permanent rotation increased logarithmically with the number of cycles
+
+A simple method to predict the displacement and change in the foundation stiffness of the actual wind turbine is proposed based on the results of the model tests.
+
+
+### Summary
+
+From a series of cyclic loading tests, the cyclic responses of the tripod foundation were evaluated in terms of temporary/permanent displacements and cyclic stiffness.
+
+Funded by Korea Electric Power Research Institute (KEPRI)
+
+cyclic responses of an offshore wind turbine with a tripod foundation installed on an actual site
+
+### Measurements
+
+• temporary/permanent displacements
+
+• cyclic stiffness
+
+• long term behavior
+
+
+### Critiques
+
+[Jeong et al.](https://www.semanticscholar.org/paper/f276cf2f9d28471e20d1b3575bd1450fd37fcef8) said:
+
+> …density 70% Dry unit weight (kN/m3) 14.5 Fine contents (passing #200) 37% Plastic index NP Soil classification, USCS SM Note: Values were obtained from Kim et al. (2018) and Jeong et al. (2021) model pile has a non-dimensional stiffness ratio, which is larger than the rigid behavior criteria.
+
+
+
+
+## Yun-Ho Seo, M. Ryu, Ki‐Yong Oh (2020)
+
+### Main Findings
+
+The stiffness of the suction bucket cap and strain dependency of the soil play a significant role in predicting natural frequency, suggesting that these two factors should be considered in finite element analysis for the accurate prediction of dynamic responses of an offshore wind conversion system.
+
+Dynamic analysis of the strain and acceleration measured during operational conditions shows that strain is more robust than acceleration with regard to the characterization of the overall dynamics of an offshore wind conversion system because the natural frequency of an offshore wind turbine is very low.
+
+It can be inferred that the measurement of strain is a more effective way to monitor the long-term evolution of dynamic characteristics.
+
+The suggested integrated framework and measurement campaign are useful not only to avoid conservatism that may incur additional costs during load calculation and design phases but also to establish an intelligent operation and maintenance strategy with a novel sensing technique.
+
+### Summary
+
+to investigate the dynamic characteristics of an offshore wind turbine with tripod suction buckets through finite element analysis and full scale experiments
+
+The measurement of strain is a more effective way to monitor the long-term evolution of dynamic characteristics of an offshore wind conversion system.
+
+### Measurements
+
+• dynamic characteristics of an offshore wind turbine with tripod suction buckets
+
+### Critiques
+
+
+[Ngo et al.](https://www.semanticscholar.org/paper/3f6e7145280317d1dddd11932e0de0a34fc4b223) said:
+
+> Figure 4 shows the four stages of the installation process of the full-scale 3 MW-class OWTs, which was designed by Doosan Heavy Industries and Construction in Korea [18].
+
+
+## Xuefei Wang, Xu Yang, Xiangwu Zeng (2017)
+
+### Main Findings
+
+The lateral bearing capacity can be reached when the normalized lateral displacement reached 3%.
+
+A simplified calculation method is used as the third method and checked with tests results.
+
+### Summary
+
+Force-controlled lateral static and cyclic tests were performed at a centrifuge acceleration of 50 g. Four soil conditions were considered in centrifuge tests with a combination of loose/dense and dry/saturated sand.
+
+
+### Measurements
+
+• load displacement
+
+• stiffness displacement
+
+• displacement rates vs. lateral load 
+
+• correlation of lateral displacement and stiffness to cycle numbers
+
+
+### Critiques
+
+[Qin et al.](https://www.semanticscholar.org/paper/14bc27f94cce4462284cecbc352e170da93c0d1d) said:
+
+> Most of the related studies focused on the vertical bearing capacity (Lehane et al. 2012; Spagnoli et al. 2015; Barari et al. 2017), and few focused on the lateral bearing characteristics (Medina et al. 2015; Wang, Yang, and Zeng 2017; Du et al. 2018; Wang, Lei, et al. 2020).
+
+[Wang et al.](https://www.semanticscholar.org/paper/71d1c41a09742ad07519d20fbbc4ba6b68c08635) said:
+
+> In  recent  studies,  model  tests  (Villalobos  et  al.,  2010; Chen,2013;  Zhu  et  al.,  2013;  Foglia  et  al.,  2015; Wang  et al., 2017), or field tests (Houlsby et al., 2005) were used to explore  the  response  of  the  suction  caisson  under  cyclic loading in sand or clay.
+> 
+
+
+## Y. Jeong, Jae‐Hyun Kim, S. Manandhar, J. Ha, Heon-Joon Park, Dong‐Soo Kim(2020)
+
+### Main Findings
+
+Beneficial effects from densification of sand and consolidation in the clay lead to stiffness increases – the effect of these increases on the natural frequency of the offshore wind turbine needs to be considered in design.
+
+
+The rate of accumulation in caisson rotation is observed to be the same from centrifuge and single gravity tests, while the initial rotation differs with stress level, drainage regime, loading magnitude, soil profile and installation method.
+
+Application of this calculation approach to field conditions showed that the long-term rotation for one-way loading would be higher for a sand over clay seabed than for a sand seabed.
+
+
+### Summary
+
+The centrifuge tests model the correct soil self-weight stress levels, installation process and drainage response but could only test on the order of 10000 cycles.
+
+### Measurements
+
+
+
+### Critiques
+
+[Jeong et al.](https://www.semanticscholar.org/paper/f276cf2f9d28471e20d1b3575bd1450fd37fcef8) said:
+
+> Furthermore, the specimen container was kept outside the testing chamber for two days (Jeong et al., 2020b).
+

@@ -13,19 +13,16 @@ book:
   sidebar: 
     style: docked
     background: light
+    collapse-level: 2
   chapters:  
-    - part: "My Research Note"
+    - part: "My Research"
       chapters:
         - index.qmd
-        - 2_TaskManager.qmd
-        - 3_LiteratureReview.qmd
-        - 4_AIWritingAssistant.qmd
-        - 5_ReadingNote.qmd
-        - 5_WritingNote.qmd        
-        - 6_FormulaeNote.qmd
-        - 7_IdeaNote.qmd
-        - 8_VocabNote.qmd         
-        - 9_CodeBlocks.qmd   
+        - 1_LiteratureReview.qmd        
+        - 2_ReadingNote.qmd            
+        - 3_WritingNote.qmd    
+        - 4_CodeBlocks.qmd   
+        - 5_FormulaeNote.qmd          
        
 format:
   html:
@@ -33,7 +30,7 @@ format:
     code-copy: true
     code-fold: true
     toc: true
-    toc-depth: 4
+    toc-depth: 2
     toc-title: On this page
     toc-location: right
     html-math-method: katex

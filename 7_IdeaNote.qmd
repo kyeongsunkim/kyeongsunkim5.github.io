@@ -1,9 +1,0 @@
----
-title: "Idea Note"
-jupyter: python3
----
-
-### Third Title
-
-#### Fourth Title
-

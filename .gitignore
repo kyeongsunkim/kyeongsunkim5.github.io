@@ -1,3 +1,5 @@
 /env/
 /.quarto/
 .Rproj.user
+
+/.luarc.json

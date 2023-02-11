@@ -4,54 +4,70 @@
     "type": "split",
     "children": [
       {
-        "id": "b20cc10304d862a4",
+        "id": "726b499cde22a83d",
         "type": "tabs",
         "children": [
           {
-            "id": "51c021ea86ef13c1",
+            "id": "65cab8b9e3b08d17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9_CodeBlocks.qmd",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "92a587be99da6d21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2_TaskManager.qmd",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c27d1dcc0118c8a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3_LiteratureReview.qmd",
+                "file": "1_LiteratureReview.qmd",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "85476ab08b9f9e23",
+            "id": "e4a5aca6ea58b348",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9_CodeBlocks.qmd",
+                "file": "4_CodeBlocks.qmd",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "13f09035b61da3b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2_ReadingNote.qmd",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8cccbed9d01ba6f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3_WritingNote.qmd",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81714b09f4fb43d7",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "0_Canvas.canvas",
+                "viewState": {
+                  "x": 658.8421877764891,
+                  "y": 2092.147689950065,
+                  "zoom": 1,
+                  "snapToGrid": false
+                }
               }
             }
           }
@@ -130,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9_CodeBlocks.qmd",
+                "file": "1_LiteratureReview.qmd",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9_CodeBlocks.qmd",
+                "file": "1_LiteratureReview.qmd",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9_CodeBlocks.qmd"
+                "file": "1_LiteratureReview.qmd"
               }
             }
           }
@@ -192,17 +208,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51c021ea86ef13c1",
+  "active": "65cab8b9e3b08d17",
   "lastOpenFiles": [
+    "3_WritingNote.qmd",
+    "2_ReadingNote.qmd",
+    "4_CodeBlocks.qmd",
+    "1_LiteratureReview.qmd",
+    "0_Canvas.canvas",
+    "5_FormulaeNote.qmd",
+    "9_CodeBlocks.qmd",
     "5_WritingNote.qmd",
     "5_ReadingNote.qmd",
-    "4_1_proposal.qmd",
-    "6_FormulaeNote.qmd",
-    "7_IdeaNote.qmd",
-    "4_AIWritingAssistant.qmd",
-    "3_LiteratureReview.qmd",
-    "Untitled.canvas",
-    "2_TaskManager.qmd",
-    "9_CodeBlocks.qmd"
+    "3_LiteratureReview.qmd"
   ]
 }

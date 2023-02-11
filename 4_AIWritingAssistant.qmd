@@ -1,5 +1,0 @@
----
-title: "AI Research Assistant"
-jupyter: python3
----
-hi
