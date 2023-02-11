@@ -17,9 +17,7 @@ out1 = widgets.Output()
 filename = '~\Literature.xlsx'
 df = pd.read_excel(filename)
 display(dtale.show(df))
-
 ```
-
 
 ## Shen-Haw Ju (2013)
 
