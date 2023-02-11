@@ -6,8 +6,7 @@ jupyter: python3
 ---
 
 ```{python}
-#| column: screen
-
+#| column: screen-insert-right
 import pandas as pd
 import openpyxl as opx
 import dtale
