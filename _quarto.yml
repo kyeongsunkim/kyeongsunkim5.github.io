@@ -18,11 +18,10 @@ book:
     - part: "My Research"
       chapters:
         - index.qmd
-        - 1_LiteratureReview.qmd        
-        - 2_ReadingNote.qmd            
-        - 3_WritingNote.qmd    
-        - 4_CodeBlocks.qmd   
-        - 5_FormulaeNote.qmd          
+        - 2_LiteratureReview.qmd        
+        - 3_ReadingNote.qmd            
+        - 4_WritingNote.qmd    
+        - 5_CodeBlocks.qmd   
        
 format:
   html:

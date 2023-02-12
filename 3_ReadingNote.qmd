@@ -1,37 +1,10 @@
 ---
-title: "Literature Review"
-execute:
-  echo: false
-website:
-  navbar: false
-  sidebar: false
+title: "Reading Note"
+jupyter: python3
 ---
 
-```{r}
-#| column: screen-inset-right
-library(DT)
-library(readxl)
-df <- read_excel("Literature.xlsx")
-DT::datatable(df,
-              editable='cell',
-              filter='top',
-              options=list(autoWidth=TRUE,
-                           pageLength=100,
-                           searchHighlight=TRUE,
-                           autoFill=TRUE,
-                           dom='Bfrtip',
-                           buttons =c('selectAll','selectNone','copy','csv','excel','pdf','print'),
-                           colReorder=TRUE,
-                           scrollX=FALSE,
-                           keys=TRUE,
-                           fixedHeader=FALSE,
-                           deferRender=TRUE,
-                           scrollY=3000,
-                           scrollCollapse=TRUE),extensions=c('AutoFill','Buttons','ColReorder','KeyTable','FixedHeader','Responsive','Scroller','SearchPanes','Select')
-              )
-```
-
-## Shen-Haw Ju(2013)
+::: {.callout-note icon="false"}
+## Shen-Haw Ju(2013) Determination of scoured bridge natural frequencies with soil-structure interaction
 
 This paper **developed a finite element method with the effect of soil--fluid--structure interaction to calculate bridge natural frequencies**. It **validated that the natural frequencies calculated using the proposed finite element method had acceptable accuracy**. The **frequency change due to the fluid effect is not obvious**, but the changes in natural frequency with the scour depth are more obvious when the scour depth is such that pile cap is exposed.
 
@@ -72,8 +45,11 @@ The trend of the frequency decreases with the increase of the scour depth.
 [Prendergast et al.](https://www.semanticscholar.org/paper/f5c4caa8218dbea8001fbf1f5507f3c0bdcf681d) said:
 
 > Ju \[15\] conducted a study of the changes in natural frequency of a bridge due to scour incorporating soil--fluid--structure interaction, and concluded that the presence of water around foundation elements leads to lower natural frequency values than the absence of water due to wateradded mass effects.
+:::
 
-## Prendergast(2015)
+
+::: {.callout-note icon="false"}
+## Prendergast(2015) An investigation into the effect of scour on the natural frequency of an Offshore Wind Turbine
 
 This paper investigates the **use of a vibration-based method to monitor scour** and the **effect of scour on the natural frequency of an offshore wind turbine**. It finds that **wind turbines founded in loose sand would exhibit the largest relative reductions in natural frequency resulting from scour**.
 
@@ -120,8 +96,10 @@ The development of offshore wind energy converters is viewed as one of the most 
 [Prendergast et al.](https://www.semanticscholar.org/paper/b10d3686603c17f49fc3085f02c64d7867f117bf) said:
 
 > The site has been the location for several full and pilot-scale foundation tests over the last number of years (Gavin et al., 2009; Gavin and Lehane, 2007; Igoe et al., 2011; Prendergast et al., 2015, 2013; Prendergast and Gavin, 2016).
+:::
 
-## Zarafshan(2012)
+::: {.callout-note icon="false"}
+## Zarafshan(2012) Vibration-Based Method and Sensor for Monitoring of Bridge Scour
 
 This paper describes the development and testing of a new type of scour sensor that is based on measuring the fundamental frequency of vibration of a rod embedded in the riverbed. The sensor uses a single fiber-optic Bragg grating (FBG) sensor for transduction of the vibration frequency. The inverse relationship between the fundamental frequency and the length of the sensor rod is used for detection of the scour depth.
 
@@ -162,8 +140,10 @@ This paper describes the development and testing of a new type of scour sensor t
 [Palanisamy et al.](https://www.semanticscholar.org/paper/2e01f501f83cd18c7831111a2e9e398ca0b1b9be) said:
 
 > ...depth measuring instruments such as single use devices (Briaud et al., 2011), Pulse or radar devices (Hussein, 2012), Fiber-Bragg grating (May et al., 2002), Buried rods (Zarafshan et al., 2012), sound wave devices (Anderson et al., 2007) and electrical conductivity devices (Anderson et al., 2007).
+:::
 
-## Kariyawasam(2020)
+::: {.callout-note icon="false"}
+## Kariyawasam(2020) Assessment of bridge natural frequency as an indicator of scour using centrifuge modelling
 
 This paper describes a centrifuge-testing programme to establish the **sensitivity of bridge natural frequency to scour**. It found that the **level of frequency sensitivity is high**, demonstrating the potential for using natural frequency as an indicator of both local and global scour of bridges.
 
@@ -176,10 +156,10 @@ This paper describes a centrifuge-testing programme to establish the **sensitivi
 Bridge scour refers to the removal of soil from around structural foundations located in a river or coastal region as a result of the erosive action of water \[1\] .
 
 Scour around a bridge foundation leads to a reduction in bridge stiffness and stability because of the loss of embedment, which can even lead to bridge failure. According to historical bridge failure surveys, more than 50% of bridge failures have primarily been the result of scour-related causes \[2,3\].
+:::
 
-## Myungjae Lee(2020)
-
-### Summary
+::: {.callout-note icon="false"}
+## Myungjae Lee(2020) Study on Dynamic Behavior of Bridge Pier by Impact Load Test Considering Scour
 
 This paper presents a **study on the dynamic behavior of bridge pier by impact load test**. It was found that the **stability of the pier can be determined using the second mode, and the direction of the scour can be determined using the third mode**.
 
@@ -196,8 +176,10 @@ This paper presents a **study on the dynamic behavior of bridge pier by impact l
 [Bedon et al.](https://www.semanticscholar.org/paper/e5c2e388a48c5fe17a9d600bcacb30784e07f261) said:
 
 > Impact test methods are presented in \[9\] to assess the structural capacity of bridge piers, given that the stability of bridge substructures is closely related to safety problems.
+:::
 
-## Zarafshan(2012)
+::: {.callout-note icon="false"}
+## Zarafshan(2012) Influence of soil properties on the shift in natural frequencies of a monopile-supported 5MW offshore wind turbine under scour
 
 This paper studies the **change in the natural frequencies of the NREL 5MW monopile-supported offshore wind turbine (OWT) due to scour**. It uses the **OpenFAST and SESAM software** to model the wind turbine and consider soil-structure interaction. It is shown that the **increase in scour depth around the foundation of the OWT leads to a decrease in natural frequencies**.
 
@@ -210,28 +192,36 @@ This paper studies the **change in the natural frequencies of the NREL 5MW monop
 A model of the wind turbine was developed using OpenFAST and SESAM software which considers aerodynamic and hydrodynamic loading with soil structure interaction
 
 Accelerations are extracted at nine locations along the tower resulting from applied wind and wave loads. The first two system natural frequencies are estimated using frequency domain decomposition (FDD) applied to the acceleration time-histories for each scour depth and soil type.
+:::
 
-## Dong-Hyawn Kim(2020)
+::: {.callout-note icon="false"}
+## Dong-Hyawn Kim(2020) Scour Risk Assessment of Offshore Wind Turbine with Suction Bucket Foundation
 
 Scour induced failure probability of support structure for a given wave height then can be found by integrating the multiplication of hazard and fragility.
 
 The proposed approach can be used in determining wind farm location where scour is significant.
 
 A risk assessment procedure for offshore wind turbine support structures induced by scour
+:::
 
-## G. Park(2022)
+::: {.callout-note icon="false"}
+## G. Park(2022) Natural Frequency Degradation Prediction for Offshore Wind Turbine Structures
 
 Strong aero/hydrodynamic loads can degrade the dynamic characteristics of offshore wind turbines because they are installed on soft seabeds.
 
 In practice, this LSTM model could be used to predict future natural frequencies using the dynamic response of the structure, which can be measured using actual sensors (accelerometers and strain gauges).
+:::
 
-## Ryu(2020)
+::: {.callout-note icon="false"}
+## Ryu(2020) Closed Form Solutions for Predicting Lateral Response of Tripod Suction Pile for Offshore Wind Turbine Foundation
 
 The displacement at the pile head satisfied the structural design requirements.
 
 A simplified analysis technique capable of predicting the dynamic behavior of a tripod suction pile subjected to a horizontal load
+:::
 
-## Dong-Joon Kim(2014)
+::: {.callout-note icon="false"}
+## Dong-Joon Kim(2014) Investigation of Monotonic and Cyclic Behavior of Tripod Suction Bucket Foundations for Offshore Wind Towers Using Centrifuge Modeling
 
 This paper performed centrifuge load tests of a tripod bucket foundation preliminarily designed as a supporting system of wind turbines and compared the results to those obtained from a test of a monopod bucket foundation
 
@@ -290,8 +280,10 @@ When the resultant moment of cyclic loading was smaller than the monotonic yield
 [Wu et al.](https://www.semanticscholar.org/paper/5161fb24a8c0418da9625b2e11eed7b6311102e7) said:
 
 > As a novel type of foundation in beach-shallow sea, suction bucket foundation emerges in the need of exploration of boundary oil fields (Hung and Kim, 2014; Kim et al., 2014).
+:::
 
-## Y. Jeong (2021)
+::: {.callout-note icon="false"}
+## Y. Jeong (2021) Centrifuge Modeling for the Evaluation of the Cyclic Behavior of Offshore Wind Turbine with Tripod Foundation
 
 From a series of cyclic loading tests, the cyclic responses of the tripod foundation were evaluated in terms of temporary/permanent displacements and cyclic stiffness. Funded by Korea Electric Power Research Institute (KEPRI)
 
@@ -306,8 +298,10 @@ A simple method to predict the displacement and change in the foundation stiffne
 [Jeong et al.](https://www.semanticscholar.org/paper/f276cf2f9d28471e20d1b3575bd1450fd37fcef8) said:
 
 > ...density 70% Dry unit weight (kN/m3) 14.5 Fine contents (passing #200) 37% Plastic index NP Soil classification, USCS SM Note: Values were obtained from Kim et al. (2018) and Jeong et al. (2021) model pile has a non-dimensional stiffness ratio, which is larger than the rigid behavior criteria.
+:::
 
-## Yun-Ho Seo(2020)
+::: {.callout-note icon="false"}
+## Yun-Ho Seo(2020) Dynamic Characteristics of an Offshore Wind Turbine with Tripod Suction Buckets via Full-Scale Testing
 
 The stiffness of the suction bucket cap and strain dependency of the soil play a significant role in predicting natural frequency, suggesting that these two factors should be considered in finite element analysis for the accurate prediction of dynamic responses of an offshore wind conversion system.
 
@@ -324,8 +318,10 @@ The measurement of strain is a more effective way to monitor the long-term evolu
 [Ngo et al.](https://www.semanticscholar.org/paper/3f6e7145280317d1dddd11932e0de0a34fc4b223) said:
 
 > Figure 4 shows the four stages of the installation process of the full-scale 3 MW-class OWTs, which was designed by Doosan Heavy Industries and Construction in Korea \[18\].
+:::
 
-## Xuefei Wang(2017)
+::: {.callout-note icon="false"}
+## Xuefei Wang(2017) Centrifuge modeling of lateral bearing behavior of offshore wind turbine with suction bucket foundation in sand
 
 Force-controlled lateral static and cyclic tests were performed at a centrifuge acceleration of 50 g. Four soil conditions were considered in centrifuge tests with a combination of loose/dense and dry/saturated sand.
 
@@ -340,8 +336,10 @@ A simplified calculation method is used as the third method and checked with tes
 [Wang et al.](https://www.semanticscholar.org/paper/71d1c41a09742ad07519d20fbbc4ba6b68c08635) said:
 
 > In  recent  studies,  model  tests  (Villalobos  et  al.,  2010; Chen,2013;  Zhu  et  al.,  2013;  Foglia  et  al.,  2015; Wang  et al., 2017), or field tests (Houlsby et al., 2005) were used to explore  the  response  of  the  suction  caisson  under  cyclic loading in sand or clay.
+:::
 
-## Y. Jeong(2020)
+::: {.callout-note icon="false"}
+## Y. Jeong(2020) Centrifuge modelling of drained pullout and compression cyclic behaviour of suction bucket
 
 The centrifuge tests model the correct soil self-weight stress levels, installation process and drainage response but could only test on the order of 10000 cycles.
 
@@ -354,8 +352,10 @@ Application of this calculation approach to field conditions showed that the lon
 [Jeong et al.](https://www.semanticscholar.org/paper/f276cf2f9d28471e20d1b3575bd1450fd37fcef8) said:
 
 > Furthermore, the specimen container was kept outside the testing chamber for two days (Jeong et al., 2020b).
+:::
 
-## Nissrine Boujia(2019)
+::: {.callout-note icon="false"}
+## Nissrine Boujia(2019) Effect of Scour on the Natural Frequency Responses of Bridge Piers: Development of a Scour Depth Sensor
 
 This paper investigates the \*\*effect of scour on the natural frequency responses of bridge piers\*\*. It develops a \*\*scour depth sensor\*\* and conducts extensive laboratory tests in both dry sand and a soft clayey soil. Finally, an equivalent cantilever model is proposed to correlate the variation of the frequency of the sensor to the scour depth.
 
@@ -366,8 +366,10 @@ This paper investigates the \*\*effect of scour on the natural frequency respons
 • An equivalent cantilever model was proposed to correlate the variation of the frequency of the sensor to the scour depth.
 
 Scour is considered as the main cause of bridge damages \[1\] and accounts for nearly half of all bridge collapses in the USA \[2\]. In France, the collapses of the Wilson Bridge in Tours (1978) and the St Louis Bridge on Reunion Island (2007) serve as national examples of damages caused by scour \[3\].
+:::
 
-## Prendergast(2013)
+::: {.callout-note icon="false"}
+## Prendergast(2013) An Investigation of the Changes in the Natural Frequency of a Pile affected by Scour
 
 This paper examines the effect that **scour has on the frequency response of a driven pile foundation system**. It is clear that there is a **very clear reduction in the natural frequency of the pile as the severity of scour increases**.
 
@@ -412,8 +414,10 @@ Scour can be defined as the excavation and removal of material from the bed and 
 [Prendergast et al.](https://www.semanticscholar.org/paper/f636ba039c037da3550dd77db224681cbdd676a8) said:
 
 > \[5\] Prendergast LJ, Hester D, Gavin K, O'Sullivan JJ.
+:::
 
-## Kitchen(2014)
+::: {.callout-note icon="false"}
+## Kitchen(2014) Update of manual on scour at bridges and other hydraulic structures
 
   Guidance on scour risk management is currently provided by the Manual on scour at bridges and other hydraulic structures (May et al, 2002).
 
@@ -452,8 +456,10 @@ Scour can be defined as the excavation and removal of material from the bed and 
 [Maniatis et al.](https://www.semanticscholar.org/paper/857d845be734105e53c73cb500bf83810c3c405e) said:
 
 > Comprehensive manuals for bridge scour assessment are available for the UK (Kirby et al., 2015) and other countries (e.g. Arneson et al., 2012; Coleman and Melville, 2001).
+:::
 
-## Saeed(2017)
+::: {.callout-note icon="false"}
+## Saeed(2017) Natural frequency of offshore wind turbines on rigid and flexible monopiles in cohesionless soils with linear stiffness distribution
 
 This paper introduces a simplified method to obtain the fundamental frequency of offshore wind turbines supported by monopile foundations. Soil-pile interaction is modeled based on Winkler approach and concept of beam on elastic foundation. A parametric study is carried out to investigate the effect of important parameters of foundation including pile slenderness ratio, pile aspect ratio and pile mass on the system natural frequency.
 
@@ -494,8 +500,10 @@ This paper introduces a simplified method to obtain the fundamental frequency of
 [Robinson et al.](https://www.semanticscholar.org/paper/ef5c5cc6a0fc9f694f2508a043cd3effbab25fcb) said:
 
 > Darvishi-Alamouti et al. (2017) have modeled the soil-pile interaction based on Winkler approach and concept of beam on elastic foundation.
+:::
 
-## Arany(2015)
+::: {.callout-note icon="false"}
+## Arany(2015) An analytical model to predict the natural frequency of offshore wind turbines on three-spring flexible foundations using two different beam models
 
 This paper presents an analytical model of offshore wind turbines (OWTs) supported on flexible foundation. The model uses a **Timoshenko beam model** and **three springs** to predict the natural frequency of the OWTs. The results show that the model predicts the natural frequency of existing turbines with reasonable accuracy.
 
@@ -536,8 +544,10 @@ OWTs must be designed to avoid the frequency range of the forcing (wind turbulen
 [Jalbi et al.](https://www.semanticscholar.org/paper/cfa68f66430037111a06fed602032927fb00824a) said:
 
 > Simplified numerical methods to predict the natural frequency (including soil structure) interaction have been developed by the University of Surrey research group such as the work by Arany, et al. (2016) and Arany, et al.
+:::
 
-## Dong Xiaofeng(2018)
+::: {.callout-note icon="false"}
+## Dong Xiaofeng(2018) Structural vibration monitoring and operational modal analysis of offshore wind turbine structure
 
 This paper discusses the **structural vibration characteristics and operational modal analysis of offshore wind turbine**. It finds that the **integral operational modal identification method of offshore wind turbine in the range of full power** is the most effective.
 
@@ -582,8 +592,10 @@ This paper discusses the **structural vibration characteristics and operational 
 [Yu et al.](https://www.semanticscholar.org/paper/e3e657bc4cc414e52815bb8aab2050d8ab9d5cfa) said:
 
 > Gomez, Gur, and Dolan (2013) established a performance evaluation of single-pile offshore wind turbine structures based on modal analysis as well as system identification for FM of vibration frequency of offshore wind turbine towers.
+:::
 
-## Adhikari(2011)
+::: {.callout-note icon="false"}
+## Adhikari(2011) 
 
 This paper outlines a **simplified approach for free vibration analysis of wind turbine structures**, taking the **soil-structure interaction into account**. A closed-form approximate expression has been derived for the first natural frequency of the system, which has been validated using an exact numerical method, laboratory based experimental measurement and field measurement of a real wind turbine structure.
 
@@ -628,8 +640,10 @@ This paper outlines a **simplified approach for free vibration analysis of wind 
 [Bhattacharya et al.](https://www.semanticscholar.org/paper/ef4077f2fb174b1947f80ac6d182fe250b06dcf5) said:
 
 > In this context, readers are referred to the work of Adhikari and Bhattacharya \[23,27\] on the non-dimensionalization of the Euler--Bernoulli equation considering the flexibility of the foundation.
+:::
 
-## Aissa(2018)
+::: {.callout-note icon="false"}
+## Aissa(2018) Monopile head stiffness for servicibility limit state calculations in assessing the natural frequency of offshore wind turbines
 
 This paper uses the **semi-analytical finite element analysis** to study **monopiles for offshore wind turbines**. It finds that **lateral stiffness KL, rotational stiffness KR and cross coupling stiffness KLR for both rough and smooth interfaces depend only on the value of the monopile slenderness Lp/Dp**.
 
@@ -660,8 +674,10 @@ This paper uses the **semi-analytical finite element analysis** to study **monop
 [Amar-Bouzid](https://www.semanticscholar.org/paper/bf60e8fb1011b05d991b26aef76c007dd4c1e71c) said:
 
 > This type of foundation known as monopile foundation, is a large diameter (3 to 6 m) hollow open ended steel pile with length-todiameter ratio usually less than 10 (Achmus et al. 2009; Aissa et al. 2016; Arany et al. 2015 and Damgaard et al. 2014).
+:::
 
-## Varghese(2022)
+::: {.callout-note icon="false"}
+## Varghese(2022) A Compendium of Formulae for Natural Frequencies of Offshore Wind Turbine Structures
 
 This paper presents a compendium of mathematical expressions to compute the **natural frequencies of offshore wind turbine structures**.
 
@@ -672,8 +688,10 @@ This paper presents a compendium of mathematical expressions to compute the **na
 • Example calculations are provided to compare the compiled solutions against publicly available sources.
 
 Typically costing 16-34% of the total cost of a wind farm project, the foundation system becomes a controlling factor \[1\]. The choice of a foundation in turn depends on factors such as the water depth, fabrication, installation, operation and maintenance, decommissioning, and economics
+:::
 
-## Bhatacharya(2011)
+::: {.callout-note icon="false"}
+## Bhatacharya(2011) Similitude relationships for physical modelling of monopile-supported offshore wind turbines
 
 This paper investigates the **future performance of offshore wind turbines**. It suggests that the best way to predict this performance is through **small-scale laboratory experimental investigation**. The paper provides **scaling laws** for the design of such model tests.
 
@@ -718,8 +736,10 @@ This paper investigates the **future performance of offshore wind turbines**. It
 [Bhattacharya et al.](https://www.semanticscholar.org/paper/0974e6fe6ab46044e857b553c6ea82277a219938) said:
 
 > The aspect ratio of the caisson (diameter to depth ratio) should also be maintained to ensure the pore water flow is reproduced, details can be found in Bhattacharya et al (2011).
+:::
 
-## Mostafa(2019)
+::: {.callout-note icon="false"}
+## Mostafa(2019) Semi Analytical Model for the Dynamic Behavior of Offshore Wind Turbine with Flexible Foundation
 
 This paper **develops a new semi analytical formulation** which **models the dynamic behavior of offshore wind turbine with variable cross section and flexible foundation**. The **wind turbine tower is modeled using Euler-Bernoulli beam model while the soil-tower interaction is modeled by rotational and lateral springs at the lower end of the tower**. The **predicted natural frequencies of the current proposed mathematical technique were validated and compared with those of two other analytical and experimental techniques, for four selected offshore wind turbines**, and results were found to be in very good agreement.
 
@@ -728,8 +748,10 @@ This paper **develops a new semi analytical formulation** which **models the dyn
 • Recursive differential method was used to calculate natural frequencies which was found to be efficient in terms of accuracy and computational cost.
 
 • The results of the current model were found to be in better agreement with the experimental results compared to those of the constant cross-section approximation.
+:::
 
-## Mouafo Robinson(2021)
+::: {.callout-note icon="false"}
+## Mouafo Robinson(2021) An Accurate Estimation of the Eigenfrequency of an Offshore Wind Turbine Considered as the Stepped Euler-Bernoulli Beam in Three-Spring Flexible Foundation Using the Power Series Method
 
 This paper uses the power series method to accurately predict the natural frequencies of eleven offshore wind turbines. It is found that the previous researches, which the whole wind turbine was taken as a single beam, with a tower being tapered and its wall thickness being negligible compared to its diameter, is only accurate for OWT with tower wall thickness lower than 15 mm.
 
@@ -738,8 +760,10 @@ This paper uses the power series method to accurately predict the natural freque
 • Case 3, which describes the tower as a tapered beam with varying thickness along its height, produced the most accurate results with a relative error of up to 0.01%.
 
 • The tower-to-pile thickness ratio is an important design parameter that must be taken into account during the design.
+:::
 
-## Xuguang Chen(2017)
+::: {.callout-note icon="false"}
+## Xuguang Chen(2017) Stability analysis of suction bucket foundations under wave cyclic loading and scouring
 
 This paper investigates the **effect of scour on the stability of a suction bucket foundation**. It is revealed that the **behavior of the foundation bearing capacity can be divided into two stages: the initial cyclic stage and the final stage (showing either cyclic stability or cyclic failure)**. With the increase in scour depth, the stability of foundation is gradually reduced, the behavior of foundation gradually changes from a state of cyclic stability to cyclic failure, and the number of waves that can be withstood is drastically reduced.
 
@@ -756,8 +780,10 @@ This paper investigates the **effect of scour on the stability of a suction buck
 [Liu et al.](https://www.semanticscholar.org/paper/d09b95344b00ad6cc80632630b6f7301c2945627) said:
 
 > The maximum horizontal displacement of the upper part and the lower part of the bucket grows with working loads, which shows a tendency to accelerate \[28,29\].
+:::
 
-## Sungho Park(2017)
+::: {.callout-note icon="false"}
+## Sungho Park(2017) Parametric Study on Scouring around Suction Bucket Foundation
 
 This paper investigates the **effects of stick-up height and water depth on scouring around a suction bucket foundation** for a fixed offshore wind turbine. It uses the **open source libraries OpenFOAM** to simulate a violent flow around a foundation. The results show that **a larger scouring region is observed with an increase in the stick-up height** and that **the water depth has an insignificant effect on the scouring**.
 
@@ -778,8 +804,10 @@ This paper investigates the **effects of stick-up height and water depth on scou
 [Song et al.](https://www.semanticscholar.org/paper/6605357aa9b3271170622f82ebd15c267b0689e2) said:
 
 > In the rigid seabed approaches, scour was predicted by the shear stress magnitude at the seabed boundary \[10,11\].
+:::
 
-## YoungJin Kim(2021)
+::: {.callout-note icon="false"}
+## Young Jin Kim(2021) Ultimate Limit State Risk Assessment of Penta Pod Suction Bucket Support Structures for Offshore Wind Turbine due to Scour
 
 The scour risk assessment was conducted for ultimate limit state of newly developed penta pod suction bucket support structures for a 5.5 MW offshore wind turbine. The hazard was found by using an empirical formula for scour depth suitable for considering marine environmental conditions such as significant wave height, significant wave period, and current velocity. The scour fragility curve was calculated by using allowable bearing capacity criteria of suction foundation. The scour risk was assessed by combining the scour hazard and the scour fragility.
 
@@ -791,9 +819,11 @@ This paper assesses the **scour risk of penta pod suction bucket support structu
 
 • The scour risk was assessed by combining the scour hazard and the scour fragility.
 
-해상풍력터빈 지지구조물 중 석션버켓 지지구조물은 파일 을 항타하여 설치하는 다른 지지구조물보다 공사기간이 짧고, 경제적으로 설치가 가능하다 (Oh et al., 2012). 이러한 석션 버켓 지지구조물의 주요 설계인자는 수평 허용 지지력과 기 초의 강성이다. Latini and Zania(2017)는 석션버켓의 동적거 동을 조사하여, 석션버켓의 스커트 길이가 동적 거동을 결정 하는 중요한 매개변수라고 밝혔고, 수평 하중 지지력은 버킷 직경과 길이의 비의 영향을 크게 받으며, 초기 강성은 모래 의 상대적 밀도와 버켓의 기하학적 구조에 크게 좌우되는 것 으로 일련의 연구를 통해 조사되었다 (Achmus et. al., 2013;Ding et al., 2015;Thieken et al., 2014). 석션버켓 지지구 조물을 토질층이 깊지 않은 지역에 설치할 경우, 지지력을 발 휘하기 위하여 직경이 비정상으로 커져야 하는 문제점이 있 다. 이러한 문제점을 해결하기 위하여 펜타팟 셕선버켓 지지 구조물을 개발하였으며 (Ngo et al., 2020) A :
+해상풍력터빈 지지구조물 중 석션버켓 지지구조물은 파일 을 항타하여 설치하는 다른 지지구조물보다 공사기간이 짧고, 경제적으로 설치가 가능하다 (Oh et al., 2012). 이러한 석션 버켓 지지구조물의 주요 설계인자는 수평 허용 지지력과 기 초의 강성이다. Latini and Zania(2017)는 석션버켓의 동적거 동을 조사하여, 석션버켓의 스커트 길이가 동적 거동을 결정 하는 중요한 매개변수라고 밝혔고, 수평 하중 지지력은 버킷 직경과 길이의 비의 영향을 크게 받으며, 초기 강성은 모래 의 상대적 밀도와 버켓의 기하학적 구조에 크게 좌우되는 것 으로 일련의 연구를 통해 조사되었다 (Achmus et. al., 2013;Ding et al., 2015;Thieken et al., 2014). 석션버켓 지지구 조물을 토질층이 깊지 않은 지역에 설치할 경우, 지지력을 발 휘하기 위하여 직경이 비정상으로 커져야 하는 문제점이 있 다. 이러한 문제점을 해결하기 위하여 펜타팟 셕선버켓 지지 구조물을 개발하였으며 (Ngo et al., 2020) 
+:::
 
-## Shu Zhu(2021)
+::: {.callout-note icon="false"}
+## Shu Zhu(2021) Investigation of scour effects on the vertical bearing capacity of suction caissons considering stress history
 
 This paper investigates the **influence of scour depth, stress history, and aspect ratio on the vertical bearing capacity of suction caissons**. It finds that **the capacity decreases with increasing scour depth, and its scour sensitivity is lower compared with the pull-out response**. The greater the aspect ratio, the greater the scour effect on the capacity.
 
@@ -802,8 +832,10 @@ This paper investigates the **influence of scour depth, stress history, and aspe
 • The capacity after scour is larger when the stress history is considered, so ignoring the stress history leads to a conservative design.
 
 • The greater the aspect ratio, the greater the scour effect on the capacity.
+:::
 
-## Rezaei(2018)
+::: {.callout-note icon="false"}
+## Rezaei(2018) Scour influence on the fatigue life of operational monopile-supported offshore wind turbines
 
 This paper investigates the **effects of scour on offshore wind turbines**. It finds that **scour can lead to a significant reduction in fatigue life**, but this can be recovered by **backfilling the scour hole**.
 
@@ -820,8 +852,10 @@ This paper investigates the **effects of scour on offshore wind turbines**. It f
 [Chen et al.](https://www.semanticscholar.org/paper/42c231499f454e64117d2c92c38acb0bf350fa9a) said:
 
 > For onshore wind turbines, the total damping is a closer approximation of the aerodynamic damping \[10\] as foundation damping is low.
+:::
 
-## Jinzhong Liu(2017)
+::: {.callout-note icon="false"}
+## Jinzhong Liu(2017) Investigation of scour effects on lateral behaviors of suction caisson
 
 This paper investigates the **effects of scour on suction caisson**. It finds that **scour depth affects the ultimate moment capacity of suction caisson** and that **it is feasible to replace the ultimate moment capacity when both dilatancy and stress history are considered with that when only dilatancy is considered**.
 
@@ -838,8 +872,10 @@ This paper investigates the **effects of scour on suction caisson**. It finds th
 [Liu et al.](https://www.semanticscholar.org/paper/acb9766de5dd243db6c2050b4ea9d14c40472f5d) said:
 
 > This change has been investigated and detailed in Lin et al. (2010, 2014b); in addition, a detailed procedure of iterative computation is presented in Liu et al. (2018).
+:::
 
-## Xuguang Chen(2018)
+::: {.callout-note icon="false"}
+## Xuguang Chen(2018) Model Test Study on Horizontal Static Loading of Suction Bucket Foundation under Different Scour Conditions
 
 This paper studied the **horizontal static loading of a suction bucket foundation in sand**. It found that the **ultimate bearing capacity of the foundation is influenced by the scouring depth, scouring width, and length-diameter ratio**.
 
@@ -852,8 +888,10 @@ This paper studied the **horizontal static loading of a suction bucket foundatio
 [Zhu et al.](https://www.semanticscholar.org/paper/d6fbf53b20944843a6ba6d042801b5b0421d826b) said:
 
 > Furthermore, Chen et al. (2019) based on the model test in a sand tank studied the effect of scour depth and scour hole shape on the lateral behaviors of suction caissons under static load.
+:::
 
-## Felipe AV Jara(2006)
+::: {.callout-note icon="false"}
+## Felipe AV Jara(2006) Model testing of foundations for offshore wind turbines
 
 This paper investigates the **behaviour of suction caisson foundations in sand and in clay**. It is based on **experimental work carried out using model scaled caissons**. The **analysis of the results allowed the determination of parameters for hyperplasticity models**.
 
@@ -914,8 +952,10 @@ This paper investigates the **behaviour of suction caisson foundations in sand a
 [Liu et al.](https://www.semanticscholar.org/paper/987dca007bdd98ab9625a377a47eefcfb78ff06f) said:
 
 > Offshore Standard DNV-OS-J101, 213p. Villalobos Jara, F.A., 2006.
+:::
 
-## Byrne, Houlsby(2003)
+::: {.callout-note icon="false"}
+## Byrne, Houlsby(2003) Foundations for offshore wind turbines
 
 This paper explores the **civil engineering problems encountered for offshore wind turbines**. It reviews previous work on the design of offshore foundations and presents some simple design calculations for sizing foundations and structures appropriate to the wind-turbine problem.
 
@@ -956,8 +996,10 @@ This paper explores the **civil engineering problems encountered for offshore wi
 [Cerfontaine et al.](https://www.semanticscholar.org/paper/d330f842a4436325372999fecbcf206cd8e6d297) said:
 
 > Indeed their costs may represent up to a third of the total cost (Byrne & Houlsby, 2003; Senders, 2008).
+:::
 
-## Qingpeng Li(2018)
+::: {.callout-note icon="false"}
+## Qingpeng Li(2018) Effect of scour on the behavior of a combined loaded monopile in sand
 
 This paper investigates the **effect of local scour on the behavior of mono-piles installed in sand under combined lateral and vertical loading**. It uses the Finite Element Method (FEM) and finds that **vertical loading can decrease pile lateral displacement and improve the lateral capacity of piles in the absence of scour and under scour**.
 
@@ -982,8 +1024,10 @@ This paper investigates the **effect of local scour on the behavior of mono-pile
 [Rahimi et al.](https://www.semanticscholar.org/paper/363ef7ad2d9974f765852829c06dbf9a3cd02d54) said:
 
 > Piers and abutments have also significant applications in marine environment (Li, Han, and Lin 2013).
+:::
 
-## Cheng Lin(2014)
+::: {.callout-note icon="false"}
+## Cheng Lin(2014) Analysis of Laterally Loaded Piles in Sand Considering Scour Hole Dimensions
 
 This paper discusses a **simplified method for the analysis of laterally loaded piles in sand under a scour condition**. The p-y curves in this method were based on a wedge type of failure. The effects of the scour hole dimensions on the response of laterally loaded piles in sand were evaluated using this simplified method.
 
@@ -1024,8 +1068,10 @@ This paper discusses a **simplified method for the analysis of laterally loaded 
 [Liu et al.](https://www.semanticscholar.org/paper/acb9766de5dd243db6c2050b4ea9d14c40472f5d) said:
 
 > This change has been investigated and detailed in Lin et al. (2010, 2014b); in addition, a detailed procedure of iterative computation is presented in Liu et al. (2018).
+:::
 
-## W Qi(2016)
+::: {.callout-note icon="false"}
+## W Qi(2016) Scour effects on p-y curves for shallowly embedded piles in sand
 
 Soil scour around a shallowly embedded pile can significantly reduce its **stiffness and capacity**.
 
@@ -1066,8 +1112,10 @@ Soil scour around a shallowly embedded pile can significantly reduce its **stiff
 [Qi et al.](https://www.semanticscholar.org/paper/8e584945711e1c2c2a68f41975ff7135932f180d) said:
 
 > The p-y curves get progressively stiffer with ascending values of ze/D, confirming that the present numerical results are generally consistent with the centrifuge results from Qi et al. (2015).
+:::
 
-## B Zhu(2014)
+::: {.callout-note icon="false"}
+## B Zhu(2014) Deflection-Based Bearing Capacity of Suction Caisson Foundations of Offshore Wind Turbines
 
 This paper investigates the **bearing capacity of suction caisson foundations of offshore wind turbines**. **Several series of model tests were carried out in sandy silt under 1g gravity on suction caissons with different sizes subjected to overturning loading**. A **new calculation approach of deflection-based bearing capacity was proposed based on the mechanics of the deformation process**.
 
@@ -1108,8 +1156,10 @@ This paper investigates the **bearing capacity of suction caisson foundations of
 [Deb et al.](https://www.semanticscholar.org/paper/5bfa67993ed801f5ae12ef898c7ef2d8e7ae4c76) said:
 
 > Zhu et al. (2014) studied the overturning response of model caissons of different sizes and provided analytical formulation to estimate the deflection-based bearing capacity.
+:::
 
-## Mayall(2018)
+::: {.callout-note icon="false"}
+## Mayall(2018) Modelling of foundation response to scour and scour protection for offshore wind turbine structures
 
 This paper describes a research project that develops a framework to assess the influence of scour and scour remediation systems on the dynamic characteristics of offshore wind turbine structures. The research project includes one-dimensional (1D) finite element modelling, calibrated using three-dimensional (3D) finite element analysis, experimental measurements, and monitored field data.
 
@@ -1122,8 +1172,10 @@ This paper describes a research project that develops a framework to assess the 
 [Couldrey et al.](https://www.semanticscholar.org/paper/814dadf90003cd29e8078848a5592c8effbc6da2) said:
 
 > When designing a foundation its embedment depth is taken into consideration, since the overburden of the surrounding seabed material will affect the structure's stiffness and, consequently, its dynamic response (Mayall et al., 2019).
+:::
 
-## Xuefei Wang(2017)
+::: {.callout-note icon="false"}
+## Xuefei Wang(2017) Lateral capacity assessment of offshore wind suction bucket foundation in clay via centrifuge modelling
 
 This paper investigates the **lateral bearing behaviors of suction bucket foundations for offshore wind turbines** by **centrifuge modelling**. It tests three bucket foundation models with different aspect ratios in both lightly over-consolidated clay and heavily over-consolidated clay. The accumulated lateral displacements and secant stiffnesses are discussed, and their variations with cycle numbers are studied.
 
@@ -1132,8 +1184,10 @@ This paper investigates the **lateral bearing behaviors of suction bucket founda
 • Ultimate bearing capacities of suction bucket foundations were extracted from load-displacement curves, and displacement rates were calculated to find critical bearing capacities and ultimate bearing capacities of the foundations.
 
 • Cyclic tests included cyclic loads with uniform and increased amplitudes, and the accumulated lateral displacements and secant stiffnesses were discussed.
+:::
 
-## Zhubin(2011)
+::: {.callout-note icon="false"}
+## Zhubin(2011) Installation and lateral loading tests of suction caissons in silt
 
 This paper reports on **large-scale model tests** of suction installation and lateral loading of caisson foundations in saturated silt. It finds that the **seepage effect is limited in silt** and that the **deformation mechanism and soil-structure interaction of a caisson subjected to lateral loads** can be investigated.
 
@@ -1174,8 +1228,10 @@ This paper reports on **large-scale model tests** of suction installation and la
 [Choo et al.](https://www.semanticscholar.org/paper/81c02262fccea2bfb66882161fd224fee0d7d9e6) said:
 
 > et al., 2005; Gourvenec, 2007; LeBlanc et al., 2009; Zhu et al., 2011; Hung and Kim, 2012).
+:::
 
-## Kelly,Houlsby(2006)
+::: {.callout-note icon="false"}
+## Kelly,Houlsby(2006) A comparison of field and laboratory tests of caisson foundations in sand and clay
 
 This paper compares **field and laboratory tests of caisson foundations in sand and clay**. It finds that the **laboratory data from moment loading tests were similar to the field data in most cases**, but the **laboratory and field data from vertically loaded caisson tests show more significant differences**.
 
@@ -1218,8 +1274,10 @@ Suction caissons have been used to provide innovative solutions to deep-water fo
 [Zhu et al.](https://www.semanticscholar.org/paper/311c0015960e4e0960ea31f47b275b63718e0580) said:
 
 > The use of the scaling relationships proposed by Kelly et al. (2006) requires that the values of h, \~e, and \~ V are the same in the laboratory and the field.
+:::
 
-## BZhu(2013)
+::: {.callout-note icon="false"}
+## BZhu(2013) Long-Term Lateral Cyclic Response of Suction Caisson Foundations in Sand
 
 This paper presents the results of **cyclic loading tests** on a model shallow foundation (a caisson) in loose sand. It was found that the **accumulated settlement of the caisson increased with the number of cycles and cyclic amplitude**.
 
@@ -1280,8 +1338,10 @@ This paper presents the results of **cyclic loading tests** on a model shallow f
 [Hirai](https://www.semanticscholar.org/paper/b0589402d0a02e4e5f265982cc77353d56490065) said:
 
 > Zhu, Byrne, and Houlsby (2013) assessed experimentally cyclic response from suction caissons under long-term lateral cyclic loadings in sand.
+:::
 
-## Doherty(2005)
+::: {.callout-note icon="false"}
+## Doherty(2005) Stiffness of Flexible Caisson Foundations Embedded in Nonhomogeneous Elastic Soil
 
 This paper presents **solutions for stiffness coefficients to represent the elastic behavior of a caisson foundation embedded in soil**. It uses the **scaled boundary finite element method**, with **shell elements to represent the foundation**. The stiffness coefficients take into account **nonhomogeneity in the soil, the geometry of the foundation, and the contribution of the skirt of the caisson foundation**.
 
@@ -1330,8 +1390,10 @@ This paper presents **solutions for stiffness coefficients to represent the elas
 [Bo et al.](https://www.semanticscholar.org/paper/c1cbaa548219ff71c74645a9b60608751d3f1c3d) said:
 
 > The results agree with the work by Doherty and Deeks (2003) and Doherty et al. (2005) who employed the scaled boundary finite element method to analyse the static stiffness of suction caissons embedded in non-homogeneous elastic soil.
+:::
 
-## Y Choo(2021)
+::: {.callout-note icon="false"}
+## Y Choo(2021) Behavior of a Monopod Bucket Foundation Subjected to Combined Moment and Horizontal Loads in Silty Sand
 
 This paper investigates the **behavior of a monopod bucket foundation** in **silty sand**.
 
@@ -1344,8 +1406,10 @@ This paper investigates the **behavior of a monopod bucket foundation** in **sil
 [Zhou et al.](https://www.semanticscholar.org/paper/5247f9ef56c72a575422521bebe5a7bb2422403e) said:
 
 > A number of studies have been performed including centrifuge tests \[2, 14, 25, 31, 33, 42\], 1 g model tests \[9, 16, 20, 34\], numerical simulations \[3, 18, 29, 30, 36, 38, 40\] and analytical solutions \[5, 32\] to understand the behavior of caisson during penetration process, that covering the soil failure mechanism and the penetration resistance of caissons in soils.
+:::
 
-## Dong-Joon Kim(2013)
+::: {.callout-note icon="false"}
+## Dong-Joon Kim(2013) Bearing Capacity of a Monopod Bucket Foundation for Offshore Wind Towers - Centrifuge and Numerical Modeling
 
 This paper evaluates the **bearing capacity behaviour of a monopod suction bucket foundation for an offshore wind tower**. It uses a **centrifuge load test and numerical analyses**. The results show that the foundation has a good bearing capacity.
 
@@ -1362,8 +1426,10 @@ This paper evaluates the **bearing capacity behaviour of a monopod suction bucke
 [Yoo et al.](https://www.semanticscholar.org/paper/41bdff2b423e8da9edebc6de28a7254cf16ca3c1) said:
 
 > 한편, Kim et al.(2011)은 모형실 험을 통하여 모래지반에 근입된 석션파일의 인발 작용 점 및 인발각 변화에 따른 인발저항력과 변위거동에 대 해서 분석하였으며, Kim et al.(2012)은 수치해석을 이 용하여 점토지반에 설치된 Tripod 기초의 수직 및 수평 지지력 변화 특성 및 길이와 직경의 변화에 따른 수평지 지력 및 모멘트하중에 의한 영향에 대해서도 분석하였 다. 가장 최근 들어 Kim et al. (2013)은 해상풍력 기초로 사용되는 석션파일(버켓기초)을 대상으로 원심모형실 험 및 수치해석을 통하여...
+:::
 
-## Youn-seok Kim(2017)
+::: {.callout-note icon="false"}
+## Youn-seok Kim(2017) Model Tests for Tilting Control of Suction Bucket Foundation for Offshore Wind Turbine
 
 This paper presents experimental model results for tilting control of a suction bucket foundation consisting of three internal cells. Tilting control was performed by independently controlling the internal pressure of each cell. It was found that the tilting control was within 5° during the installation and operation stages.
 
@@ -1384,8 +1450,10 @@ This paper presents experimental model results for tilting control of a suction 
 [Robertson et al.](https://www.semanticscholar.org/paper/455a7e921b7f8b2ef87a328e9af4ab2b60589476) said:
 
 > The International Towing Tank Conference (ITTC) has developed procedures and guidelines that provide more focused recommendations for assessing uncertainty in experimental hydrodynamics \[5\], seakeeping experiments \[6\], and offshore wind turbines \[7\].
+:::
 
-## J Tempel(2004)
+::: {.callout-note icon="false"}
+## J Tempel(2004) The effects of Scour on the design of Offshore Wind Turbines
 
 This paper discusses the **effects of scour on the design of offshore wind turbines**. It describes how scour can affect the **foundation length and stiffness, natural frequency, and fatigue variation** of a turbine. The paper concludes that scour can have a significant impact on the design of offshore wind turbines.
 
@@ -1438,8 +1506,10 @@ This paper discusses the **effects of scour on the design of offshore wind turbi
 [Porter](https://www.semanticscholar.org/paper/85065826dc95137fc71457044cf1754e44deb08f) said:
 
 > White (1940) described the balance of forces on a sediment particle, defining the conditions at which it will just start to move on a flat bed, known as initiation of motion. Shields (1936) conducted extensive laboratory testing of this, and adopted the non-dimensional critical Shields parameter to describe the conditions in which a given sediment would start to move.
+:::
 
-## J Choi(2014)
+::: {.callout-note icon="false"}
+## J Choi(2014) Centrifuge test and numerical modeling for a suction bucket monopod foundation
 
 This paper discusses a **centrifuge load test** for a **preliminary design of a monopod suction bucket foundation**. The **target site was the Yellow Sea of Korea** and the **prototype foundation was a steel monopod caisson with a diameter of 15.5m for a 3MW turbine**.
 
@@ -1452,8 +1522,10 @@ This paper discusses a **centrifuge load test** for a **preliminary design of a 
 [Koh](https://www.semanticscholar.org/paper/1cc04034f0d67865bc68a3919fbaf50ce31550af) said:
 
 > Investigations on the performance in layered soils are very limited e.g. in dense silty sand-sandy silt (Kim et al., 2013) and in sand-clay (Park and Park, 2017).
+:::
 
-## Sung-Ryul Kim(2019)
+::: {.callout-note icon="false"}
+## Sung-Ryul Kim(2019) Evaluation of the Moment Bearing Capacity of Offshore Bucket Platforms in Sand
 
 This paper evaluates the **moment bearing capacity of offshore bucket platforms in sand**. It uses **numerical modeling** to study the effects of **soil density, the diameter and embedment depth of the bucket** on the moment capacity. A **preliminary design equation** is suggested to estimate the moment bearing capacity.
 
@@ -1462,8 +1534,10 @@ This paper evaluates the **moment bearing capacity of offshore bucket platforms 
 • Moment capacity was influenced by the embedment depth and diameter of the bucket.
 
 • A preliminary design equation was suggested to estimate the moment bearing capacity.
+:::
 
-## Plodpradit(2020)
+::: {.callout-note icon="false"}
+## Plodpradit(2020) Suction Bucket Pile–Soil–Structure Interactions of Offshore Wind Turbine Jacket Foundations Using Coupled Dynamic Analysis
 
 This paper presents a **procedure for the coupled dynamic analysis of offshore wind turbine--jacket foundation-suction bucket piles**. It is found that the **system responses are significantly influenced by soil spring stiffness type**.
 
@@ -1478,8 +1552,10 @@ Analyses of a laterally loaded single pile in a soft clay soil performed in both
 > , offshore platforms \[5\], soft ground \[6\], artificial islands) faces great challenges when soft soil is encountered.
 
 This paper presents a procedure for the coupled dynamic analysis of offshore wind turbine--jacket foundation-suction bucket piles and compares the American Petroleum Institute (API) standard method and Jeanjean's methods used to model the piles. Nonlinear springs were used to represent soil lateral, axial, and tip resistances through the P--Y, T--Z, and Q--Z curves obtained by either API's or Jeanjean's methods. Rotational springs with a stiffness equated to the tangent or secant modulus characterized soil resistance to acentric loads. The procedure was implemented in X-SEA program. Analyses of a laterally loaded single pile in a soft clay soil performed in both the X-SEA and Structural Analysis Computer System (SACS) programs showed good agreements. The behaviors of a five MW offshore wind turbine system in South Korea were examined by considering waves, current, wind effects, and marine growth. In a free vibration analysis done with soil stiffness through the API method, the piles were found to bend in their first mode and to twist in the second and third modes, whereas the first three modes using Jeanjean's method were all found to twist. The natural frequencies resulting from Jeanjean's method were higher than those from the API method. In a forced vibration analysis, the system responses were significantly influenced by soil spring stiffness type. The procedure was found to be computationally expensive due to spring nonlinearities introduced.
+:::
 
-## Klinkovort(2013)
+::: {.callout-note icon="false"}
+## Klinkovort(2013) Scaling issues in centrifuge modelling of monopiles
 
 This paper deals with **three different and important issues for centrifuge testing on monopiles for offshore wind turbines**.
 
@@ -1540,8 +1616,10 @@ This paper deals with **three different and important issues for centrifuge test
 [Gupta et al.](https://www.semanticscholar.org/paper/7cc80957a2b57bafdfc834d0fc0adc3a59333233) said:
 
 > Several researchers have performed FE analyses and centrifuge tests onmonopiles in sandy and clayey soils to investigate their load--displacement behaviour (Klinkvort et al. 2013; Haiderali et al. 2013) and found that the monopiles undergo deformations typically by rigid-body rotation about a pivot point.
+:::
 
-## Qingpeng Li(2020)
+::: {.callout-note icon="false"}
+## Qingpeng Li(2020) Centrifuge Modeling of the Impact of Local and Global Scour Erosion on the Monotonic Lateral Response of a Monopile in Sand
 
 This paper investigates the **impact of local and global scour erosion on the monotonic lateral response of a monopile in sand**. It uses centrifuge tests to assess the effect of scour on the performance of piles with low L/D. Results suggest that **scour has a significant impact on the lateral load-bearing capacity and stiffness of the pile**.
 
@@ -1564,3 +1642,13 @@ This paper investigates the **impact of local and global scour erosion on the mo
 > Given that erosion can lead to a shift in soil texture, soil organic matter, and soil nutrients, resulting from loss of fines and organic matter which is detrimental to the soil structure, the soil water holding capacity, and crop productivity, considerable effort is being made to predict sediment detachment and transport rates \[1,6\].
 
 The majority of offshore wind turbines (OWTs) constructed to date are founded on monopile foundations. Developments in construction methods and improved design procedures (Byrne et al. 2015a(Byrne et al. , 2018 have resulted in a gain in market share for monopiles from approximately 75 % of OWT foundations in 2012 (Doherty and Gavin 2012) to more than 87 % in 2017 (Wind Europe 2017) .
+:::
+
+• Level 1: Determination that damage is present in the structure
+
+• Level 2: Level 1 plus determination of the geometric location of the damage
+
+• Level 3: Level 2 plus quantification of the severity of the damage
+
+• Level 4: Level 3 plus prediction of the remaining service life of the structure
+

@@ -5,138 +5,30 @@ format:
     page-layout: custom
 server: shiny
 ---
-111
-```{=html}
-<iframe src="https://jupyterlite.github.io/demo/repl/index.html?kernel=python&toolbar=1" title="Live Python REPL"
-width="100%"
-height="500px">
-</iframe>
-```
+
+Link to [Home](https://kyeongsunkim.github.io/)
+
+## Jupyterlite in iFrame
 
 ```{=html}
 <iframe src="https://jupyterlite.github.io/demo/lab/index.html" title="JupyterLite"
 width="100%"
-height="500px">
+height="850px">
 </iframe>
 ```
-
-
-
-```{python}
-#| echo: true
-#| label: fig-polar
-#| fig-cap: "A line plot on a polar axis"
-
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(
-  subplot_kw = {'projection': 'polar'} 
-)
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-
-```{python}
-#| echo: true
-
-from IPython.display import display, Markdown
-
-radius = 10
-
-
-display(Markdown("""
-The radius of the circle is {radius}.
-""".format(radius = radius)))
-
-```
-
-``` {shinylive-python}
-#| echo: true
-#| standalone: true
-#| viewerHeight: 300
-#| components: [editor, viewer]
-#| layout: vertical
-
-from shiny import App, reactive, render, ui
-############################################
-app_ui = ui.page_fluid(
-    ui.input_slider("x", "Choose a number", 1, 100, 50),
-    ui.output_text_verbatim("txt1"),
-)
-############################################
-def server(input, output, session):
-    @reactive.Calc
-    def x_times_2():
-        val = input.x() * 2
-        print(f"Running x_times_2(). Result is {val}.")
-        return val
-
-    @output
-    @render.text
-    def txt1():
-        return f'x times 2 is: "{x_times_2()}"'
-############################################
-app = App(app_ui, server)
-```
-
-![](https://res.cloudinary.com/darfmzyks/image/upload/v1675897497/cloudinary_img_/pgr9tjaozpzzmduxwruh.png)
-
-## Callout Blocks
-
-::: {.callout-note icon="false"}
-## ::: {.callout-note icon="false"}
-
-general
-:::
-
-::: callout-important
-## :::{.callout-important} - very important
-
-This is important
-:::
-
-::: callout-caution
-## :::{.callout-caution} - important
-
-This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
-:::
-
-::: callout-tip
-### :::{.callout-tip} - better
-
-This is an example of a callout with a caption.
-:::
-
-::: callout-note
-### :::{.callout-note} - good
-
-Note that there are five types of callouts, including:
-
-`note`, `warning`, `important`, `tip`, and `caution`.
-:::
-
-------------------------------------------------------------------------
 
 ## Shinylive for Python
 
 ``` {shinylive-python}
 #| standalone: true
 #| components: [editor, viewer]
-#| layout: vertical
 
 from shiny import ui, render, App, reactive
 from matplotlib import pyplot as plt
 import pandas as pd
 import jinja2
 
-
 choices = {"a": "Choice A", "b": "Choice B"}
-
 
 app_ui = ui.page_fluid(
 
@@ -202,13 +94,10 @@ def server(input, output, session):
     def txt1():
         return f'x times 2 is: "{x_times_2()}"'
 
-
 app = App(app_ui, server)
 ```
 
-
-
-## OJS
+## Observable JavaScript
 
 ```{ojs}
 //| panel: sidebar
@@ -242,7 +131,7 @@ Plot.plot({
 })
 ```
 
-## R server
+## R reactive server-client
 
 ```{r}
 sliderInput("bins", "Number of bins:", 
@@ -258,6 +147,43 @@ output$distPlot <- renderPlot({
   hist(x, breaks = bins, col = 'darkgray', border = 'white')
 })
 ```
+
+![](https://res.cloudinary.com/darfmzyks/image/upload/v1675897497/cloudinary_img_/pgr9tjaozpzzmduxwruh.png)
+
+::: {.callout-note icon="false"}
+##### ::: {.callout-note icon="false"}
+general
+:::
+
+
+::: callout-important
+# :::{.callout-important} - very important
+This is important
+:::
+
+
+
+::: callout-caution
+## :::{.callout-caution} - important
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
+
+
+
+::: callout-tip
+#### :::{.callout-tip} - better
+This is an example of a callout with a caption.
+:::
+
+
+
+::: callout-note
+##### :::{.callout-note} - good
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+
 
 
 ```{python}
@@ -279,19 +205,22 @@ Markdown(tabulate(
 
 ```
 
-```{python}
-#| column: screen-inset-right
-import pandas as pd
-import openpyxl as opx
-import dtale
-import ipywidgets as widgets
-import ipysheet
-import ipydatagrid
-import IPython
-from tabulate import tabulate
-out1 = widgets.Output()
-filename = '~\Literature.xlsx'
-df = pd.read_excel(filename)
-display(df)
-```
 
+```{python}
+#| echo: true
+#| label: fig-polar
+#| fig-cap: "A line plot on a polar axis"
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(
+  subplot_kw = {'projection': 'polar'} 
+)
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
